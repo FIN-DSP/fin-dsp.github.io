@@ -165,9 +165,9 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
         border: 1px solid var(--border-soft);
       }
       .hero-slide {
-        position: absolute; inset: 0; margin: 0; opacity: 0; visibility: hidden; z-index: 0;
+        position: absolute; inset: 0; margin: 0; opacity: 0; visibility: hidden; z-index: 0; pointer-events: none;
       }
-      .hero-slide.is-active { opacity: 1; visibility: visible; z-index: 1; }
+      .hero-slide.is-active { opacity: 1; visibility: visible; z-index: 1; pointer-events: auto; }
       .hero-slide.is-leaving {
         opacity: 0; visibility: visible; z-index: 2; pointer-events: none;
         transition: opacity 2.8s cubic-bezier(.45,.02,.3,1), visibility 0s linear 2.8s;
@@ -791,7 +791,7 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
       /* ---------- FIN-DSP additions ---------- */
       .masthead .logo-mark { font-size: 11px; letter-spacing: 1px; }
       .sidebar-logo { display: block; line-height: 0; margin: 0 0 8px; width: 100%; }
-      .sidebar-logo img { display: block; width: 100%; height: auto; border: 1px solid var(--border-soft); }
+      .sidebar-logo img { display: block; width: 100%; height: auto; border: 1px solid var(--border-soft); box-sizing: border-box; }
       .sidebar-tag { font-size: 13px; color: var(--muted); text-align: center; margin: 0 0 12px; }
       .masthead .logo-mark img { display: block; width: 64px; height: 64px; }
       .proj-badge {
@@ -1208,17 +1208,24 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
             s.classList.remove('is-leaving');
             s.classList.add('is-active');
             s.removeAttribute('aria-hidden');
-            if(link) link.removeAttribute('tabindex');
+            if(link){ link.removeAttribute('tabindex'); link.style.pointerEvents = 'auto'; }
           } else if(s === prevSlide){
             s.classList.remove('is-active');
             s.classList.add('is-leaving');
             s.setAttribute('aria-hidden','true');
-            if(link) link.setAttribute('tabindex','-1');
+            if(link){ link.setAttribute('tabindex','-1'); link.style.pointerEvents = 'none'; }
+            /* Retire the leaving layer once its dissolve ends, so no stale
+               slide can sit on top and steal clicks from the held slide. */
+            setTimeout(function(){
+              if(s.classList.contains('is-leaving') && !s.classList.contains('is-active')){
+                s.classList.remove('is-leaving');
+              }
+            }, 2900);
           } else {
             s.classList.remove('is-active');
             s.classList.remove('is-leaving');
             s.setAttribute('aria-hidden','true');
-            if(link) link.setAttribute('tabindex','-1');
+            if(link){ link.setAttribute('tabindex','-1'); link.style.pointerEvents = 'none'; }
           }
         });
       }
