@@ -793,7 +793,8 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
       .sidebar-logo { display: block; line-height: 0; margin: 0 0 8px; width: 100%; }
       .sidebar-logo img { display: block; width: 100%; height: auto; border: 1px solid var(--border-soft); box-sizing: border-box; }
       .sidebar-tag { font-size: 13px; color: var(--muted); text-align: center; margin: 0 0 12px; }
-      .masthead .logo-mark img { display: block; width: 64px; height: 64px; }
+      .masthead .logo-mark { overflow: hidden; }
+      .masthead .logo-mark img { display: block; width: 100%; height: 100%; object-fit: cover; }
       .proj-badge {
         display: inline-block; padding: 1px 7px; font-family: "Share Tech Mono", monospace;
         font-size: 11px; letter-spacing: 1px; text-transform: uppercase;
@@ -869,6 +870,15 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
   <body id="top">
     <div class="site-shell">
 
+
+
+    <header class="masthead">
+      <div class="logo-mark" role="img" aria-label="FIN-DSP"><img src="assets/branding/findsp-logo-200x200.jpg" alt="FIN-DSP" /></div>
+      <div class="wordmark">
+        <div class="name">FIN-DSP</div>
+        <div class="tag">The project news portal for audio software developers.</div>
+      </div>
+    </header>
 
     <nav class="topnav" aria-label="Main navigation">
       <div class="nav-links">

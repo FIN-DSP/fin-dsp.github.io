@@ -114,6 +114,17 @@ def create_blob(repo, data):
     return blob["sha"]
 
 
+def seed_repo(repo):
+    # The Git Data API refuses to create blobs in a repo with no commits
+    # (409 "Git Repository is empty"). The Contents API can create the
+    # first commit; the import commit then parents onto it, and the seed
+    # file itself is dropped by the import tree (it is not in the source).
+    content = base64.b64encode(b"Seed commit so the API import can proceed.\n").decode("ascii")
+    _, res = api("PUT", f"/repos/{OWNER_DST}/{repo}/contents/.import-seed",
+                 {"message": "Seed commit for API import", "content": content})
+    return res["commit"]["sha"]
+
+
 def import_repo(repo):
     print(f"[{repo}] downloading tarball...", flush=True)
     tar_bytes = download_tarball(repo)
@@ -123,6 +134,20 @@ def import_repo(repo):
         # Empty repo (algorave x3): nothing to copy. Leave the empty repo as is.
         print(f"[{repo}] EMPTY at source — nothing to copy, leaving the empty repo in place.", flush=True)
         return "empty"
+
+    # If the target repo has no commits yet, seed it so blob creation works.
+    # An empty repo answers the ref GET with 409 "Git Repository is empty"
+    # (a never-created ref would be 404); either way it needs seeding.
+    parent = []
+    try:
+        api("GET", f"/repos/{OWNER_DST}/{repo}/git/ref/heads/main")
+    except RuntimeError as e:
+        if "404" in str(e) or "409" in str(e):
+            seed_sha = seed_repo(repo)
+            parent = [seed_sha]
+            print(f"[{repo}] seeded empty repo at {seed_sha[:12]}", flush=True)
+        else:
+            raise
 
     # Create blobs in parallel.
     shas = {}
@@ -147,7 +172,7 @@ def import_repo(repo):
     _, commit = api("POST", f"/repos/{OWNER_DST}/{repo}/git/commits", {
         "message": f"Import from findsp/{repo}",
         "tree": tree["sha"],
-        "parents": [],
+        "parents": parent,
     })
     print(f"[{repo}] commit: {commit['sha'][:12]}", flush=True)
 
