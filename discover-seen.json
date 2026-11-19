@@ -1,0 +1,606 @@
+{
+  "Aiseam/RM38": {
+    "date": "2026-11-19",
+    "decision": "rejected: no audio keyword in name/description"
+  },
+  "Aisjam/Contour-Visual-Tracker": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "Apolotary/controlanything": {
+    "date": "2026-11-19",
+    "decision": "rejected: no audio keyword in name/description"
+  },
+  "Azylume/nocturne": {
+    "date": "2026-11-19",
+    "decision": "rejected: VJ (visual) instrument, not audio software"
+  },
+  "Beatsex/gensexuell": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "Beatsex/throwdelay": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "Bongorian/yadokari": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "BossEmmanuel-lab/MyKeep": {
+    "date": "2026-11-19",
+    "decision": "rejected: subscription tracker, not a music tracker"
+  },
+  "CesareilGiulio/detroit-become-human-flowchart-tracker": {
+    "date": "2026-11-19",
+    "decision": "rejected: game flowchart tracker, not a music tracker"
+  },
+  "CursedPrograms/OctaviaVSTs": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "DamianEhrenburg/yakata": {
+    "date": "2026-11-19",
+    "decision": "rejected: visual-novel launcher tracker, not a music tracker"
+  },
+  "Dragjon/eigentone": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "Erkko68/koto": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "EvanBoyar/doppstop": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "FIN-DSP/fin-dsp.github.io": {
+    "date": "2026-11-19",
+    "decision": "rejected: the FIN-DSP site repo itself, not a project"
+  },
+  "FROTH-Audio/AudioPluginSuite": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "FartyPants/fm1-nachtfahrt": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "FenrirRhogar/fenix": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "Forge-Audio/mp-forge": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "GNUbase/GNUbase": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "Grashopr-888/meteora-releases": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "GreyGoose01/Hearthwatch": {
+    "date": "2026-11-19",
+    "decision": "rejected: game tracker (Hearthstone), not a music tracker"
+  },
+  "Hackthroughplank/epic-free-games-tracker": {
+    "date": "2026-11-19",
+    "decision": "rejected: game-deal tracker, not a music tracker"
+  },
+  "Hanamauer/HanaGuitar": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "IAMSB-0/VBAudioDSPDropoutFix": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "Ichi-Studio/Weftone": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "Innei/plainscore": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "JackMechem/marbble": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "Joe-Heffer/faust-pedalkit": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "Kareem-Shabaka/stutter-guard": {
+    "date": "2026-11-19",
+    "decision": "rejected: no audio keyword in name/description"
+  },
+  "MDMAchine/hs-link": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "MacawMeditate17/neural-amp-modeler": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "MarcGoudy/guru-600": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "MaymiPR/Chan-Sampler": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "Metarch-Ancilla/Archetype-Cab-Disabler": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "MhkaPR/domtrack": {
+    "date": "2026-11-19",
+    "decision": "rejected: no audio keyword in name/description"
+  },
+  "MitPitt/birdspeech": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "MrYams0/audio-stem-splitter": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "Panic-Signals/Deckard": {
+    "date": "2026-11-19",
+    "decision": "rejected: no audio keyword in name/description"
+  },
+  "PixelAxolotl/PluginRack": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "Planetary-Records/air-synth": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "PolarPatch/Arctic-scream-FM-1": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "ProjectFlowmar/project5pi-midi-for-claude": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "Ravomi/OpenDolby": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "RenasDemirbas/SoundBit": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "Sadykhzadeh/goby": {
+    "date": "2026-11-19",
+    "decision": "rejected: no audio keyword in name/description"
+  },
+  "Siryu6/openrig-fx": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "SpecialistCrush/epic-free-games-tracker": {
+    "date": "2026-11-19",
+    "decision": "rejected: game-deal tracker, not a music tracker"
+  },
+  "TENMALOG/procedural-machine-audio": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "Tekkiech/jdsp4mac": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "Theavinash02/bookmyshowtracker": {
+    "date": "2026-11-19",
+    "decision": "rejected: ticket tracker, not a music tracker"
+  },
+  "Tincho1286/SignalLab-PC": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "Tubbritt/S56K-Expanded-Edition": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "UnityCrown39312/luis-resocket": {
+    "date": "2026-11-19",
+    "decision": "rejected: no audio keyword in name/description"
+  },
+  "VexxPlugins/retroexx": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "WindServiceIdentify/ableton-production-bench": {
+    "date": "2026-11-19",
+    "decision": "rejected: no audio keyword in name/description"
+  },
+  "Wirtexxx/plugin-sorter": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "Xeayy/FatTrace": {
+    "date": "2026-11-19",
+    "decision": "rejected: disk-growth tracker, not a music tracker"
+  },
+  "aguirreSL/iceberg-cpp": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "alibasimm1993/whalefeed": {
+    "date": "2026-11-19",
+    "decision": "rejected: no audio keyword in name/description"
+  },
+  "allthemalware/vhs-phys": {
+    "date": "2026-11-19",
+    "decision": "rejected: no audio keyword in name/description"
+  },
+  "ansh2222949/Neon-song": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "azure-fossil-maker/serum-2-desktop": {
+    "date": "2026-11-19",
+    "decision": "rejected: not a software project (standalone bundle)"
+  },
+  "bjoernbojahr/Maermel": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "blsphmicwillow/OpenBeats": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "booomxd/spectre": {
+    "date": "2026-11-19",
+    "decision": "rejected: no audio keyword in name/description"
+  },
+  "boykopovar/OpenFmod": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "canbmaj7/openstand": {
+    "date": "2026-11-19",
+    "decision": "rejected: no audio keyword in name/description"
+  },
+  "cathycollins-io08/ableton-live-11-desktop": {
+    "date": "2026-11-19",
+    "decision": "rejected: commercial software repack (Ableton installer)"
+  },
+  "ccoors/dussek": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "chmess/fm1-keyboard-academy": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "claw-works/muser": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "connor-walsh-1996/ableton-live-standard-desktop": {
+    "date": "2026-11-19",
+    "decision": "rejected: not a software project (standalone bundle)"
+  },
+  "cookhenri-art/ofad-golem-groovebox": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "cyrillsemenov/headless-plugin-host": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "d-studio-labs/d-studio": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "deamonSLINKY/PERF-1": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "devicedaw/device": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "dnlbtz/mbp143-audio": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "evadavevadave/davidian-bi-lumen": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "evadavevadave/davidian-canary-plus": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "evadavevadave/davidian-humble-overdraft": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "evadavevadave/davidian-seventy-three": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "fazilirak/Music": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "femifleming/sleepcousonique": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "fenderberg/fm1-sy1": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "hudakrrr/Toneical": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "idlefoundry/highstead": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "ijnekenamay/PocketEuclidean": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "ildrm/audio-studio": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "ilyasmaoe/ghast-terminal-multiplexer": {
+    "date": "2026-11-19",
+    "decision": "rejected: no audio keyword in name/description"
+  },
+  "innermost47/grm-guitar-vst": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "irregbex/crash-dump-analyzer": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "iwillenterausername/iridescent-flower": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "jacob-sabella/mpc-vst-stompbox": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "jakehandy/h1": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "janne-s/Suu": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "jeffwebb-to/mpc-sample-tracker": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "joakimeriksson/fm1-dock": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "jplenio/Plenio-VST3": {
+    "date": "2026-11-19",
+    "decision": "rejected: archived/disabled/private"
+  },
+  "jyxpi/open-libary": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "kobimusic/dettato": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "kokenamazu-boop/nama-onso": {
+    "date": "2026-11-19",
+    "decision": "rejected: no audio keyword in name/description"
+  },
+  "kostisdov/dsp-to-silicon": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "lazytitanz/Sonora": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "lgarraza/KeyStepProStudio": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "liviux/Start-up-tracker": {
+    "date": "2026-11-19",
+    "decision": "rejected: startup tracker, not a music tracker"
+  },
+  "lm7644/free-llm-tracker": {
+    "date": "2026-11-19",
+    "decision": "rejected: LLM-channel tracker, not a music tracker"
+  },
+  "lordillusions/sonora": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "maelswarm/fizzler": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "marksweiss/tastywaves": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "mazztock/MAZZFLATOR": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "mitoisgrowing/rummage": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "mo0kid/ravet": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "mtm1978v-debug/GranularSynth": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "muzafferkadir/find-my-xiaomi-band-9": {
+    "date": "2026-11-19",
+    "decision": "rejected: no audio keyword in name/description"
+  },
+  "mylnzon58/t2-macbook-pro-16-1-dsp-ubuntu-24.04": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "negg0s/aether-dsp": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "nickmerich/i-am-choir-first-choir-skill": {
+    "date": "2026-11-19",
+    "decision": "rejected: not a software project (agent skill)"
+  },
+  "nikh93/Ton-of-Able": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "nvd7/crymora": {
+    "date": "2026-11-19",
+    "decision": "rejected: game companion tracker, not a music tracker"
+  },
+  "orange303-afk/sonicator": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "owoevan-dev/music-skill": {
+    "date": "2026-11-19",
+    "decision": "rejected: not a software project (agent skill)"
+  },
+  "pcdlin/FMVibe": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "philipb7681/ableton-production-bench": {
+    "date": "2026-11-19",
+    "decision": "rejected: no audio keyword in name/description"
+  },
+  "photogeen/machinista": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "pierrecinema/ai-music-studio": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "profikid/fm1-break-choppah": {
+    "date": "2026-11-19",
+    "decision": "rejected: no audio keyword in name/description"
+  },
+  "pschopen/concert7": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "ramseyarnaoot/lethe-noise": {
+    "date": "2026-11-19",
+    "decision": "rejected: no audio keyword in name/description"
+  },
+  "retrohog/Aureon": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "rivasme/feed-the-fam-tracker": {
+    "date": "2026-11-19",
+    "decision": "rejected: job-search tracker, not a music tracker"
+  },
+  "scizerss/keylight-piano": {
+    "date": "2026-11-19",
+    "decision": "rejected: no audio keyword in name/description"
+  },
+  "seandrethegiant/FlipKit64": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "shan-sherif/fm-1-chimera-vocal": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "shukrialiart-boop/reaper-daw": {
+    "date": "2026-11-19",
+    "decision": "rejected: commercial software repack (REAPER installer)"
+  },
+  "sjkim1127/Kymion": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "sloppyjoo/freeplay": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "smashburger-dev/synthexis": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "sorrelfox/reverblabr": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "stdevMac/orb-audio": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "suitux/Backspn": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "the-gene-white/toontrack-superior-drummer-desktop": {
+    "date": "2026-11-19",
+    "decision": "rejected: no audio keyword in name/description"
+  },
+  "thiagopatzdorf/funil-aberto": {
+    "date": "2026-11-19",
+    "decision": "rejected: sales-funnel tracker, not a music tracker"
+  },
+  "tobokegao/ToboImager": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "transit-audio/transit": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "travisdk/SpaceForge": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "trioalchey/ozone-mastering-suite": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "uilianks/chirp": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "willren5/FAD_Engine": {
+    "date": "2026-11-19",
+    "decision": "added"
+  },
+  "yasuyuki-baba/synth1x": {
+    "date": "2026-11-19",
+    "decision": "added"
+  }
+}
