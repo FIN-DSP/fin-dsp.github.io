@@ -1,0 +1,53 @@
+# FIN-DSP — project discovery
+# Runs twice a day (and on demand): searches GitHub for newly published
+# audio software projects, applies the relevance filter, merges any new
+# finds into projects.json and commits it back to main if anything changed.
+# Stdlib-only Python: no pip installs needed.
+#
+# NOTE: this file must be added by the repo owner (ctpix) via the GitHub
+# web UI at .github/workflows/discover.yml — the API token Muse uses has
+# no `workflow` scope, so it cannot push workflow files. Same gap as the
+# CTP Magazine's aggregate.yml.
+
+name: Discover new audio projects
+
+on:
+  schedule:
+    # Twice a day, at 00:00 and 12:00 UTC.
+    - cron: "0 0,12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run discovery
+        run: python3 discover.py
+        env:
+          # Unauthenticated search is 10 req/min; a token raises the limit.
+          # Add a repo secret named DISCOVERY_TOKEN (a fine-grained token
+          # with public-repo read) to use it.
+          GITHUB_TOKEN: ${{ secrets.DISCOVERY_TOKEN }}
+
+      - name: Commit updated projects if changed
+        run: |
+          git config user.name "FIN-DSP discoverer"
+          git config user.email "actions@github.com"
+          git add projects.json discover-seen.json discover-report.json
+          if git diff --cached --quiet; then
+            echo "No changes to projects.json — nothing to commit."
+          else
+            git commit -m "Discover new audio projects ($(date -u +%Y-%m-%d\ %H:%M\ UTC))"
+            git push
+          fi
