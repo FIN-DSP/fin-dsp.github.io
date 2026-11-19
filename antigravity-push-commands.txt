@@ -1,0 +1,65 @@
+FIN-DSP repo fill — clone+push, signed in as ctpix.
+The 11 repos already exist EMPTY in the FIN-DSP org — do NOT create them again.
+Run these top to bottom, smallest first, alesis-midiverb-1-free (~153 MB) last.
+The three algorave repos are EMPTY at the source (0 KB) — those pushes are instant.
+
+gh auth login
+gh auth setup-git
+
+git clone --mirror https://github.com/findsp/windowgrapher.git
+cd windowgrapher.git
+git push --mirror https://github.com/fin-dsp/windowgrapher.git
+cd ..
+
+git clone --mirror https://github.com/findsp/tutka.git
+cd tutka.git
+git push --mirror https://github.com/fin-dsp/tutka.git
+cd ..
+
+git clone --mirror https://github.com/findsp/tutka2-tutankhamun.git
+cd tutka2-tutankhamun.git
+git push --mirror https://github.com/fin-dsp/tutka2-tutankhamun.git
+cd ..
+
+git clone --mirror https://github.com/findsp/tjingboem-CabbageVSTs.git
+cd tjingboem-CabbageVSTs.git
+git push --mirror https://github.com/fin-dsp/tjingboem-CabbageVSTs.git
+cd ..
+
+git clone --mirror https://github.com/findsp/emu-audity-2000-upgrade.git
+cd emu-audity-2000-upgrade.git
+git push --mirror https://github.com/fin-dsp/emu-audity-2000-upgrade.git
+cd ..
+
+git clone --mirror https://github.com/findsp/findsp.git
+cd findsp.git
+git push --mirror https://github.com/fin-dsp/findsp.git
+cd ..
+
+git clone --mirror https://github.com/findsp/csound-extended-manual.git
+cd csound-extended-manual.git
+git push --mirror https://github.com/fin-dsp/csound-extended-manual.git
+cd ..
+
+git clone --mirror https://github.com/findsp/algorave.git
+cd algorave.git
+git push --mirror https://github.com/fin-dsp/algorave.git
+cd ..
+
+git clone --mirror https://github.com/findsp/algorave-culture.git
+cd algorave-culture.git
+git push --mirror https://github.com/fin-dsp/algorave-culture.git
+cd ..
+
+git clone --mirror https://github.com/findsp/algorave-technology.git
+cd algorave-technology.git
+git push --mirror https://github.com/fin-dsp/algorave-technology.git
+cd ..
+
+git clone --mirror https://github.com/findsp/alesis-midiverb-1-free.git
+cd alesis-midiverb-1-free.git
+git push --mirror https://github.com/fin-dsp/alesis-midiverb-1-free.git
+cd ..
+
+After each push, confirm fin-dsp/NAME shows the same size/commit count as the findsp original.
+Report what moved and anything that failed.
