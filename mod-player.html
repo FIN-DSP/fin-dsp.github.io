@@ -789,6 +789,9 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
       @media (prefers-reduced-motion: reduce) { .mp-eq.playing i { animation:none; } }
       /* ---------- FIN-DSP additions ---------- */
       .masthead .logo-mark { font-size: 11px; letter-spacing: 1px; }
+      .sidebar-logo { display: block; line-height: 0; margin: 0 auto 8px; max-width: 200px; }
+      .sidebar-logo img { display: block; width: 200px; max-width: 100%; height: auto; border: 1px solid var(--border-soft); }
+      .sidebar-tag { font-size: 13px; color: var(--muted); text-align: center; margin: 0 0 12px; }
       .masthead .logo-mark img { display: block; width: 64px; height: 64px; }
       .proj-badge {
         display: inline-block; padding: 1px 7px; font-family: "Share Tech Mono", monospace;
@@ -865,13 +868,6 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
   <body id="top">
     <div class="site-shell">
 
-    <header class="masthead">
-      <div class="logo-mark"><img src="assets/branding/findsp-logo-200x200.jpg" alt="FIN-DSP" width="64" height="64" /></div>
-      <div class="wordmark">
-        <div class="name">FIN-DSP</div>
-        <div class="tag">The project news portal for audio software developers.</div>
-      </div>
-    </header>
 
     <nav class="topnav" aria-label="Main navigation">
       <div class="nav-links">
@@ -942,6 +938,8 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
 
       <!-- ================= LEFT COLUMN ================= -->
       <aside class="col col-left">
+        <a href="index.html" class="sidebar-logo"><img src="assets/branding/findsp-logo-200x200.jpg" alt="FIN-DSP — Audio Software" width="200" height="200" /></a>
+        <p class="sidebar-tag">The project news portal for audio software developers.</p>
         <section class="module" aria-label="Main menu">
           <div class="module-title">Main Menu</div>
           <ul class="menu">
