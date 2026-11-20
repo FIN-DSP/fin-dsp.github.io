@@ -180,6 +180,37 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
       }
       .hero-slide.is-active img { transform: scale(1.06); }
 
+      /* ---------- Featured banner rotator (swipe) ---------- */
+      .feat-viewport {
+        position: relative; width: 100%; overflow: hidden;
+        border: 1px solid var(--border-soft); background: #000000;
+      }
+      .feat-track { display: flex; width: 100%; transition: transform .7s cubic-bezier(.45,.02,.3,1); }
+      .feat-slide {
+        flex: 0 0 100%; display: block; text-decoration: none; color: #ffffff;
+        padding: 18px 20px; min-height: 110px;
+      }
+      .feat-slide:hover { text-decoration: none; }
+      .feat-dev { background: linear-gradient(100deg, #0b3d66 0%, #0e6b8a 55%, #12a5a0 100%); }
+      .feat-art { background: linear-gradient(100deg, #3b1163 0%, #7a1e8f 55%, #c22b7a 100%); }
+      .feat-prod { background: linear-gradient(100deg, #4a2c00 0%, #8a5a00 55%, #c98a1b 100%); }
+      .feat-title {
+        display: block; font-family: "Rajdhani", sans-serif; font-size: 30px; font-weight: 700;
+        letter-spacing: 2px; text-transform: uppercase; line-height: 1.1; color: #ffffff;
+      }
+      .feat-sub { display: block; margin-top: 4px; font-size: 14px; color: rgba(255,255,255,.85); }
+      .feat-controls { display: flex; align-items: center; justify-content: center; gap: 10px; padding: 8px 0 0; }
+      .feat-arrow {
+        background: transparent; border: 1px solid var(--border-soft); color: var(--text);
+        font-size: 20px; line-height: 1; width: 32px; height: 28px; cursor: pointer;
+      }
+      .feat-arrow:hover { border-color: var(--accent); color: var(--accent); }
+      .feat-dot {
+        width: 10px; height: 10px; border-radius: 50%; border: 1px solid var(--muted);
+        background: transparent; cursor: pointer; padding: 0;
+      }
+      .feat-dot.is-active { background: var(--accent); border-color: var(--accent); }
+
       /* ---------- Vision ---------- */
       .vision .lead {
         font-family: "Rajdhani", sans-serif; font-size: 21px; font-weight: 600; color: var(--heading); line-height: 1.3;
@@ -1042,6 +1073,30 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
           </figcaption>
         </figure>
 
+        <section class="module" id="featured" aria-label="Featured">
+          <div class="feat-viewport">
+            <div class="feat-track" id="featTrack">
+              <a class="feat-slide feat-dev" href="active-projects.html">
+                <span class="feat-title">Featured Developers</span>
+                <span class="feat-sub">The people building the tools.</span>
+              </a>
+              <a class="feat-slide feat-art" href="music-search.html">
+                <span class="feat-title">Featured Artists</span>
+                <span class="feat-sub">The music made with the tools.</span>
+              </a>
+              <a class="feat-slide feat-prod" href="#latest">
+                <span class="feat-title">Featured Product</span>
+                <span class="feat-sub">The tool everyone's talking about.</span>
+              </a>
+            </div>
+          </div>
+          <div class="feat-controls">
+            <button class="feat-arrow" id="featPrev" aria-label="Previous featured">&#8249;</button>
+            <span id="featDots"></span>
+            <button class="feat-arrow" id="featNext" aria-label="Next featured">&#8250;</button>
+          </div>
+        </section>
+
         <section class="module" id="ctp-eos" aria-label="CTP-EOS Linux">
           <div class="module-title">CTP-EOS Linux</div>
           <div class="module-body">
@@ -1272,6 +1327,46 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
         if(reduceMotion || slides.length < 2) return;
         timer = setInterval(nextHero, 11000);
       }
+      document.addEventListener('visibilitychange', function(){ if(document.hidden){ stop(); } else { start(); } });
+      start();
+    })();
+
+    /* Featured banner rotator — swipe (slide) */
+    (function(){
+      var track = document.getElementById('featTrack');
+      if(!track) return;
+      var slides = [].slice.call(track.querySelectorAll('.feat-slide'));
+      if(slides.length < 2) return;
+      var dotsWrap = document.getElementById('featDots');
+      var prevBtn = document.getElementById('featPrev');
+      var nextBtn = document.getElementById('featNext');
+      var idx = 0, timer = null;
+      var reduceMotion = false;
+      try{ reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches; }catch(e){}
+      var dots = slides.map(function(_, i){
+        var b = document.createElement('button');
+        b.className = 'feat-dot' + (i === 0 ? ' is-active' : '');
+        b.setAttribute('aria-label', 'Featured ' + (i + 1));
+        b.addEventListener('click', function(){ go(i); restart(); });
+        dotsWrap.appendChild(b);
+        return b;
+      });
+      function go(i){
+        idx = (i + slides.length) % slides.length;
+        track.style.transform = 'translateX(-' + (idx * 100) + '%)';
+        dots.forEach(function(d, j){ d.classList.toggle('is-active', j === idx); });
+      }
+      function next(){ go(idx + 1); }
+      function prev(){ go(idx - 1); }
+      function stop(){ if(timer){ clearInterval(timer); timer = null; } }
+      function start(){
+        stop();
+        if(reduceMotion) return;
+        timer = setInterval(next, 6000);
+      }
+      function restart(){ start(); }
+      if(prevBtn){ prevBtn.addEventListener('click', function(){ prev(); restart(); }); }
+      if(nextBtn){ nextBtn.addEventListener('click', function(){ next(); restart(); }); }
       document.addEventListener('visibilitychange', function(){ if(document.hidden){ stop(); } else { start(); } });
       start();
     })();
