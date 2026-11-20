@@ -1048,6 +1048,11 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
             <p><a href="about.html">Read the full About — project focus, hardware exploration, and the founder →</a></p>
           </div>
         </section>
+
+        <section class="module" aria-label="CTPVerse Sites">
+          <div class="module-title">CTPVerse Sites</div>
+          <div class="module-body" style="line-height:0;"><a id="ctpverse-sites-rotator-link" href="https://ctpverse.github.io/" target="_blank" rel="noopener" title="CTPVerse" aria-label="CTPVerse"><img id="ctpverse-sites-rotator-img" src="https://ctpverse.github.io/assets/branding/ctpverse-org-avatar.jpg" alt="CTPVerse" width="1024" height="1024" style="display:block; width:100%; height:auto; aspect-ratio:1/1; object-fit:cover;" /></a></div>
+        </section>
       </aside>
 
 <!-- ================= CENTER COLUMN ================= -->
@@ -1794,6 +1799,51 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
         audio.addEventListener('pause', function () { if (started) { setPlayingUI(false); setState('Paused'); } });
         audio.addEventListener('error', function () { setStatus('Stream error — try another station'); setPlayingUI(false); setState('Error'); });
         renderList();
+      })();
+    </script>
+    <script>
+      /* ---------- CTPVerse Sites random rotator (bottom of left column) ---------- */
+      (function () {
+        var sites = [
+          { name: 'CTPVerse', url: 'https://ctpverse.github.io/', img: 'https://ctpverse.github.io/assets/branding/ctpverse-org-avatar.jpg' },
+          { name: 'CTP-EOS', url: 'https://ctp-eos.github.io/', img: 'https://ctp-eos.github.io/assets/branding/ctp-eos-triangle-logo.jpg' },
+          { name: 'CTP Magazine', url: 'https://ctp-magazine.github.io/', img: 'https://ctp-magazine.github.io/assets/branding/ctp-magazine-1254x1254.png' },
+          { name: 'CTP Music', url: 'https://ctp-music.github.io/', img: 'https://ctp-music.github.io/assets/branding/ctp-music-org-avatar.jpg' },
+          { name: 'CTP Space Systems', url: 'https://ctp-space-systems.github.io/', img: 'https://ctp-space-systems.github.io/assets/branding/ctp-space-systems-org-avatar.jpg' }
+        ];
+        var link = document.getElementById('ctpverse-sites-rotator-link');
+        var img = document.getElementById('ctpverse-sites-rotator-img');
+        if (!link || !img) return;
+        var idx = 0;
+        var timer = null;
+        var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        function show(i) {
+          idx = i;
+          var s = sites[i];
+          img.src = s.img;
+          img.alt = s.name;
+          link.href = s.url;
+          link.title = s.name;
+          link.setAttribute('aria-label', s.name);
+        }
+        function randomNext() {
+          if (sites.length < 2) return;
+          var n = idx;
+          while (n === idx) { n = Math.floor(Math.random() * sites.length); }
+          show(n);
+        }
+        function start() {
+          if (timer || reduceMotion) return;
+          timer = setInterval(randomNext, 5000);
+        }
+        function stop() {
+          if (timer) { clearInterval(timer); timer = null; }
+        }
+        document.addEventListener('visibilitychange', function () {
+          if (document.hidden) { stop(); } else { start(); }
+        });
+        show(0);
+        start();
       })();
     </script>
   </body>
