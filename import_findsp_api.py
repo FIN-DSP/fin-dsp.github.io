@@ -16,15 +16,25 @@ credentials (what Anti-Gravity was supposed to provide).
 Order: smallest first, alesis-midiverb-1-free (~153 MB) last.
 """
 import base64
+import hashlib
 import io
 import json
 import os
 import sys
 import tarfile
 import threading
+import time
 import urllib.request
 import urllib.error
 from concurrent.futures import ThreadPoolExecutor
+
+# Checkpoint dir: OUTSIDE ~/workspace/findsp/ so push_findsp.py never
+# pushes it to the site repo. One JSONL file per repo: {"path": rel,
+# "sha": blob_sha}. Append-only, so a killed run resumes by skipping
+# blobs already created instead of re-creating (and re-paying for) them.
+CHECKPOINT_DIR = os.path.expanduser("~/workspace/findsp-import-checkpoints")
+os.makedirs(CHECKPOINT_DIR, exist_ok=True)
+_checkpoint_lock = threading.Lock()
 
 sys.path.insert(0, "/opt/muse/skills/custom-connector-setup/bin")
 from dynamic_credentials import add_surrogate_to_request, read_json_response
@@ -54,7 +64,7 @@ class NoRedirect(urllib.request.HTTPRedirectHandler):
         raise RuntimeError("redirect refused, verify the endpoint")
 
 
-def api(method, path, body=None, raw=False):
+def api(method, path, body=None, raw=False, _attempt=1):
     url = "https://api.github.com" + path
     data = None
     req = urllib.request.Request(url, method=method)
@@ -72,6 +82,33 @@ def api(method, path, body=None, raw=False):
             return resp.status, read_json_response(resp)
     except urllib.error.HTTPError as e:
         detail = e.read().decode("utf-8", "replace")[:500]
+        # Rate limit (403 "API rate limit exceeded" or 429): csound alone
+        # needs ~6,600 blob calls, over the 5,000/hour budget, so a big
+        # import WILL hit the limit mid-run. Sleep until the window resets
+        # (X-RateLimit-Reset) and retry the same call instead of failing.
+        # Without this, csound can never finish in one window.
+        if _attempt <= 5 and e.code in (403, 429) and "rate limit" in detail.lower():
+            reset = e.headers.get("X-RateLimit-Reset")
+            try:
+                wait = max(int(reset) - int(time.time()), 5) + 10
+            except (TypeError, ValueError):
+                wait = 300
+            print(f"[rate-limit] {method} {path} hit the limit; "
+                  f"sleeping {wait}s until reset (attempt {_attempt}/5)...",
+                  flush=True)
+            time.sleep(wait)
+            return api(method, path, body=body, raw=raw, _attempt=_attempt + 1)
+        # Transient GitHub server errors (502/503): the big-tree POST for
+        # csound (6,792 entries) 502s. Retry with a short backoff.
+        # 422 "request timed out" is also retried: tree creation can be
+        # slow when GitHub is loaded, and a retry often lands.
+        if _attempt <= 4 and e.code in (502, 503, 422):
+            wait = 10 * _attempt
+            print(f"[server-error] {method} {path} -> HTTP {e.code}; "
+                  f"retrying in {wait}s (attempt {_attempt}/4)...",
+                  flush=True)
+            time.sleep(wait)
+            return api(method, path, body=body, raw=raw, _attempt=_attempt + 1)
         raise RuntimeError(f"{method} {path} -> HTTP {e.code}: {detail}")
 
 
@@ -105,6 +142,42 @@ def collect_files(tar_bytes):
             data = f.read()
             out.append((rel, m.mode, data))
     return out
+
+
+def blob_sha(data):
+    # Git blob SHA, computed locally: sha1("blob <len>\0" + content).
+    # Lets a re-run verify a checkpointed blob without an API call.
+    h = hashlib.sha1()
+    h.update(b"blob " + str(len(data)).encode("ascii") + b"\0")
+    h.update(data)
+    return h.hexdigest()
+
+
+def checkpoint_path(repo):
+    return os.path.join(CHECKPOINT_DIR, repo + ".jsonl")
+
+
+def load_checkpoint(repo):
+    path = checkpoint_path(repo)
+    out = {}
+    if os.path.exists(path):
+        with open(path) as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    rec = json.loads(line)
+                    out[rec["path"]] = rec["sha"]
+                except (KeyError, ValueError):
+                    continue
+    return out
+
+
+def append_checkpoint(repo, rel, sha):
+    with _checkpoint_lock:
+        with open(checkpoint_path(repo), "a") as f:
+            f.write(json.dumps({"path": rel, "sha": sha}) + "\n")
 
 
 def create_blob(repo, data):
@@ -149,29 +222,104 @@ def import_repo(repo):
         else:
             raise
 
-    # Create blobs in parallel.
+    # Create blobs in parallel. A checkpoint (path -> blob SHA) lets a
+    # killed run resume: blobs already created are skipped, not re-paid for.
+    # The expected SHA is computed locally from the content, so a
+    # checkpoint hit is verified without an API call.
+    checkpoint = load_checkpoint(repo)
+    skipped = 0
     shas = {}
 
     def _one(item):
+        nonlocal skipped
         rel, mode, data = item
+        expected = blob_sha(data)
+        if checkpoint.get(rel) == expected:
+            shas[rel] = (mode, expected)
+            skipped += 1
+            return
         sha = create_blob(repo, data)
+        if sha != expected:
+            raise RuntimeError(f"[{repo}] blob SHA mismatch for {rel}: "
+                               f"got {sha}, expected {expected}")
+        append_checkpoint(repo, rel, sha)
         shas[rel] = (mode, sha)
 
     with ThreadPoolExecutor(max_workers=WORKERS) as ex:
         list(ex.map(_one, files))
-    print(f"[{repo}] blobs created: {len(shas)}", flush=True)
+    print(f"[{repo}] blobs created: {len(shas)} "
+          f"({skipped} reused from checkpoint)", flush=True)
 
-    # Build one tree with all files (GitHub creates intermediate trees).
-    entries = []
+    # Build the tree as PROPER NESTED git trees (one tree object per
+    # directory), bottom-up. A single flat tree with all 6,792 csound
+    # entries 502s, and batching via base_tree 422s once the merged tree
+    # passes ~2,000 entries (GitHub times out materialising it). Nested
+    # trees keep every single tree creation small: the largest directory
+    # here is docs/ at 1,794 direct children, the rest smaller.
+    # files_by_dir: dir path -> [(basename, mode, sha)]
+    files_by_dir = {}
     for rel, (mode, sha) in sorted(shas.items()):
-        git_mode = "100755" if (mode & 0o111) else "100644"
-        entries.append({"path": rel, "mode": git_mode, "type": "blob", "sha": sha})
-    _, tree = api("POST", f"/repos/{OWNER_DST}/{repo}/git/trees", {"tree": entries})
-    print(f"[{repo}] tree: {tree['sha'][:12]}", flush=True)
+        parts = rel.split("/")
+        d = "/".join(parts[:-1])
+        files_by_dir.setdefault(d, []).append((parts[-1], mode, sha))
+    # All directories, deepest first (by depth, then name for determinism).
+    all_dirs = set(files_by_dir.keys())
+    # Ensure every ancestor dir exists in the map (even if it has no files).
+    for rel in list(shas.keys()):
+        parts = rel.split("/")[:-1]
+        for i in range(1, len(parts) + 1):
+            all_dirs.add("/".join(parts[:i]))
+    all_dirs.add("")
+    dir_tree_sha = {}
+
+    def build_dir(d):
+        # Direct file children.
+        entries = []
+        for name, mode, sha in sorted(files_by_dir.get(d, [])):
+            git_mode = "100755" if (mode & 0o111) else "100644"
+            entries.append({"path": name, "mode": git_mode,
+                            "type": "blob", "sha": sha})
+        # Direct subdirectory children (already built, deepest first).
+        prefix = (d + "/") if d else ""
+        subdirs = sorted({p[len(prefix):].split("/")[0]
+                          for p in all_dirs
+                          if p.startswith(prefix) and p != d
+                          and "/" not in p[len(prefix):]})
+        for sub in subdirs:
+            sub_path = prefix + sub
+            entries.append({"path": sub, "mode": "040000",
+                            "type": "tree", "sha": dir_tree_sha[sub_path]})
+        # Build this directory's tree. A single creation with >~900 entries
+        # can time out on GitHub's side, so large directories are built in
+        # chunks via base_tree (each chunk adds <=900 entries to the tree
+        # built so far, keeping every creation small).
+        label = d if d else "(root)"
+        tree_sha = None
+        CHUNK = 900
+        for start in range(0, len(entries), CHUNK):
+            chunk = entries[start:start + CHUNK]
+            payload = {"tree": chunk}
+            if tree_sha is not None:
+                payload["base_tree"] = tree_sha
+            print(f"[{repo}] tree {label}: "
+                  f"chunk {start // CHUNK + 1}/"
+                  f"{(len(entries) + CHUNK - 1) // CHUNK} "
+                  f"({len(chunk)} entries)", flush=True)
+            _, tree = api("POST", f"/repos/{OWNER_DST}/{repo}/git/trees",
+                          payload)
+            tree_sha = tree["sha"]
+        dir_tree_sha[d] = tree_sha
+        return tree_sha
+
+    for d in sorted(all_dirs, key=lambda x: (-x.count("/"), x == "", x)):
+        build_dir(d)
+    tree_sha = dir_tree_sha[""]
+    print(f"[{repo}] tree: {tree_sha[:12]} "
+          f"({len(all_dirs)} directory trees)", flush=True)
 
     _, commit = api("POST", f"/repos/{OWNER_DST}/{repo}/git/commits", {
         "message": f"Import from findsp/{repo}",
-        "tree": tree["sha"],
+        "tree": tree_sha,
         "parents": parent,
     })
     print(f"[{repo}] commit: {commit['sha'][:12]}", flush=True)
