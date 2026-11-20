@@ -188,17 +188,28 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
       .feat-track { display: flex; width: 100%; transition: transform .7s cubic-bezier(.45,.02,.3,1); }
       .feat-slide {
         flex: 0 0 100%; display: block; text-decoration: none; color: #ffffff;
-        padding: 18px 20px; min-height: 110px;
+        padding: 18px 20px; min-height: 170px; position: relative;
+        background-size: cover; background-position: center;
       }
       .feat-slide:hover { text-decoration: none; }
-      .feat-dev { background: linear-gradient(100deg, #0b3d66 0%, #0e6b8a 55%, #12a5a0 100%); }
-      .feat-art { background: linear-gradient(100deg, #3b1163 0%, #7a1e8f 55%, #c22b7a 100%); }
-      .feat-prod { background: linear-gradient(100deg, #4a2c00 0%, #8a5a00 55%, #c98a1b 100%); }
-      .feat-title {
-        display: block; font-family: "Rajdhani", sans-serif; font-size: 30px; font-weight: 700;
-        letter-spacing: 2px; text-transform: uppercase; line-height: 1.1; color: #ffffff;
+      .feat-slide::before {
+        content: ""; position: absolute; inset: 0;
+        background: linear-gradient(180deg, rgba(0,0,0,.30) 0%, rgba(0,0,0,.62) 100%);
       }
-      .feat-sub { display: block; margin-top: 4px; font-size: 14px; color: rgba(255,255,255,.85); }
+      .feat-dev { background-image: url("assets/banners/feat-developers.webp"); }
+      .feat-art { background-image: url("assets/banners/feat-artists.webp"); }
+      .feat-prod { background-image: url("assets/banners/feat-product.webp"); }
+      .feat-title {
+        display: block; position: relative; z-index: 1;
+        font-family: "Rajdhani", sans-serif; font-size: 30px; font-weight: 700;
+        letter-spacing: 2px; text-transform: uppercase; line-height: 1.1; color: #ffffff;
+        text-shadow: 0 2px 8px rgba(0,0,0,.8);
+      }
+      .feat-sub {
+        display: block; position: relative; z-index: 1;
+        margin-top: 4px; font-size: 14px; color: rgba(255,255,255,.9);
+        text-shadow: 0 1px 6px rgba(0,0,0,.8);
+      }
       .feat-controls { display: flex; align-items: center; justify-content: center; gap: 10px; padding: 8px 0 0; }
       .feat-arrow {
         background: transparent; border: 1px solid var(--border-soft); color: var(--text);
