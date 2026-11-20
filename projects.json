@@ -736,22 +736,6 @@
     "feed": "femifleming/sleepcousonique"
   },
   {
-    "name": "davidian-treble-booster-30",
-    "title": "davidian-treble-booster-30",
-    "full_name": "evadavevadave/davidian-treble-booster-30",
-    "description": "Davidian Treble Booster 30: circuit model of a 1960-61 three-channel 30 W valve amplifier with vibrato. LV2, VST3 and AU for Windows, macOS and Linux. GPL-3.0.",
-    "excerpt": "Davidian Treble Booster 30: circuit model of a 1960-61 three-channel 30 W valve amplifier with vibrato. LV2, VST3 and AU for Windows, macOS and Linux. GPL-3.0.",
-    "url": "https://github.com/evadavevadave/davidian-treble-booster-30",
-    "repo": "evadavevadave/davidian-treble-booster-30",
-    "source": "evadavevadave/davidian-treble-booster-30",
-    "date": "2026-11-12",
-    "category": "Plugins",
-    "origin": "Community",
-    "image": "https://raw.githubusercontent.com/evadavevadave/davidian-treble-booster-30/main/docs/gui.png",
-    "image_credit": "evadavevadave/davidian-treble-booster-30 \u00b7 own screenshot",
-    "feed": "evadavevadave/davidian-treble-booster-30"
-  },
-  {
     "name": "PluginRack",
     "title": "PluginRack",
     "full_name": "PixelAxolotl/PluginRack",
@@ -912,22 +896,6 @@
     "feed": "Bongorian/yadokari"
   },
   {
-    "name": "noiseforge",
-    "title": "noiseforge",
-    "full_name": "Hanamauer/noiseforge",
-    "description": "Noise instrument for VST3 - two noise engines, random wavetable oscillator, 6-slot modulation matrix, printed white-ink panel.",
-    "excerpt": "Noise instrument for VST3 - two noise engines, random wavetable oscillator, 6-slot modulation matrix, printed white-ink panel.",
-    "url": "https://github.com/Hanamauer/noiseforge",
-    "repo": "Hanamauer/noiseforge",
-    "source": "Hanamauer/noiseforge",
-    "date": "2026-11-09",
-    "category": "Synthesizers",
-    "origin": "Community",
-    "image": "https://raw.githubusercontent.com/Hanamauer/noiseforge/main/docs/screenshot.jpg",
-    "image_credit": "Hanamauer/noiseforge \u00b7 own screenshot",
-    "feed": "Hanamauer/noiseforge"
-  },
-  {
     "name": "davidian-humble-overdraft",
     "title": "davidian-humble-overdraft",
     "full_name": "evadavevadave/davidian-humble-overdraft",
@@ -942,22 +910,6 @@
     "image": "https://raw.githubusercontent.com/evadavevadave/davidian-humble-overdraft/main/docs/gui.png",
     "image_credit": "evadavevadave/davidian-humble-overdraft \u00b7 own screenshot",
     "feed": "evadavevadave/davidian-humble-overdraft"
-  },
-  {
-    "name": "davidian-duo-57",
-    "title": "davidian-duo-57",
-    "full_name": "evadavevadave/davidian-duo-57",
-    "description": "Davidian Duo '57: tweed 2x12 combo valve amp LV2 plugin with native GUI. GPL-3.0-or-later. Made with generative AI (see README).",
-    "excerpt": "Davidian Duo '57: tweed 2x12 combo valve amp LV2 plugin with native GUI. GPL-3.0-or-later. Made with generative AI (see README).",
-    "url": "https://github.com/evadavevadave/davidian-duo-57",
-    "repo": "evadavevadave/davidian-duo-57",
-    "source": "evadavevadave/davidian-duo-57",
-    "date": "2026-11-08",
-    "category": "Plugins",
-    "origin": "Community",
-    "image": "https://raw.githubusercontent.com/evadavevadave/davidian-duo-57/main/docs/gui.png",
-    "image_credit": "evadavevadave/davidian-duo-57 \u00b7 own screenshot",
-    "feed": "evadavevadave/davidian-duo-57"
   },
   {
     "name": "MAZZFLATOR",
@@ -1118,22 +1070,6 @@
     "image": "",
     "image_credit": "",
     "feed": "sloppyjoo/freeplay"
-  },
-  {
-    "name": "cab-ir-generator",
-    "title": "cab-ir-generator",
-    "full_name": "darwinscat/cab-ir-generator",
-    "description": "Orbit Bass Cab Builder and Orbit Guitar Cab Builder: free, open-source cabinet IRs synthesized from a physical model. Pick a box, its back and two mics, hear and see the response, download the IR. VST3 \u00b7 AU \u00b7 CLAP \u00b7 Standalone for Windows, macOS & Linux, and in the browser. Felitronics by Darwin's Cat.",
-    "excerpt": "Orbit Bass Cab Builder and Orbit Guitar Cab Builder: free, open-source cabinet IRs synthesized from a physical model. Pick a box, its back and two mics, hear and see the response, download the IR. VST3 \u00b7 AU \u00b7 CLAP \u00b7 Standalone for Windows, macOS & Linux, and in the browser. Felitronics by Darwin's Cat.",
-    "url": "https://github.com/darwinscat/cab-ir-generator",
-    "repo": "darwinscat/cab-ir-generator",
-    "source": "darwinscat/cab-ir-generator",
-    "date": "2026-11-05",
-    "category": "Plugins",
-    "origin": "Community",
-    "image": "",
-    "image_credit": "",
-    "feed": "darwinscat/cab-ir-generator"
   },
   {
     "name": "headless-plugin-host",
@@ -1344,22 +1280,6 @@
     "feed": "Beatsex/throwdelay"
   },
   {
-    "name": "Echoes",
-    "title": "Echoes",
-    "full_name": "ManuthMethnidu/Echoes",
-    "description": "Clean, ad-free, open-source music streaming player with 32-band Web Audio DSP, real-time cross-device sync, lyrics, and offline playback.",
-    "excerpt": "Clean, ad-free, open-source music streaming player with 32-band Web Audio DSP, real-time cross-device sync, lyrics, and offline playback.",
-    "url": "https://github.com/ManuthMethnidu/Echoes",
-    "repo": "ManuthMethnidu/Echoes",
-    "source": "ManuthMethnidu/Echoes",
-    "date": "2026-11-02",
-    "category": "DSP",
-    "origin": "Community",
-    "image": "https://raw.githubusercontent.com/ManuthMethnidu/Echoes/main/images/echoes_logo.png",
-    "image_credit": "ManuthMethnidu/Echoes \u00b7 own screenshot",
-    "feed": "ManuthMethnidu/Echoes"
-  },
-  {
     "name": "Chan-Sampler",
     "title": "Chan-Sampler",
     "full_name": "MaymiPR/Chan-Sampler",
@@ -1438,22 +1358,6 @@
     "image": "",
     "image_credit": "",
     "feed": "cookhenri-art/ofad-golem-groovebox"
-  },
-  {
-    "name": "kicad-front-panel-generator",
-    "title": "kicad-front-panel-generator",
-    "full_name": "lonesoulsurfer/kicad-front-panel-generator",
-    "description": "Make a front panel PCB from your KiCad PCB: cutouts, labels, artwork and gerbers. Also Eurorack panels.",
-    "excerpt": "Make a front panel PCB from your KiCad PCB: cutouts, labels, artwork and gerbers. Also Eurorack panels.",
-    "url": "https://github.com/lonesoulsurfer/kicad-front-panel-generator",
-    "repo": "lonesoulsurfer/kicad-front-panel-generator",
-    "source": "lonesoulsurfer/kicad-front-panel-generator",
-    "date": "2026-11-01",
-    "category": "Plugins",
-    "origin": "Community",
-    "image": "",
-    "image_credit": "",
-    "feed": "lonesoulsurfer/kicad-front-panel-generator"
   },
   {
     "name": "Sonora",
@@ -1632,22 +1536,6 @@
     "feed": "sorrelfox/reverblabr"
   },
   {
-    "name": "apf",
-    "title": "apf",
-    "full_name": "mihasm/apf",
-    "description": "APF: audio plugin framework. Write the sound in Rust, draw the interface in HTML. CLAP, VST3, AU, standalone. MIT.",
-    "excerpt": "APF: audio plugin framework. Write the sound in Rust, draw the interface in HTML. CLAP, VST3, AU, standalone. MIT.",
-    "url": "https://github.com/mihasm/apf",
-    "repo": "mihasm/apf",
-    "source": "mihasm/apf",
-    "date": "2026-10-28",
-    "category": "Plugins",
-    "origin": "Community",
-    "image": "",
-    "image_credit": "",
-    "feed": "mihasm/apf"
-  },
-  {
     "name": "fm1-nachtfahrt",
     "title": "fm1-nachtfahrt",
     "full_name": "FartyPants/fm1-nachtfahrt",
@@ -1694,22 +1582,6 @@
     "image": "",
     "image_credit": "",
     "feed": "mylnzon58/t2-macbook-pro-16-1-dsp-ubuntu-24.04"
-  },
-  {
-    "name": "score-backing-track",
-    "title": "score-backing-track",
-    "full_name": "AlltAWD/score-backing-track",
-    "description": "VST3 plugin for MuseScore Studio 4: play the recording you're transcribing in sync with score playback (Linux, Windows)",
-    "excerpt": "VST3 plugin for MuseScore Studio 4: play the recording you're transcribing in sync with score playback (Linux, Windows)",
-    "url": "https://github.com/AlltAWD/score-backing-track",
-    "repo": "AlltAWD/score-backing-track",
-    "source": "AlltAWD/score-backing-track",
-    "date": "2026-10-27",
-    "category": "Plugins",
-    "origin": "Community",
-    "image": "https://raw.githubusercontent.com/AlltAWD/score-backing-track/main/docs/editor.png",
-    "image_credit": "AlltAWD/score-backing-track \u00b7 own screenshot",
-    "feed": "AlltAWD/score-backing-track"
   },
   {
     "name": "AudioPluginSuite",
@@ -2094,38 +1966,6 @@
     "image": "",
     "image_credit": "",
     "feed": "chmess/fm1-keyboard-academy"
-  },
-  {
-    "name": "advanced_timegrapher",
-    "title": "advanced_timegrapher",
-    "full_name": "SPQR14/advanced_timegrapher",
-    "description": "High-precision acoustic timegrapher and mechanical watch escapement analyzer powered by real-time DSP and Machine Learning readiness. Cross-platform (macOS/Linux/Windows) with a decoupled Python core.",
-    "excerpt": "High-precision acoustic timegrapher and mechanical watch escapement analyzer powered by real-time DSP and Machine Learning readiness. Cross-platform (macOS/Linux/Windows) with a decoupled Python core.",
-    "url": "https://github.com/SPQR14/advanced_timegrapher",
-    "repo": "SPQR14/advanced_timegrapher",
-    "source": "SPQR14/advanced_timegrapher",
-    "date": "2026-10-23",
-    "category": "DSP",
-    "origin": "Community",
-    "image": "",
-    "image_credit": "",
-    "feed": "SPQR14/advanced_timegrapher"
-  },
-  {
-    "name": "bandscribe",
-    "title": "bandscribe",
-    "full_name": "skipzx-lab/bandscribe",
-    "description": "Turn any song (Suno, Udio, anything) into parts you can play: chord sheet with timed lyrics, guitar & bass tabs in any tuning or capo, drum tab, piano roll with a live play-along keyboard, vocal melody, guitar/ukulele/piano chord diagrams and MIDI. Follows the song as it plays. Runs locally on NVIDIA, AMD, Intel Arc, Apple or CPU.",
-    "excerpt": "Turn any song (Suno, Udio, anything) into parts you can play: chord sheet with timed lyrics, guitar & bass tabs in any tuning or capo, drum tab, piano roll with a live play-along keyboard, vocal melody, guitar/ukulele/piano chord diagrams and MIDI. Follows the song as it plays. Runs locally on NVIDIA, AMD, Intel Arc, Apple or CPU.",
-    "url": "https://github.com/skipzx-lab/bandscribe",
-    "repo": "skipzx-lab/bandscribe",
-    "source": "skipzx-lab/bandscribe",
-    "date": "2026-10-23",
-    "category": "Tools",
-    "origin": "Community",
-    "image": "",
-    "image_credit": "",
-    "feed": "skipzx-lab/bandscribe"
   },
   {
     "name": "PocketEuclidean",
