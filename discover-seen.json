@@ -1,4 +1,8 @@
 {
+  "AdityaDevLabs/fl-studio-license-generator": {
+    "date": "2026-11-20",
+    "decision": "rejected: no audio keyword in name/description"
+  },
   "Aiseam/RM38": {
     "date": "2026-11-19",
     "decision": "rejected: no audio keyword in name/description"
@@ -55,6 +59,10 @@
     "date": "2026-11-19",
     "decision": "added"
   },
+  "FIN-DSP/.github": {
+    "date": "2026-11-20",
+    "decision": "added"
+  },
   "FIN-DSP/fin-dsp.github.io": {
     "date": "2026-11-19",
     "decision": "rejected: the FIN-DSP site repo itself, not a project"
@@ -95,6 +103,10 @@
     "date": "2026-11-19",
     "decision": "added"
   },
+  "Hanamauer/noiseforge": {
+    "date": "2026-11-20",
+    "decision": "added"
+  },
   "IAMSB-0/VBAudioDSPDropoutFix": {
     "date": "2026-11-19",
     "decision": "added"
@@ -125,6 +137,14 @@
   },
   "MacawMeditate17/neural-amp-modeler": {
     "date": "2026-11-19",
+    "decision": "added"
+  },
+  "ManuthMethnidu/Echoes": {
+    "date": "2026-11-20",
+    "decision": "added"
+  },
+  "Mapelisin/Harmonia": {
+    "date": "2026-11-20",
     "decision": "added"
   },
   "MarcGoudy/guru-600": {
@@ -177,6 +197,14 @@
   },
   "RenasDemirbas/SoundBit": {
     "date": "2026-11-19",
+    "decision": "added"
+  },
+  "RonovaMain/Aethel": {
+    "date": "2026-11-20",
+    "decision": "rejected: tracker topic, not a music tracker"
+  },
+  "SPQR14/advanced_timegrapher": {
+    "date": "2026-11-20",
     "decision": "added"
   },
   "Sadykhzadeh/goby": {
@@ -315,6 +343,10 @@
     "date": "2026-11-19",
     "decision": "added"
   },
+  "dskmusic/genesix-by-dsk": {
+    "date": "2026-11-20",
+    "decision": "added"
+  },
   "evadavevadave/davidian-bi-lumen": {
     "date": "2026-11-19",
     "decision": "added"
@@ -323,12 +355,20 @@
     "date": "2026-11-19",
     "decision": "added"
   },
+  "evadavevadave/davidian-duo-57": {
+    "date": "2026-11-20",
+    "decision": "added"
+  },
   "evadavevadave/davidian-humble-overdraft": {
     "date": "2026-11-19",
     "decision": "added"
   },
   "evadavevadave/davidian-seventy-three": {
     "date": "2026-11-19",
+    "decision": "added"
+  },
+  "evadavevadave/davidian-treble-booster-30": {
+    "date": "2026-11-20",
     "decision": "added"
   },
   "fazilirak/Music": {
@@ -341,6 +381,10 @@
   },
   "fenderberg/fm1-sy1": {
     "date": "2026-11-19",
+    "decision": "added"
+  },
+  "hjkcvn/adobe-audition-velraven": {
+    "date": "2026-11-20",
     "decision": "added"
   },
   "hudakrrr/Toneical": {
@@ -430,6 +474,10 @@
   "lm7644/free-llm-tracker": {
     "date": "2026-11-19",
     "decision": "rejected: LLM-channel tracker, not a music tracker"
+  },
+  "lonesoulsurfer/kicad-front-panel-generator": {
+    "date": "2026-11-20",
+    "decision": "added"
   },
   "lordillusions/sonora": {
     "date": "2026-11-19",
@@ -547,6 +595,10 @@
     "date": "2026-11-19",
     "decision": "added"
   },
+  "skipzx-lab/bandscribe": {
+    "date": "2026-11-20",
+    "decision": "added"
+  },
   "sloppyjoo/freeplay": {
     "date": "2026-11-19",
     "decision": "added"
@@ -593,6 +645,10 @@
   },
   "uilianks/chirp": {
     "date": "2026-11-19",
+    "decision": "added"
+  },
+  "wepingsoffical/ableton-live-belvora-music-studio": {
+    "date": "2026-11-20",
     "decision": "added"
   },
   "willren5/FAD_Engine": {

@@ -1,5 +1,37 @@
 [
   {
+    "name": "adobe-audition-velraven",
+    "title": "adobe-audition-velraven",
+    "full_name": "hjkcvn/adobe-audition-velraven",
+    "description": "Adobe Audition Velraven orchestrates a visual audio editing workflow.",
+    "excerpt": "Adobe Audition Velraven orchestrates a visual audio editing workflow.",
+    "url": "https://github.com/hjkcvn/adobe-audition-velraven",
+    "repo": "hjkcvn/adobe-audition-velraven",
+    "source": "hjkcvn/adobe-audition-velraven",
+    "date": "2026-11-19",
+    "category": "Plugins",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "hjkcvn/adobe-audition-velraven"
+  },
+  {
+    "name": "ableton-live-belvora-music-studio",
+    "title": "ableton-live-belvora-music-studio",
+    "full_name": "wepingsoffical/ableton-live-belvora-music-studio",
+    "description": "Interactive music production workflow for Ableton Live, built for Belvora Studio sessions.",
+    "excerpt": "Interactive music production workflow for Ableton Live, built for Belvora Studio sessions.",
+    "url": "https://github.com/wepingsoffical/ableton-live-belvora-music-studio",
+    "repo": "wepingsoffical/ableton-live-belvora-music-studio",
+    "source": "wepingsoffical/ableton-live-belvora-music-studio",
+    "date": "2026-11-19",
+    "category": "Tools",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "wepingsoffical/ableton-live-belvora-music-studio"
+  },
+  {
     "name": "tutka",
     "title": "tutka",
     "description": "Tutka is a free (as in freedom) tracker style MIDI sequencer for GNU/Linux and Mac OS X",
@@ -480,6 +512,22 @@
     "feed": "rncbc/qjackctl"
   },
   {
+    "name": "genesix-by-dsk",
+    "title": "genesix-by-dsk",
+    "full_name": "dskmusic/genesix-by-dsk",
+    "description": "Genesix by DSK - advanced freeware synthesizer (VST3/Standalone) for Windows & Linux with a rule-based smart preset generator",
+    "excerpt": "Genesix by DSK - advanced freeware synthesizer (VST3/Standalone) for Windows & Linux with a rule-based smart preset generator",
+    "url": "https://github.com/dskmusic/genesix-by-dsk",
+    "repo": "dskmusic/genesix-by-dsk",
+    "source": "dskmusic/genesix-by-dsk",
+    "date": "2026-11-18",
+    "category": "Synthesizers",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "dskmusic/genesix-by-dsk"
+  },
+  {
     "name": "procedural-machine-audio",
     "title": "procedural-machine-audio",
     "full_name": "TENMALOG/procedural-machine-audio",
@@ -736,6 +784,22 @@
     "feed": "femifleming/sleepcousonique"
   },
   {
+    "name": "davidian-treble-booster-30",
+    "title": "davidian-treble-booster-30",
+    "full_name": "evadavevadave/davidian-treble-booster-30",
+    "description": "Davidian Treble Booster 30: circuit model of a 1960-61 three-channel 30 W valve amplifier with vibrato. LV2, VST3 and AU for Windows, macOS and Linux. GPL-3.0.",
+    "excerpt": "Davidian Treble Booster 30: circuit model of a 1960-61 three-channel 30 W valve amplifier with vibrato. LV2, VST3 and AU for Windows, macOS and Linux. GPL-3.0.",
+    "url": "https://github.com/evadavevadave/davidian-treble-booster-30",
+    "repo": "evadavevadave/davidian-treble-booster-30",
+    "source": "evadavevadave/davidian-treble-booster-30",
+    "date": "2026-11-12",
+    "category": "Plugins",
+    "origin": "Community",
+    "image": "https://raw.githubusercontent.com/evadavevadave/davidian-treble-booster-30/main/docs/gui.png",
+    "image_credit": "evadavevadave/davidian-treble-booster-30 \u00b7 own screenshot",
+    "feed": "evadavevadave/davidian-treble-booster-30"
+  },
+  {
     "name": "PluginRack",
     "title": "PluginRack",
     "full_name": "PixelAxolotl/PluginRack",
@@ -896,6 +960,22 @@
     "feed": "Bongorian/yadokari"
   },
   {
+    "name": "noiseforge",
+    "title": "noiseforge",
+    "full_name": "Hanamauer/noiseforge",
+    "description": "Noise instrument for VST3 - two noise engines, random wavetable oscillator, 6-slot modulation matrix, printed white-ink panel.",
+    "excerpt": "Noise instrument for VST3 - two noise engines, random wavetable oscillator, 6-slot modulation matrix, printed white-ink panel.",
+    "url": "https://github.com/Hanamauer/noiseforge",
+    "repo": "Hanamauer/noiseforge",
+    "source": "Hanamauer/noiseforge",
+    "date": "2026-11-09",
+    "category": "Synthesizers",
+    "origin": "Community",
+    "image": "https://raw.githubusercontent.com/Hanamauer/noiseforge/main/docs/screenshot.jpg",
+    "image_credit": "Hanamauer/noiseforge \u00b7 own screenshot",
+    "feed": "Hanamauer/noiseforge"
+  },
+  {
     "name": "davidian-humble-overdraft",
     "title": "davidian-humble-overdraft",
     "full_name": "evadavevadave/davidian-humble-overdraft",
@@ -910,6 +990,38 @@
     "image": "https://raw.githubusercontent.com/evadavevadave/davidian-humble-overdraft/main/docs/gui.png",
     "image_credit": "evadavevadave/davidian-humble-overdraft \u00b7 own screenshot",
     "feed": "evadavevadave/davidian-humble-overdraft"
+  },
+  {
+    "name": "davidian-duo-57",
+    "title": "davidian-duo-57",
+    "full_name": "evadavevadave/davidian-duo-57",
+    "description": "Davidian Duo '57: tweed 2x12 combo valve amp LV2 plugin with native GUI. GPL-3.0-or-later. Made with generative AI (see README).",
+    "excerpt": "Davidian Duo '57: tweed 2x12 combo valve amp LV2 plugin with native GUI. GPL-3.0-or-later. Made with generative AI (see README).",
+    "url": "https://github.com/evadavevadave/davidian-duo-57",
+    "repo": "evadavevadave/davidian-duo-57",
+    "source": "evadavevadave/davidian-duo-57",
+    "date": "2026-11-08",
+    "category": "Plugins",
+    "origin": "Community",
+    "image": "https://raw.githubusercontent.com/evadavevadave/davidian-duo-57/main/docs/gui.png",
+    "image_credit": "evadavevadave/davidian-duo-57 \u00b7 own screenshot",
+    "feed": "evadavevadave/davidian-duo-57"
+  },
+  {
+    "name": "Harmonia",
+    "title": "Harmonia",
+    "full_name": "Mapelisin/Harmonia",
+    "description": "Free open-source DAW for Windows: FL-style piano roll, step sequencer, sampler, mixer, audio recording, crash-proof VST3 hosting. Local AI tools, works offline, no subscription.",
+    "excerpt": "Free open-source DAW for Windows: FL-style piano roll, step sequencer, sampler, mixer, audio recording, crash-proof VST3 hosting. Local AI tools, works offline, no subscription.",
+    "url": "https://github.com/Mapelisin/Harmonia",
+    "repo": "Mapelisin/Harmonia",
+    "source": "Mapelisin/Harmonia",
+    "date": "2026-11-08",
+    "category": "DAWs",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "Mapelisin/Harmonia"
   },
   {
     "name": "MAZZFLATOR",
@@ -1280,6 +1392,22 @@
     "feed": "Beatsex/throwdelay"
   },
   {
+    "name": "Echoes",
+    "title": "Echoes",
+    "full_name": "ManuthMethnidu/Echoes",
+    "description": "Clean, ad-free, open-source music streaming player with 32-band Web Audio DSP, real-time cross-device sync, lyrics, and offline playback.",
+    "excerpt": "Clean, ad-free, open-source music streaming player with 32-band Web Audio DSP, real-time cross-device sync, lyrics, and offline playback.",
+    "url": "https://github.com/ManuthMethnidu/Echoes",
+    "repo": "ManuthMethnidu/Echoes",
+    "source": "ManuthMethnidu/Echoes",
+    "date": "2026-11-02",
+    "category": "DSP",
+    "origin": "Community",
+    "image": "https://raw.githubusercontent.com/ManuthMethnidu/Echoes/main/images/echoes_logo.png",
+    "image_credit": "ManuthMethnidu/Echoes \u00b7 own screenshot",
+    "feed": "ManuthMethnidu/Echoes"
+  },
+  {
     "name": "Chan-Sampler",
     "title": "Chan-Sampler",
     "full_name": "MaymiPR/Chan-Sampler",
@@ -1358,6 +1486,22 @@
     "image": "",
     "image_credit": "",
     "feed": "cookhenri-art/ofad-golem-groovebox"
+  },
+  {
+    "name": "kicad-front-panel-generator",
+    "title": "kicad-front-panel-generator",
+    "full_name": "lonesoulsurfer/kicad-front-panel-generator",
+    "description": "Make a front panel PCB from your KiCad PCB: cutouts, labels, artwork and gerbers. Also Eurorack panels.",
+    "excerpt": "Make a front panel PCB from your KiCad PCB: cutouts, labels, artwork and gerbers. Also Eurorack panels.",
+    "url": "https://github.com/lonesoulsurfer/kicad-front-panel-generator",
+    "repo": "lonesoulsurfer/kicad-front-panel-generator",
+    "source": "lonesoulsurfer/kicad-front-panel-generator",
+    "date": "2026-11-01",
+    "category": "Plugins",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "lonesoulsurfer/kicad-front-panel-generator"
   },
   {
     "name": "Sonora",
@@ -1968,6 +2112,38 @@
     "feed": "chmess/fm1-keyboard-academy"
   },
   {
+    "name": "advanced_timegrapher",
+    "title": "advanced_timegrapher",
+    "full_name": "SPQR14/advanced_timegrapher",
+    "description": "High-precision acoustic timegrapher and mechanical watch escapement analyzer powered by real-time DSP and Machine Learning readiness. Cross-platform (macOS/Linux/Windows) with a decoupled Python core.",
+    "excerpt": "High-precision acoustic timegrapher and mechanical watch escapement analyzer powered by real-time DSP and Machine Learning readiness. Cross-platform (macOS/Linux/Windows) with a decoupled Python core.",
+    "url": "https://github.com/SPQR14/advanced_timegrapher",
+    "repo": "SPQR14/advanced_timegrapher",
+    "source": "SPQR14/advanced_timegrapher",
+    "date": "2026-10-23",
+    "category": "DSP",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "SPQR14/advanced_timegrapher"
+  },
+  {
+    "name": "bandscribe",
+    "title": "bandscribe",
+    "full_name": "skipzx-lab/bandscribe",
+    "description": "Turn any song (Suno, Udio, anything) into parts you can play: chord sheet with timed lyrics, guitar & bass tabs in any tuning or capo, drum tab, piano roll with a live play-along keyboard, vocal melody, guitar/ukulele/piano chord diagrams and MIDI. Follows the song as it plays. Runs locally on NVIDIA, AMD, Intel Arc, Apple or CPU.",
+    "excerpt": "Turn any song (Suno, Udio, anything) into parts you can play: chord sheet with timed lyrics, guitar & bass tabs in any tuning or capo, drum tab, piano roll with a live play-along keyboard, vocal melody, guitar/ukulele/piano chord diagrams and MIDI. Follows the song as it plays. Runs locally on NVIDIA, AMD, Intel Arc, Apple or CPU.",
+    "url": "https://github.com/skipzx-lab/bandscribe",
+    "repo": "skipzx-lab/bandscribe",
+    "source": "skipzx-lab/bandscribe",
+    "date": "2026-10-23",
+    "category": "Tools",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "skipzx-lab/bandscribe"
+  },
+  {
     "name": "PocketEuclidean",
     "title": "PocketEuclidean",
     "full_name": "ijnekenamay/PocketEuclidean",
@@ -2222,5 +2398,21 @@
     "image": "",
     "image_credit": "",
     "feed": "aguirreSL/iceberg-cpp"
+  },
+  {
+    "name": ".github",
+    "title": ".github",
+    "full_name": "FIN-DSP/.github",
+    "description": "FIN-DSP organization profile.",
+    "excerpt": "FIN-DSP organization profile.",
+    "url": "https://github.com/FIN-DSP/.github",
+    "repo": "FIN-DSP/.github",
+    "source": "FIN-DSP",
+    "date": "2026-08-17",
+    "category": "DSP",
+    "origin": "FIN-DSP",
+    "image": "",
+    "image_credit": "",
+    "feed": "FIN-DSP"
   }
 ]
