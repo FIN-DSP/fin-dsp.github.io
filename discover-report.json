@@ -7,7 +7,7 @@
       "topic": "vst",
       "status": 200,
       "count": 20,
-      "total": 50
+      "total": 51
     },
     {
       "topic": "audio-plugin",
@@ -19,38 +19,62 @@
       "topic": "synthesizer",
       "status": 200,
       "count": 20,
-      "total": 321
+      "total": 325
     },
     {
       "topic": "dsp",
       "status": 200,
       "count": 20,
-      "total": 480
+      "total": 481
     },
     {
       "topic": "daw",
       "status": 200,
       "count": 20,
-      "total": 230
+      "total": 232
     },
     {
       "topic": "audio-engine",
       "status": 200,
       "count": 10,
       "total": 10
+    },
+    {
+      "topic": "midi",
+      "status": 200,
+      "count": 20,
+      "total": 778
+    },
+    {
+      "topic": "tracker",
+      "status": 200,
+      "count": 20,
+      "total": 147
+    },
+    {
+      "topic": "lv2",
+      "status": 200,
+      "count": 20,
+      "total": 57
+    },
+    {
+      "topic": "juce",
+      "status": 200,
+      "count": 20,
+      "total": 235
     }
   ],
-  "candidates": 110,
-  "added": 4,
+  "candidates": 190,
+  "added": 3,
   "added_names": [
-    "silflemming5-jpg/fl-studio-tabarin-beat-lab",
-    "AnClark/ClassicReverb-RE01",
-    "Goophammer/xfi-dsp-linux",
-    "InletGoldsmith/decent-sampler-instrument-library"
+    "hexamorphical/hypercut",
+    "inlxs/tosc",
+    "darwinscat/cab-ir-generator"
   ],
   "skipped": {
-    "already known": 106
+    "already known": 186,
+    "tracker topic, not a music tracker": 1
   },
-  "rate_limited": true,
-  "rate_limit_note": "GitHub API rate limit spent (reset epoch 1795221303): {\"message\":\"API rate limit exceeded for 52.173.219.145. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)\",\"documentation_url\":\"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting\"}\n"
+  "rate_limited": false,
+  "rate_limit_note": ""
 }

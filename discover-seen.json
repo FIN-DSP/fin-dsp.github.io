@@ -291,6 +291,10 @@
     "date": "2026-11-19",
     "decision": "rejected: not a software project (standalone bundle)"
   },
+  "barshasantak/backpack": {
+    "date": "2026-11-21",
+    "decision": "rejected: tracker topic, not a music tracker"
+  },
   "bjoernbojahr/Maermel": {
     "date": "2026-11-19",
     "decision": "added"
@@ -341,6 +345,10 @@
   },
   "d-studio-labs/d-studio": {
     "date": "2026-11-19",
+    "decision": "added"
+  },
+  "darwinscat/cab-ir-generator": {
+    "date": "2026-11-21",
     "decision": "added"
   },
   "deamonSLINKY/PERF-1": {
@@ -395,6 +403,10 @@
     "date": "2026-11-19",
     "decision": "added"
   },
+  "hexamorphical/hypercut": {
+    "date": "2026-11-21",
+    "decision": "added"
+  },
   "hjkcvn/adobe-audition-velraven": {
     "date": "2026-11-20",
     "decision": "added"
@@ -418,6 +430,10 @@
   "ilyasmaoe/ghast-terminal-multiplexer": {
     "date": "2026-11-19",
     "decision": "rejected: no audio keyword in name/description"
+  },
+  "inlxs/tosc": {
+    "date": "2026-11-21",
+    "decision": "added"
   },
   "innermost47/grm-guitar-vst": {
     "date": "2026-11-19",

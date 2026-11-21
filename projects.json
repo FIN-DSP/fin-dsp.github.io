@@ -544,6 +544,22 @@
     "feed": "rncbc/qjackctl"
   },
   {
+    "name": "hypercut",
+    "title": "hypercut",
+    "full_name": "hexamorphical/hypercut",
+    "description": "Real-time audio slicer, spectral pitchmapping and trance gate running inside a complex sequencer (VST3 / CLAP / LV2 / VST2 / JACK).",
+    "excerpt": "Real-time audio slicer, spectral pitchmapping and trance gate running inside a complex sequencer (VST3 / CLAP / LV2 / VST2 / JACK).",
+    "url": "https://github.com/hexamorphical/hypercut",
+    "repo": "hexamorphical/hypercut",
+    "source": "hexamorphical/hypercut",
+    "date": "2026-11-18",
+    "category": "Plugins",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "hexamorphical/hypercut"
+  },
+  {
     "name": "genesix-by-dsk",
     "title": "genesix-by-dsk",
     "full_name": "dskmusic/genesix-by-dsk",
@@ -862,6 +878,22 @@
     "image": "",
     "image_credit": "",
     "feed": "Ichi-Studio/Weftone"
+  },
+  {
+    "name": "tosc",
+    "title": "tosc",
+    "full_name": "inlxs/tosc",
+    "description": "Tosc, the terrain oscillator: a wavetable synth that plays real places. Pick anywhere on Earth and its terrain becomes the sound. Standalone, VST3, CLAP, AU. An Okllo instrument.",
+    "excerpt": "Tosc, the terrain oscillator: a wavetable synth that plays real places. Pick anywhere on Earth and its terrain becomes the sound. Standalone, VST3, CLAP, AU. An Okllo instrument.",
+    "url": "https://github.com/inlxs/tosc",
+    "repo": "inlxs/tosc",
+    "source": "inlxs/tosc",
+    "date": "2026-11-11",
+    "category": "Synthesizers",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "inlxs/tosc"
   },
   {
     "name": "device",
@@ -1230,6 +1262,22 @@
     "image": "",
     "image_credit": "",
     "feed": "sloppyjoo/freeplay"
+  },
+  {
+    "name": "cab-ir-generator",
+    "title": "cab-ir-generator",
+    "full_name": "darwinscat/cab-ir-generator",
+    "description": "Orbit Bass Cab Builder and Orbit Guitar Cab Builder: free, open-source cabinet IRs synthesized from a physical model. Pick a box, its back and two mics, hear and see the response, download the IR. VST3 \u00b7 AU \u00b7 CLAP \u00b7 Standalone for Windows, macOS & Linux, and in the browser. Felitronics by Darwin's Cat.",
+    "excerpt": "Orbit Bass Cab Builder and Orbit Guitar Cab Builder: free, open-source cabinet IRs synthesized from a physical model. Pick a box, its back and two mics, hear and see the response, download the IR. VST3 \u00b7 AU \u00b7 CLAP \u00b7 Standalone for Windows, macOS & Linux, and in the browser. Felitronics by Darwin's Cat.",
+    "url": "https://github.com/darwinscat/cab-ir-generator",
+    "repo": "darwinscat/cab-ir-generator",
+    "source": "darwinscat/cab-ir-generator",
+    "date": "2026-11-05",
+    "category": "Plugins",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "darwinscat/cab-ir-generator"
   },
   {
     "name": "headless-plugin-host",
