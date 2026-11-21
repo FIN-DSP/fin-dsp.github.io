@@ -1,5 +1,37 @@
 [
   {
+    "name": "fl-studio-tabarin-beat-lab",
+    "title": "fl-studio-tabarin-beat-lab",
+    "full_name": "silflemming5-jpg/fl-studio-tabarin-beat-lab",
+    "description": "A focused workspace for building and shaping beats in FL Studio.",
+    "excerpt": "A focused workspace for building and shaping beats in FL Studio.",
+    "url": "https://github.com/silflemming5-jpg/fl-studio-tabarin-beat-lab",
+    "repo": "silflemming5-jpg/fl-studio-tabarin-beat-lab",
+    "source": "silflemming5-jpg/fl-studio-tabarin-beat-lab",
+    "date": "2026-11-20",
+    "category": "Plugins",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "silflemming5-jpg/fl-studio-tabarin-beat-lab"
+  },
+  {
+    "name": "ClassicReverb-RE01",
+    "title": "ClassicReverb-RE01",
+    "full_name": "AnClark/ClassicReverb-RE01",
+    "description": "Reversed engineering of Kjaerhus Audio Classic Reverb, aiming at recovering the original flavor",
+    "excerpt": "Reversed engineering of Kjaerhus Audio Classic Reverb, aiming at recovering the original flavor",
+    "url": "https://github.com/AnClark/ClassicReverb-RE01",
+    "repo": "AnClark/ClassicReverb-RE01",
+    "source": "AnClark/ClassicReverb-RE01",
+    "date": "2026-11-20",
+    "category": "Plugins",
+    "origin": "Community",
+    "image": "https://raw.githubusercontent.com/AnClark/ClassicReverb-RE01/develop/Screenshot.png",
+    "image_credit": "AnClark/ClassicReverb-RE01 \u00b7 own screenshot",
+    "feed": "AnClark/ClassicReverb-RE01"
+  },
+  {
     "name": "adobe-audition-velraven",
     "title": "adobe-audition-velraven",
     "full_name": "hjkcvn/adobe-audition-velraven",
@@ -1120,6 +1152,22 @@
     "feed": "ProjectFlowmar/project5pi-midi-for-claude"
   },
   {
+    "name": "xfi-dsp-linux",
+    "title": "xfi-dsp-linux",
+    "full_name": "Goophammer/xfi-dsp-linux",
+    "description": "Run the Sound Blaster X-Fi\u2019s own DSP on Linux: CMSS-3D headphone surround, Crystalizer, EQ, SVM, Bass Boost and more.",
+    "excerpt": "Run the Sound Blaster X-Fi\u2019s own DSP on Linux: CMSS-3D headphone surround, Crystalizer, EQ, SVM, Bass Boost and more.",
+    "url": "https://github.com/Goophammer/xfi-dsp-linux",
+    "repo": "Goophammer/xfi-dsp-linux",
+    "source": "Goophammer/xfi-dsp-linux",
+    "date": "2026-11-06",
+    "category": "DSP",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "Goophammer/xfi-dsp-linux"
+  },
+  {
     "name": "meteora-releases",
     "title": "meteora-releases",
     "full_name": "Grashopr-888/meteora-releases",
@@ -1614,6 +1662,22 @@
     "image": "",
     "image_credit": "",
     "feed": "lgarraza/KeyStepProStudio"
+  },
+  {
+    "name": "decent-sampler-instrument-library",
+    "title": "decent-sampler-instrument-library",
+    "full_name": "InletGoldsmith/decent-sampler-instrument-library",
+    "description": "Decent Sampler Instrument Library, an audio production utility designed to organize, play, and manage custom sample-based virtual instruments. It provides a seamless user experience to help musicians load acoustic presets, tweak audio parameters, and create custom soundscapes efficiently.",
+    "excerpt": "Decent Sampler Instrument Library, an audio production utility designed to organize, play, and manage custom sample-based virtual instruments. It provides a seamless user experience to help musicians load acoustic presets, tweak audio parameters, and create custom soundscapes efficiently.",
+    "url": "https://github.com/InletGoldsmith/decent-sampler-instrument-library",
+    "repo": "InletGoldsmith/decent-sampler-instrument-library",
+    "source": "InletGoldsmith/decent-sampler-instrument-library",
+    "date": "2026-10-29",
+    "category": "Plugins",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "InletGoldsmith/decent-sampler-instrument-library"
   },
   {
     "name": "highstead",

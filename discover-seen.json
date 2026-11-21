@@ -11,6 +11,10 @@
     "date": "2026-11-19",
     "decision": "added"
   },
+  "AnClark/ClassicReverb-RE01": {
+    "date": "2026-11-21",
+    "decision": "added"
+  },
   "Apolotary/controlanything": {
     "date": "2026-11-19",
     "decision": "rejected: no audio keyword in name/description"
@@ -87,6 +91,10 @@
     "date": "2026-11-19",
     "decision": "added"
   },
+  "Goophammer/xfi-dsp-linux": {
+    "date": "2026-11-21",
+    "decision": "added"
+  },
   "Grashopr-888/meteora-releases": {
     "date": "2026-11-19",
     "decision": "added"
@@ -113,6 +121,10 @@
   },
   "Ichi-Studio/Weftone": {
     "date": "2026-11-19",
+    "decision": "added"
+  },
+  "InletGoldsmith/decent-sampler-instrument-library": {
+    "date": "2026-11-21",
     "decision": "added"
   },
   "Innei/plainscore": {
@@ -590,6 +602,10 @@
   "shukrialiart-boop/reaper-daw": {
     "date": "2026-11-19",
     "decision": "rejected: commercial software repack (REAPER installer)"
+  },
+  "silflemming5-jpg/fl-studio-tabarin-beat-lab": {
+    "date": "2026-11-21",
+    "decision": "added"
   },
   "sjkim1127/Kymion": {
     "date": "2026-11-19",

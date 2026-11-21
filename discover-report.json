@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-20",
+  "generated_at": "2026-11-21",
   "window_days": 30,
-  "since": "2026-10-21",
+  "since": "2026-10-22",
   "queries": [
     {
       "topic": "vst",
       "status": 200,
       "count": 20,
-      "total": 51
+      "total": 50
     },
     {
       "topic": "audio-plugin",
       "status": 200,
       "count": 20,
-      "total": 276
+      "total": 282
     },
     {
       "topic": "synthesizer",
@@ -25,67 +25,32 @@
       "topic": "dsp",
       "status": 200,
       "count": 20,
-      "total": 499
+      "total": 480
     },
     {
       "topic": "daw",
       "status": 200,
       "count": 20,
-      "total": 240
+      "total": 230
     },
     {
       "topic": "audio-engine",
       "status": 200,
-      "count": 11,
-      "total": 11
-    },
-    {
-      "topic": "midi",
-      "status": 200,
-      "count": 20,
-      "total": 781
-    },
-    {
-      "topic": "tracker",
-      "status": 200,
-      "count": 20,
-      "total": 152
-    },
-    {
-      "topic": "lv2",
-      "status": 200,
-      "count": 20,
-      "total": 57
-    },
-    {
-      "topic": "juce",
-      "status": 200,
-      "count": 20,
-      "total": 238
+      "count": 10,
+      "total": 10
     }
   ],
-  "candidates": 191,
-  "added": 12,
+  "candidates": 110,
+  "added": 4,
   "added_names": [
-    "hjkcvn/adobe-audition-velraven",
-    "wepingsoffical/ableton-live-belvora-music-studio",
-    "dskmusic/genesix-by-dsk",
-    "evadavevadave/davidian-treble-booster-30",
-    "Hanamauer/noiseforge",
-    "evadavevadave/davidian-duo-57",
-    "Mapelisin/Harmonia",
-    "ManuthMethnidu/Echoes",
-    "lonesoulsurfer/kicad-front-panel-generator",
-    "SPQR14/advanced_timegrapher",
-    "skipzx-lab/bandscribe",
-    "FIN-DSP/.github"
+    "silflemming5-jpg/fl-studio-tabarin-beat-lab",
+    "AnClark/ClassicReverb-RE01",
+    "Goophammer/xfi-dsp-linux",
+    "InletGoldsmith/decent-sampler-instrument-library"
   ],
   "skipped": {
-    "already known": 177,
-    "no audio keyword in name/description": 1,
-    "seen before: rejected: no audio keyword in name/description": 1,
-    "tracker topic, not a music tracker": 1
+    "already known": 106
   },
-  "rate_limited": false,
-  "rate_limit_note": ""
+  "rate_limited": true,
+  "rate_limit_note": "GitHub API rate limit spent (reset epoch 1795221303): {\"message\":\"API rate limit exceeded for 52.173.219.145. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)\",\"documentation_url\":\"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting\"}\n"
 }
