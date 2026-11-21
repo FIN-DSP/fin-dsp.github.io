@@ -1,5 +1,21 @@
 [
   {
+    "name": "free-plugins",
+    "title": "free-plugins",
+    "full_name": "inplugapp/free-plugins",
+    "description": "Free Mac plugins worth having: reverb, EQ, synths, meters. Every link goes to the maker.",
+    "excerpt": "Free Mac plugins worth having: reverb, EQ, synths, meters. Every link goes to the maker.",
+    "url": "https://github.com/inplugapp/free-plugins",
+    "repo": "inplugapp/free-plugins",
+    "source": "inplugapp/free-plugins",
+    "date": "2026-11-21",
+    "category": "Synthesizers",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "inplugapp/free-plugins"
+  },
+  {
     "name": "fl-studio-tabarin-beat-lab",
     "title": "fl-studio-tabarin-beat-lab",
     "full_name": "silflemming5-jpg/fl-studio-tabarin-beat-lab",
@@ -1838,6 +1854,38 @@
     "image": "",
     "image_credit": "",
     "feed": "mylnzon58/t2-macbook-pro-16-1-dsp-ubuntu-24.04"
+  },
+  {
+    "name": "acoustiq",
+    "title": "acoustiq",
+    "full_name": "Clash-Projects/acoustiq",
+    "description": "Check if your FLAC music is truly original quality or just fake MP3s, and clean duplicates on Android.",
+    "excerpt": "Check if your FLAC music is truly original quality or just fake MP3s, and clean duplicates on Android.",
+    "url": "https://github.com/Clash-Projects/acoustiq",
+    "repo": "Clash-Projects/acoustiq",
+    "source": "Clash-Projects/acoustiq",
+    "date": "2026-10-27",
+    "category": "DSP",
+    "origin": "Community",
+    "image": "https://raw.githubusercontent.com/Clash-Projects/acoustiq/main/screenshots/01_inspect_lossless.jpg",
+    "image_credit": "Clash-Projects/acoustiq \u00b7 own screenshot",
+    "feed": "Clash-Projects/acoustiq"
+  },
+  {
+    "name": "score-backing-track",
+    "title": "score-backing-track",
+    "full_name": "AlltAWD/score-backing-track",
+    "description": "VST3 plugin for MuseScore Studio 4: play the recording you're transcribing in sync with score playback (Linux, Windows)",
+    "excerpt": "VST3 plugin for MuseScore Studio 4: play the recording you're transcribing in sync with score playback (Linux, Windows)",
+    "url": "https://github.com/AlltAWD/score-backing-track",
+    "repo": "AlltAWD/score-backing-track",
+    "source": "AlltAWD/score-backing-track",
+    "date": "2026-10-27",
+    "category": "Plugins",
+    "origin": "Community",
+    "image": "https://raw.githubusercontent.com/AlltAWD/score-backing-track/main/docs/editor.png",
+    "image_credit": "AlltAWD/score-backing-track \u00b7 own screenshot",
+    "feed": "AlltAWD/score-backing-track"
   },
   {
     "name": "AudioPluginSuite",

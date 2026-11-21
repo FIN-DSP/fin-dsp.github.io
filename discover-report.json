@@ -7,31 +7,31 @@
       "topic": "vst",
       "status": 200,
       "count": 20,
-      "total": 51
+      "total": 52
     },
     {
       "topic": "audio-plugin",
       "status": 200,
       "count": 20,
-      "total": 282
+      "total": 290
     },
     {
       "topic": "synthesizer",
       "status": 200,
       "count": 20,
-      "total": 325
+      "total": 327
     },
     {
       "topic": "dsp",
       "status": 200,
       "count": 20,
-      "total": 481
+      "total": 489
     },
     {
       "topic": "daw",
       "status": 200,
       "count": 20,
-      "total": 232
+      "total": 240
     },
     {
       "topic": "audio-engine",
@@ -43,13 +43,13 @@
       "topic": "midi",
       "status": 200,
       "count": 20,
-      "total": 778
+      "total": 789
     },
     {
       "topic": "tracker",
       "status": 200,
       "count": 20,
-      "total": 147
+      "total": 149
     },
     {
       "topic": "lv2",
@@ -61,18 +61,19 @@
       "topic": "juce",
       "status": 200,
       "count": 20,
-      "total": 235
+      "total": 238
     }
   ],
   "candidates": 190,
   "added": 3,
   "added_names": [
-    "hexamorphical/hypercut",
-    "inlxs/tosc",
-    "darwinscat/cab-ir-generator"
+    "inplugapp/free-plugins",
+    "Clash-Projects/acoustiq",
+    "AlltAWD/score-backing-track"
   ],
   "skipped": {
-    "already known": 186,
+    "already known": 185,
+    "no audio keyword in name/description": 1,
     "tracker topic, not a music tracker": 1
   },
   "rate_limited": false,

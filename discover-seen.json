@@ -11,6 +11,10 @@
     "date": "2026-11-19",
     "decision": "added"
   },
+  "AlltAWD/score-backing-track": {
+    "date": "2026-11-21",
+    "decision": "added"
+  },
   "AnClark/ClassicReverb-RE01": {
     "date": "2026-11-21",
     "decision": "added"
@@ -42,6 +46,14 @@
   "CesareilGiulio/detroit-become-human-flowchart-tracker": {
     "date": "2026-11-19",
     "decision": "rejected: game flowchart tracker, not a music tracker"
+  },
+  "ChetasLua/aero-scarborough-fair": {
+    "date": "2026-11-21",
+    "decision": "rejected: no audio keyword in name/description"
+  },
+  "Clash-Projects/acoustiq": {
+    "date": "2026-11-21",
+    "decision": "added"
   },
   "CursedPrograms/OctaviaVSTs": {
     "date": "2026-11-19",
@@ -142,6 +154,10 @@
   "Kareem-Shabaka/stutter-guard": {
     "date": "2026-11-19",
     "decision": "rejected: no audio keyword in name/description"
+  },
+  "LcNcMode/sysop-zero": {
+    "date": "2026-11-21",
+    "decision": "rejected: tracker topic, not a music tracker"
   },
   "MDMAchine/hs-link": {
     "date": "2026-11-19",
@@ -437,6 +453,10 @@
   },
   "innermost47/grm-guitar-vst": {
     "date": "2026-11-19",
+    "decision": "added"
+  },
+  "inplugapp/free-plugins": {
+    "date": "2026-11-21",
     "decision": "added"
   },
   "irregbex/crash-dump-analyzer": {
