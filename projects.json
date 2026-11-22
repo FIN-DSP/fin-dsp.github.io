@@ -1,5 +1,37 @@
 [
   {
+    "name": "tr-ai-daw",
+    "title": "tr-ai-daw",
+    "full_name": "TrKeyboarder/tr-ai-daw",
+    "description": "T\u00fcrk\u00e7e \u00f6ncelikli a\u00e7\u0131k kaynak DAW geli\u015ftirmesi: ses motoru, \u00e7ok kanall\u0131 d\u00fczenleme, miks, VST3/CLAP, yerel yapay zek\u00e2 ve MCP.",
+    "excerpt": "T\u00fcrk\u00e7e \u00f6ncelikli a\u00e7\u0131k kaynak DAW geli\u015ftirmesi: ses motoru, \u00e7ok kanall\u0131 d\u00fczenleme, miks, VST3/CLAP, yerel yapay zek\u00e2 ve MCP.",
+    "url": "https://github.com/TrKeyboarder/tr-ai-daw",
+    "repo": "TrKeyboarder/tr-ai-daw",
+    "source": "TrKeyboarder/tr-ai-daw",
+    "date": "2026-11-22",
+    "category": "DAWs",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "TrKeyboarder/tr-ai-daw"
+  },
+  {
+    "name": "l2t-copilot",
+    "title": "l2t-copilot",
+    "full_name": "ColdSimens78/l2t-copilot",
+    "description": "Loop-to-Track Copilot \u2014 AI-native desktop cockpit (Tauri+React) that turns a found audio loop into an editable DAW track: Rust MCP core, SoundCraft headless engine, ghost-notes staging, local Acceptance Rate. MIT.",
+    "excerpt": "Loop-to-Track Copilot \u2014 AI-native desktop cockpit (Tauri+React) that turns a found audio loop into an editable DAW track: Rust MCP core, SoundCraft headless engine, ghost-notes staging, local Acceptance Rate. MIT.",
+    "url": "https://github.com/ColdSimens78/l2t-copilot",
+    "repo": "ColdSimens78/l2t-copilot",
+    "source": "ColdSimens78/l2t-copilot",
+    "date": "2026-11-21",
+    "category": "DAWs",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "ColdSimens78/l2t-copilot"
+  },
+  {
     "name": "izotope-ozone-11-mastering-suite",
     "title": "izotope-ozone-11-mastering-suite",
     "full_name": "crobyskigh/izotope-ozone-11-mastering-suite",

@@ -7,49 +7,49 @@
       "topic": "vst",
       "status": 200,
       "count": 20,
-      "total": 50
+      "total": 52
     },
     {
       "topic": "audio-plugin",
       "status": 200,
       "count": 20,
-      "total": 284
+      "total": 292
     },
     {
       "topic": "synthesizer",
       "status": 200,
       "count": 20,
-      "total": 325
+      "total": 335
     },
     {
       "topic": "dsp",
       "status": 200,
       "count": 20,
-      "total": 492
+      "total": 505
     },
     {
       "topic": "daw",
       "status": 200,
       "count": 20,
-      "total": 241
+      "total": 253
     },
     {
       "topic": "audio-engine",
       "status": 200,
-      "count": 10,
-      "total": 10
+      "count": 12,
+      "total": 12
     },
     {
       "topic": "midi",
       "status": 200,
       "count": 20,
-      "total": 776
+      "total": 790
     },
     {
       "topic": "tracker",
       "status": 200,
       "count": 20,
-      "total": 148
+      "total": 152
     },
     {
       "topic": "lv2",
@@ -61,28 +61,18 @@
       "topic": "juce",
       "status": 200,
       "count": 20,
-      "total": 231
+      "total": 239
     }
   ],
-  "candidates": 190,
-  "added": 11,
+  "candidates": 192,
+  "added": 2,
   "added_names": [
-    "crobyskigh/izotope-ozone-11-mastering-suite",
-    "kyle-millerx2098t3/daw-synth-fl-studio-2026-producer-portable-x64",
-    "danielmooreeng19d9/daw-synth-ableton-live-12-suite-portable-x64",
-    "Tarunwang/fl-studio-win",
-    "Cool-east811/presonus-studio-one-win",
-    "Gangcox/cubase-pro-win",
-    "Polinaagarwal02/native-instruments-komplete-win",
-    "alexandere58/ableton-live-win",
-    "abektes/a22",
-    "audivane/dsp",
-    "BROKE-N-BORED/WinLinx"
+    "TrKeyboarder/tr-ai-daw",
+    "ColdSimens78/l2t-copilot"
   ],
   "skipped": {
-    "already known": 173,
-    "no audio keyword in name/description": 1,
-    "tracker topic, not a music tracker": 5
+    "already known": 189,
+    "tracker topic, not a music tracker": 1
   },
   "rate_limited": false,
   "rate_limit_note": ""
