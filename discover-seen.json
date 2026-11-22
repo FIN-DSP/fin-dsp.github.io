@@ -27,6 +27,10 @@
     "date": "2026-11-19",
     "decision": "rejected: VJ (visual) instrument, not audio software"
   },
+  "BROKE-N-BORED/WinLinx": {
+    "date": "2026-11-22",
+    "decision": "added"
+  },
   "Beatsex/gensexuell": {
     "date": "2026-11-19",
     "decision": "added"
@@ -55,6 +59,10 @@
     "date": "2026-11-21",
     "decision": "added"
   },
+  "Cool-east811/presonus-studio-one-win": {
+    "date": "2026-11-22",
+    "decision": "added"
+  },
   "CursedPrograms/OctaviaVSTs": {
     "date": "2026-11-19",
     "decision": "added"
@@ -62,6 +70,10 @@
   "DamianEhrenburg/yakata": {
     "date": "2026-11-19",
     "decision": "rejected: visual-novel launcher tracker, not a music tracker"
+  },
+  "Dimokat/SysWidget": {
+    "date": "2026-11-22",
+    "decision": "rejected: tracker topic, not a music tracker"
   },
   "Dragjon/eigentone": {
     "date": "2026-11-19",
@@ -101,6 +113,10 @@
   },
   "GNUbase/GNUbase": {
     "date": "2026-11-19",
+    "decision": "added"
+  },
+  "Gangcox/cubase-pro-win": {
+    "date": "2026-11-22",
     "decision": "added"
   },
   "Goophammer/xfi-dsp-linux": {
@@ -215,6 +231,10 @@
     "date": "2026-11-19",
     "decision": "added"
   },
+  "Polinaagarwal02/native-instruments-komplete-win": {
+    "date": "2026-11-22",
+    "decision": "added"
+  },
   "ProjectFlowmar/project5pi-midi-for-claude": {
     "date": "2026-11-19",
     "decision": "added"
@@ -251,6 +271,10 @@
     "date": "2026-11-19",
     "decision": "added"
   },
+  "Tarunwang/fl-studio-win": {
+    "date": "2026-11-22",
+    "decision": "added"
+  },
   "Tekkiech/jdsp4mac": {
     "date": "2026-11-19",
     "decision": "added"
@@ -275,6 +299,10 @@
     "date": "2026-11-19",
     "decision": "added"
   },
+  "WebShort/unreal-5-4-win": {
+    "date": "2026-11-22",
+    "decision": "rejected: no audio keyword in name/description"
+  },
   "WindServiceIdentify/ableton-production-bench": {
     "date": "2026-11-19",
     "decision": "rejected: no audio keyword in name/description"
@@ -287,8 +315,16 @@
     "date": "2026-11-19",
     "decision": "rejected: disk-growth tracker, not a music tracker"
   },
+  "abektes/a22": {
+    "date": "2026-11-22",
+    "decision": "added"
+  },
   "aguirreSL/iceberg-cpp": {
     "date": "2026-11-19",
+    "decision": "added"
+  },
+  "alexandere58/ableton-live-win": {
+    "date": "2026-11-22",
     "decision": "added"
   },
   "alibasimm1993/whalefeed": {
@@ -301,6 +337,14 @@
   },
   "ansh2222949/Neon-song": {
     "date": "2026-11-19",
+    "decision": "added"
+  },
+  "antonberg-03c8/battlefield-6-external-2d-minimap-radar-portable-x64": {
+    "date": "2026-11-22",
+    "decision": "rejected: tracker topic, not a music tracker"
+  },
+  "audivane/dsp": {
+    "date": "2026-11-22",
     "decision": "added"
   },
   "azure-fossil-maker/serum-2-desktop": {
@@ -355,12 +399,20 @@
     "date": "2026-11-19",
     "decision": "added"
   },
+  "crobyskigh/izotope-ozone-11-mastering-suite": {
+    "date": "2026-11-22",
+    "decision": "added"
+  },
   "cyrillsemenov/headless-plugin-host": {
     "date": "2026-11-19",
     "decision": "added"
   },
   "d-studio-labs/d-studio": {
     "date": "2026-11-19",
+    "decision": "added"
+  },
+  "danielmooreeng19d9/daw-synth-ableton-live-12-suite-portable-x64": {
+    "date": "2026-11-22",
     "decision": "added"
   },
   "darwinscat/cab-ir-generator": {
@@ -374,6 +426,10 @@
   "devicedaw/device": {
     "date": "2026-11-19",
     "decision": "added"
+  },
+  "dfedez920912/AniVexa": {
+    "date": "2026-11-22",
+    "decision": "rejected: tracker topic, not a music tracker"
   },
   "dnlbtz/mbp143-audio": {
     "date": "2026-11-19",
@@ -507,6 +563,10 @@
     "date": "2026-11-19",
     "decision": "added"
   },
+  "kyle-millerx2098t3/daw-synth-fl-studio-2026-producer-portable-x64": {
+    "date": "2026-11-22",
+    "decision": "added"
+  },
   "lazytitanz/Sonora": {
     "date": "2026-11-19",
     "decision": "added"
@@ -542,6 +602,14 @@
   "mazztock/MAZZFLATOR": {
     "date": "2026-11-19",
     "decision": "added"
+  },
+  "mike-kumar-lab1905z2/marvel-rivals-ue5-external-bounding-box-portable-x64": {
+    "date": "2026-11-22",
+    "decision": "rejected: tracker topic, not a music tracker"
+  },
+  "mikekimeng02e9/battlefield-6-external-2d-minimap-radar-portable-x64": {
+    "date": "2026-11-22",
+    "decision": "rejected: tracker topic, not a music tracker"
   },
   "mitoisgrowing/rummage": {
     "date": "2026-11-19",

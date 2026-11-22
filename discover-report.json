@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-21",
+  "generated_at": "2026-11-22",
   "window_days": 30,
-  "since": "2026-10-22",
+  "since": "2026-10-23",
   "queries": [
     {
       "topic": "vst",
       "status": 200,
       "count": 20,
-      "total": 52
+      "total": 50
     },
     {
       "topic": "audio-plugin",
       "status": 200,
       "count": 20,
-      "total": 290
+      "total": 284
     },
     {
       "topic": "synthesizer",
       "status": 200,
       "count": 20,
-      "total": 327
+      "total": 325
     },
     {
       "topic": "dsp",
       "status": 200,
       "count": 20,
-      "total": 489
+      "total": 492
     },
     {
       "topic": "daw",
       "status": 200,
       "count": 20,
-      "total": 240
+      "total": 241
     },
     {
       "topic": "audio-engine",
@@ -43,38 +43,46 @@
       "topic": "midi",
       "status": 200,
       "count": 20,
-      "total": 789
+      "total": 776
     },
     {
       "topic": "tracker",
       "status": 200,
       "count": 20,
-      "total": 149
+      "total": 148
     },
     {
       "topic": "lv2",
       "status": 200,
       "count": 20,
-      "total": 57
+      "total": 58
     },
     {
       "topic": "juce",
       "status": 200,
       "count": 20,
-      "total": 238
+      "total": 231
     }
   ],
   "candidates": 190,
-  "added": 3,
+  "added": 11,
   "added_names": [
-    "inplugapp/free-plugins",
-    "Clash-Projects/acoustiq",
-    "AlltAWD/score-backing-track"
+    "crobyskigh/izotope-ozone-11-mastering-suite",
+    "kyle-millerx2098t3/daw-synth-fl-studio-2026-producer-portable-x64",
+    "danielmooreeng19d9/daw-synth-ableton-live-12-suite-portable-x64",
+    "Tarunwang/fl-studio-win",
+    "Cool-east811/presonus-studio-one-win",
+    "Gangcox/cubase-pro-win",
+    "Polinaagarwal02/native-instruments-komplete-win",
+    "alexandere58/ableton-live-win",
+    "abektes/a22",
+    "audivane/dsp",
+    "BROKE-N-BORED/WinLinx"
   ],
   "skipped": {
-    "already known": 185,
+    "already known": 173,
     "no audio keyword in name/description": 1,
-    "tracker topic, not a music tracker": 1
+    "tracker topic, not a music tracker": 5
   },
   "rate_limited": false,
   "rate_limit_note": ""
