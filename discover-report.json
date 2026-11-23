@@ -7,15 +7,84 @@
       "topic": "vst",
       "status": 200,
       "count": 20,
-      "total": 51
+      "total": 54
+    },
+    {
+      "topic": "audio-plugin",
+      "status": 200,
+      "count": 20,
+      "total": 295
+    },
+    {
+      "topic": "synthesizer",
+      "status": 200,
+      "count": 20,
+      "total": 346
+    },
+    {
+      "topic": "dsp",
+      "status": 200,
+      "count": 20,
+      "total": 512
+    },
+    {
+      "topic": "daw",
+      "status": 200,
+      "count": 20,
+      "total": 251
+    },
+    {
+      "topic": "audio-engine",
+      "status": 200,
+      "count": 12,
+      "total": 12
+    },
+    {
+      "topic": "midi",
+      "status": 200,
+      "count": 20,
+      "total": 786
+    },
+    {
+      "topic": "tracker",
+      "status": 200,
+      "count": 20,
+      "total": 154
+    },
+    {
+      "topic": "lv2",
+      "status": 200,
+      "count": 20,
+      "total": 57
+    },
+    {
+      "topic": "juce",
+      "status": 200,
+      "count": 20,
+      "total": 234
     }
   ],
-  "candidates": 12,
-  "added": 0,
-  "added_names": [],
+  "candidates": 192,
+  "added": 10,
+  "added_names": [
+    "muhaiminrejoneabir-ai/fl-studio-tadalen-beat-lab",
+    "akbrucke/Maple",
+    "ZerpaLuis/ableton-live-balemir-music-studio",
+    "sylviewood92/ableton-live-12-suite-r2r-unlocker",
+    "xdma/third-planet",
+    "tvdasala/electro-pro",
+    "cedrati/ableton-studio-mcp",
+    "nokogoat/ponzik",
+    "28spawn/Icarus",
+    "xelloss120/VcabDenoise"
+  ],
   "skipped": {
-    "already known": 11
+    "already known": 173,
+    "commercial software repack": 2,
+    "seen before: rejected: commercial software repack": 2,
+    "no audio keyword in name/description": 1,
+    "tracker topic, not a music tracker": 4
   },
-  "rate_limited": true,
-  "rate_limit_note": "GitHub API rate limit spent (reset epoch 1795414637): {\"message\":\"API rate limit exceeded for 3.42.157.107. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)\",\"documentation_url\":\"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting\"}\n"
+  "rate_limited": false,
+  "rate_limit_note": ""
 }

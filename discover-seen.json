@@ -1,4 +1,8 @@
 {
+  "28spawn/Icarus": {
+    "date": "2026-11-23",
+    "decision": "added"
+  },
   "AdityaDevLabs/fl-studio-license-generator": {
     "date": "2026-11-20",
     "decision": "rejected: no audio keyword in name/description"
@@ -74,6 +78,10 @@
   "DamianEhrenburg/yakata": {
     "date": "2026-11-19",
     "decision": "rejected: visual-novel launcher tracker, not a music tracker"
+  },
+  "DimkaRapirka/GuitarCraft-Desktop": {
+    "date": "2026-11-23",
+    "decision": "rejected: no audio keyword in name/description"
   },
   "Dimokat/SysWidget": {
     "date": "2026-11-22",
@@ -175,6 +183,10 @@
     "date": "2026-11-19",
     "decision": "rejected: no audio keyword in name/description"
   },
+  "KylianV13/marvel-rivals-ue5-external-bounding-box-vebelan": {
+    "date": "2026-11-23",
+    "decision": "rejected: tracker topic, not a music tracker"
+  },
   "LcNcMode/sysop-zero": {
     "date": "2026-11-21",
     "decision": "rejected: tracker topic, not a music tracker"
@@ -198,6 +210,10 @@
   "MarcGoudy/guru-600": {
     "date": "2026-11-19",
     "decision": "added"
+  },
+  "MariviPa23/birdeye-solana-whale-tracker-bot": {
+    "date": "2026-11-23",
+    "decision": "rejected: tracker topic, not a music tracker"
   },
   "MaymiPR/Chan-Sampler": {
     "date": "2026-11-19",
@@ -255,6 +271,10 @@
     "date": "2026-11-20",
     "decision": "rejected: tracker topic, not a music tracker"
   },
+  "RyanLambert40/serum-2-xfer-vst3-preset-suite": {
+    "date": "2026-11-23",
+    "decision": "rejected: commercial software repack"
+  },
   "SPQR14/advanced_timegrapher": {
     "date": "2026-11-20",
     "decision": "added"
@@ -303,6 +323,10 @@
     "date": "2026-11-19",
     "decision": "rejected: no audio keyword in name/description"
   },
+  "VasitoTa77/birdeye-solana-whale-tracker-bot": {
+    "date": "2026-11-23",
+    "decision": "rejected: tracker topic, not a music tracker"
+  },
   "VexxPlugins/retroexx": {
     "date": "2026-11-19",
     "decision": "added"
@@ -323,12 +347,20 @@
     "date": "2026-11-19",
     "decision": "rejected: disk-growth tracker, not a music tracker"
   },
+  "ZerpaLuis/ableton-live-balemir-music-studio": {
+    "date": "2026-11-23",
+    "decision": "added"
+  },
   "abektes/a22": {
     "date": "2026-11-22",
     "decision": "added"
   },
   "aguirreSL/iceberg-cpp": {
     "date": "2026-11-19",
+    "decision": "added"
+  },
+  "akbrucke/Maple": {
+    "date": "2026-11-23",
     "decision": "added"
   },
   "alexandere58/ableton-live-win": {
@@ -389,6 +421,10 @@
   },
   "ccoors/dussek": {
     "date": "2026-11-19",
+    "decision": "added"
+  },
+  "cedrati/ableton-studio-mcp": {
+    "date": "2026-11-23",
     "decision": "added"
   },
   "chmess/fm1-keyboard-academy": {
@@ -603,6 +639,10 @@
     "date": "2026-11-19",
     "decision": "added"
   },
+  "lukasr6048/serum-2-xfer-vst3-preset-suite": {
+    "date": "2026-11-23",
+    "decision": "rejected: commercial software repack"
+  },
   "maelswarm/fizzler": {
     "date": "2026-11-19",
     "decision": "added"
@@ -635,6 +675,10 @@
     "date": "2026-11-19",
     "decision": "added"
   },
+  "muhaiminrejoneabir-ai/fl-studio-tadalen-beat-lab": {
+    "date": "2026-11-23",
+    "decision": "added"
+  },
   "muzafferkadir/find-my-xiaomi-band-9": {
     "date": "2026-11-19",
     "decision": "rejected: no audio keyword in name/description"
@@ -653,6 +697,10 @@
   },
   "nikh93/Ton-of-Able": {
     "date": "2026-11-19",
+    "decision": "added"
+  },
+  "nokogoat/ponzik": {
+    "date": "2026-11-23",
     "decision": "added"
   },
   "nvd7/crymora": {
@@ -751,6 +799,10 @@
     "date": "2026-11-19",
     "decision": "added"
   },
+  "sylviewood92/ableton-live-12-suite-r2r-unlocker": {
+    "date": "2026-11-23",
+    "decision": "added"
+  },
   "the-gene-white/toontrack-superior-drummer-desktop": {
     "date": "2026-11-19",
     "decision": "rejected: no audio keyword in name/description"
@@ -775,6 +827,10 @@
     "date": "2026-11-19",
     "decision": "added"
   },
+  "tvdasala/electro-pro": {
+    "date": "2026-11-23",
+    "decision": "added"
+  },
   "uilianks/chirp": {
     "date": "2026-11-19",
     "decision": "added"
@@ -787,8 +843,20 @@
     "date": "2026-11-19",
     "decision": "added"
   },
+  "xdma/third-planet": {
+    "date": "2026-11-23",
+    "decision": "added"
+  },
+  "xelloss120/VcabDenoise": {
+    "date": "2026-11-23",
+    "decision": "added"
+  },
   "yasuyuki-baba/synth1x": {
     "date": "2026-11-19",
     "decision": "added"
+  },
+  "yoendy545/battlefield-6-external-2d-minimap-radar-jakamir": {
+    "date": "2026-11-23",
+    "decision": "rejected: tracker topic, not a music tracker"
   }
 }
