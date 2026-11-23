@@ -1,79 +1,21 @@
 {
-  "generated_at": "2026-11-22",
+  "generated_at": "2026-11-23",
   "window_days": 30,
-  "since": "2026-10-23",
+  "since": "2026-10-24",
   "queries": [
     {
       "topic": "vst",
       "status": 200,
       "count": 20,
-      "total": 52
-    },
-    {
-      "topic": "audio-plugin",
-      "status": 200,
-      "count": 20,
-      "total": 292
-    },
-    {
-      "topic": "synthesizer",
-      "status": 200,
-      "count": 20,
-      "total": 335
-    },
-    {
-      "topic": "dsp",
-      "status": 200,
-      "count": 20,
-      "total": 505
-    },
-    {
-      "topic": "daw",
-      "status": 200,
-      "count": 20,
-      "total": 253
-    },
-    {
-      "topic": "audio-engine",
-      "status": 200,
-      "count": 12,
-      "total": 12
-    },
-    {
-      "topic": "midi",
-      "status": 200,
-      "count": 20,
-      "total": 790
-    },
-    {
-      "topic": "tracker",
-      "status": 200,
-      "count": 20,
-      "total": 152
-    },
-    {
-      "topic": "lv2",
-      "status": 200,
-      "count": 20,
-      "total": 58
-    },
-    {
-      "topic": "juce",
-      "status": 200,
-      "count": 20,
-      "total": 239
+      "total": 51
     }
   ],
-  "candidates": 192,
-  "added": 2,
-  "added_names": [
-    "TrKeyboarder/tr-ai-daw",
-    "ColdSimens78/l2t-copilot"
-  ],
+  "candidates": 12,
+  "added": 0,
+  "added_names": [],
   "skipped": {
-    "already known": 189,
-    "tracker topic, not a music tracker": 1
+    "already known": 11
   },
-  "rate_limited": false,
-  "rate_limit_note": ""
+  "rate_limited": true,
+  "rate_limit_note": "GitHub API rate limit spent (reset epoch 1795414637): {\"message\":\"API rate limit exceeded for 3.42.157.107. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)\",\"documentation_url\":\"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting\"}\n"
 }
