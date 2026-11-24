@@ -1,26 +1,10 @@
 {
-  "28spawn/Icarus": {
-    "date": "2026-11-23",
-    "decision": "added"
-  },
-  "AdityaDevLabs/fl-studio-license-generator": {
-    "date": "2026-11-20",
-    "decision": "rejected: no audio keyword in name/description"
-  },
   "Aiseam/RM38": {
     "date": "2026-11-19",
     "decision": "rejected: no audio keyword in name/description"
   },
   "Aisjam/Contour-Visual-Tracker": {
     "date": "2026-11-19",
-    "decision": "added"
-  },
-  "AlltAWD/score-backing-track": {
-    "date": "2026-11-21",
-    "decision": "added"
-  },
-  "AnClark/ClassicReverb-RE01": {
-    "date": "2026-11-21",
     "decision": "added"
   },
   "Apolotary/controlanything": {
@@ -30,10 +14,6 @@
   "Azylume/nocturne": {
     "date": "2026-11-19",
     "decision": "rejected: VJ (visual) instrument, not audio software"
-  },
-  "BROKE-N-BORED/WinLinx": {
-    "date": "2026-11-22",
-    "decision": "added"
   },
   "Beatsex/gensexuell": {
     "date": "2026-11-19",
@@ -55,22 +35,6 @@
     "date": "2026-11-19",
     "decision": "rejected: game flowchart tracker, not a music tracker"
   },
-  "ChetasLua/aero-scarborough-fair": {
-    "date": "2026-11-21",
-    "decision": "rejected: no audio keyword in name/description"
-  },
-  "Clash-Projects/acoustiq": {
-    "date": "2026-11-21",
-    "decision": "added"
-  },
-  "ColdSimens78/l2t-copilot": {
-    "date": "2026-11-22",
-    "decision": "added"
-  },
-  "Cool-east811/presonus-studio-one-win": {
-    "date": "2026-11-22",
-    "decision": "added"
-  },
   "CursedPrograms/OctaviaVSTs": {
     "date": "2026-11-19",
     "decision": "added"
@@ -78,14 +42,6 @@
   "DamianEhrenburg/yakata": {
     "date": "2026-11-19",
     "decision": "rejected: visual-novel launcher tracker, not a music tracker"
-  },
-  "DimkaRapirka/GuitarCraft-Desktop": {
-    "date": "2026-11-23",
-    "decision": "rejected: no audio keyword in name/description"
-  },
-  "Dimokat/SysWidget": {
-    "date": "2026-11-22",
-    "decision": "rejected: tracker topic, not a music tracker"
   },
   "Dragjon/eigentone": {
     "date": "2026-11-19",
@@ -97,10 +53,6 @@
   },
   "EvanBoyar/doppstop": {
     "date": "2026-11-19",
-    "decision": "added"
-  },
-  "FIN-DSP/.github": {
-    "date": "2026-11-20",
     "decision": "added"
   },
   "FIN-DSP/fin-dsp.github.io": {
@@ -127,14 +79,6 @@
     "date": "2026-11-19",
     "decision": "added"
   },
-  "Gangcox/cubase-pro-win": {
-    "date": "2026-11-22",
-    "decision": "added"
-  },
-  "Goophammer/xfi-dsp-linux": {
-    "date": "2026-11-21",
-    "decision": "added"
-  },
   "Grashopr-888/meteora-releases": {
     "date": "2026-11-19",
     "decision": "added"
@@ -151,20 +95,12 @@
     "date": "2026-11-19",
     "decision": "added"
   },
-  "Hanamauer/noiseforge": {
-    "date": "2026-11-20",
-    "decision": "added"
-  },
   "IAMSB-0/VBAudioDSPDropoutFix": {
     "date": "2026-11-19",
     "decision": "added"
   },
   "Ichi-Studio/Weftone": {
     "date": "2026-11-19",
-    "decision": "added"
-  },
-  "InletGoldsmith/decent-sampler-instrument-library": {
-    "date": "2026-11-21",
     "decision": "added"
   },
   "Innei/plainscore": {
@@ -183,18 +119,6 @@
     "date": "2026-11-19",
     "decision": "rejected: no audio keyword in name/description"
   },
-  "KylianV13/marvel-rivals-ue5-external-bounding-box-vebelan": {
-    "date": "2026-11-23",
-    "decision": "rejected: tracker topic, not a music tracker"
-  },
-  "Kyusakino/flpbuild": {
-    "date": "2026-11-24",
-    "decision": "rejected: no audio keyword in name/description"
-  },
-  "LcNcMode/sysop-zero": {
-    "date": "2026-11-21",
-    "decision": "rejected: tracker topic, not a music tracker"
-  },
   "MDMAchine/hs-link": {
     "date": "2026-11-19",
     "decision": "added"
@@ -203,21 +127,9 @@
     "date": "2026-11-19",
     "decision": "added"
   },
-  "ManuthMethnidu/Echoes": {
-    "date": "2026-11-20",
-    "decision": "added"
-  },
-  "Mapelisin/Harmonia": {
-    "date": "2026-11-20",
-    "decision": "added"
-  },
   "MarcGoudy/guru-600": {
     "date": "2026-11-19",
     "decision": "added"
-  },
-  "MariviPa23/birdeye-solana-whale-tracker-bot": {
-    "date": "2026-11-23",
-    "decision": "rejected: tracker topic, not a music tracker"
   },
   "MaymiPR/Chan-Sampler": {
     "date": "2026-11-19",
@@ -239,10 +151,6 @@
     "date": "2026-11-19",
     "decision": "added"
   },
-  "Nayeonb017/birdeye-solana-whale-tracker-bot": {
-    "date": "2026-11-24",
-    "decision": "rejected: tracker topic, not a music tracker"
-  },
   "Panic-Signals/Deckard": {
     "date": "2026-11-19",
     "decision": "rejected: no audio keyword in name/description"
@@ -259,10 +167,6 @@
     "date": "2026-11-19",
     "decision": "added"
   },
-  "Polinaagarwal02/native-instruments-komplete-win": {
-    "date": "2026-11-22",
-    "decision": "added"
-  },
   "ProjectFlowmar/project5pi-midi-for-claude": {
     "date": "2026-11-19",
     "decision": "added"
@@ -273,18 +177,6 @@
   },
   "RenasDemirbas/SoundBit": {
     "date": "2026-11-19",
-    "decision": "added"
-  },
-  "RonovaMain/Aethel": {
-    "date": "2026-11-20",
-    "decision": "rejected: tracker topic, not a music tracker"
-  },
-  "RyanLambert40/serum-2-xfer-vst3-preset-suite": {
-    "date": "2026-11-23",
-    "decision": "rejected: commercial software repack"
-  },
-  "SPQR14/advanced_timegrapher": {
-    "date": "2026-11-20",
     "decision": "added"
   },
   "Sadykhzadeh/goby": {
@@ -299,16 +191,8 @@
     "date": "2026-11-19",
     "decision": "rejected: game-deal tracker, not a music tracker"
   },
-  "SysWidget/SysWidget": {
-    "date": "2026-11-24",
-    "decision": "rejected: tracker topic, not a music tracker"
-  },
   "TENMALOG/procedural-machine-audio": {
     "date": "2026-11-19",
-    "decision": "added"
-  },
-  "Tarunwang/fl-studio-win": {
-    "date": "2026-11-22",
     "decision": "added"
   },
   "Tekkiech/jdsp4mac": {
@@ -323,10 +207,6 @@
     "date": "2026-11-19",
     "decision": "added"
   },
-  "TrKeyboarder/tr-ai-daw": {
-    "date": "2026-11-22",
-    "decision": "added"
-  },
   "Tubbritt/S56K-Expanded-Edition": {
     "date": "2026-11-19",
     "decision": "added"
@@ -335,17 +215,9 @@
     "date": "2026-11-19",
     "decision": "rejected: no audio keyword in name/description"
   },
-  "VasitoTa77/birdeye-solana-whale-tracker-bot": {
-    "date": "2026-11-23",
-    "decision": "rejected: tracker topic, not a music tracker"
-  },
   "VexxPlugins/retroexx": {
     "date": "2026-11-19",
     "decision": "added"
-  },
-  "WebShort/unreal-5-4-win": {
-    "date": "2026-11-22",
-    "decision": "rejected: no audio keyword in name/description"
   },
   "WindServiceIdentify/ableton-production-bench": {
     "date": "2026-11-19",
@@ -359,28 +231,8 @@
     "date": "2026-11-19",
     "decision": "rejected: disk-growth tracker, not a music tracker"
   },
-  "Xyronb1/xyron-voice-changer": {
-    "date": "2026-11-24",
-    "decision": "added"
-  },
-  "ZerpaLuis/ableton-live-balemir-music-studio": {
-    "date": "2026-11-23",
-    "decision": "added"
-  },
-  "abektes/a22": {
-    "date": "2026-11-22",
-    "decision": "added"
-  },
   "aguirreSL/iceberg-cpp": {
     "date": "2026-11-19",
-    "decision": "added"
-  },
-  "akbrucke/Maple": {
-    "date": "2026-11-23",
-    "decision": "added"
-  },
-  "alexandere58/ableton-live-win": {
-    "date": "2026-11-22",
     "decision": "added"
   },
   "alibasimm1993/whalefeed": {
@@ -395,25 +247,9 @@
     "date": "2026-11-19",
     "decision": "added"
   },
-  "antonberg-03c8/battlefield-6-external-2d-minimap-radar-portable-x64": {
-    "date": "2026-11-22",
-    "decision": "rejected: tracker topic, not a music tracker"
-  },
-  "arslanandrew/baby-audio-parallel-aggressor": {
-    "date": "2026-11-24",
-    "decision": "added"
-  },
-  "audivane/dsp": {
-    "date": "2026-11-22",
-    "decision": "added"
-  },
   "azure-fossil-maker/serum-2-desktop": {
     "date": "2026-11-19",
     "decision": "rejected: not a software project (standalone bundle)"
-  },
-  "barshasantak/backpack": {
-    "date": "2026-11-21",
-    "decision": "rejected: tracker topic, not a music tracker"
   },
   "bjoernbojahr/Maermel": {
     "date": "2026-11-19",
@@ -422,10 +258,6 @@
   "blsphmicwillow/OpenBeats": {
     "date": "2026-11-19",
     "decision": "added"
-  },
-  "bonnet66/serum-2-xfer-vst3-preset-suite": {
-    "date": "2026-11-24",
-    "decision": "rejected: commercial software repack"
   },
   "booomxd/spectre": {
     "date": "2026-11-19",
@@ -447,10 +279,6 @@
     "date": "2026-11-19",
     "decision": "added"
   },
-  "cedrati/ableton-studio-mcp": {
-    "date": "2026-11-23",
-    "decision": "added"
-  },
   "chmess/fm1-keyboard-academy": {
     "date": "2026-11-19",
     "decision": "added"
@@ -467,24 +295,12 @@
     "date": "2026-11-19",
     "decision": "added"
   },
-  "crobyskigh/izotope-ozone-11-mastering-suite": {
-    "date": "2026-11-22",
-    "decision": "added"
-  },
   "cyrillsemenov/headless-plugin-host": {
     "date": "2026-11-19",
     "decision": "added"
   },
   "d-studio-labs/d-studio": {
     "date": "2026-11-19",
-    "decision": "added"
-  },
-  "danielmooreeng19d9/daw-synth-ableton-live-12-suite-portable-x64": {
-    "date": "2026-11-22",
-    "decision": "added"
-  },
-  "darwinscat/cab-ir-generator": {
-    "date": "2026-11-21",
     "decision": "added"
   },
   "deamonSLINKY/PERF-1": {
@@ -495,24 +311,8 @@
     "date": "2026-11-19",
     "decision": "added"
   },
-  "dfedez920912/AniVexa": {
-    "date": "2026-11-22",
-    "decision": "rejected: tracker topic, not a music tracker"
-  },
   "dnlbtz/mbp143-audio": {
     "date": "2026-11-19",
-    "decision": "added"
-  },
-  "dskmusic/genesix-by-dsk": {
-    "date": "2026-11-20",
-    "decision": "added"
-  },
-  "ea2eoe-cmd/OmniSDR": {
-    "date": "2026-11-24",
-    "decision": "rejected: no audio keyword in name/description"
-  },
-  "elpendor/flipparina": {
-    "date": "2026-11-24",
     "decision": "added"
   },
   "evadavevadave/davidian-bi-lumen": {
@@ -523,20 +323,12 @@
     "date": "2026-11-19",
     "decision": "added"
   },
-  "evadavevadave/davidian-duo-57": {
-    "date": "2026-11-20",
-    "decision": "added"
-  },
   "evadavevadave/davidian-humble-overdraft": {
     "date": "2026-11-19",
     "decision": "added"
   },
   "evadavevadave/davidian-seventy-three": {
     "date": "2026-11-19",
-    "decision": "added"
-  },
-  "evadavevadave/davidian-treble-booster-30": {
-    "date": "2026-11-20",
     "decision": "added"
   },
   "fazilirak/Music": {
@@ -549,14 +341,6 @@
   },
   "fenderberg/fm1-sy1": {
     "date": "2026-11-19",
-    "decision": "added"
-  },
-  "hexamorphical/hypercut": {
-    "date": "2026-11-21",
-    "decision": "added"
-  },
-  "hjkcvn/adobe-audition-velraven": {
-    "date": "2026-11-20",
     "decision": "added"
   },
   "hudakrrr/Toneical": {
@@ -579,16 +363,8 @@
     "date": "2026-11-19",
     "decision": "rejected: no audio keyword in name/description"
   },
-  "inlxs/tosc": {
-    "date": "2026-11-21",
-    "decision": "added"
-  },
   "innermost47/grm-guitar-vst": {
     "date": "2026-11-19",
-    "decision": "added"
-  },
-  "inplugapp/free-plugins": {
-    "date": "2026-11-21",
     "decision": "added"
   },
   "irregbex/crash-dump-analyzer": {
@@ -627,10 +403,6 @@
     "date": "2026-11-19",
     "decision": "added"
   },
-  "kingzzim7-create/gta6--port-tracker-live-": {
-    "date": "2026-11-22",
-    "decision": "rejected: tracker topic, not a music tracker"
-  },
   "kobimusic/dettato": {
     "date": "2026-11-19",
     "decision": "added"
@@ -641,10 +413,6 @@
   },
   "kostisdov/dsp-to-silicon": {
     "date": "2026-11-19",
-    "decision": "added"
-  },
-  "kyle-millerx2098t3/daw-synth-fl-studio-2026-producer-portable-x64": {
-    "date": "2026-11-22",
     "decision": "added"
   },
   "lazytitanz/Sonora": {
@@ -663,17 +431,9 @@
     "date": "2026-11-19",
     "decision": "rejected: LLM-channel tracker, not a music tracker"
   },
-  "lonesoulsurfer/kicad-front-panel-generator": {
-    "date": "2026-11-20",
-    "decision": "added"
-  },
   "lordillusions/sonora": {
     "date": "2026-11-19",
     "decision": "added"
-  },
-  "lukasr6048/serum-2-xfer-vst3-preset-suite": {
-    "date": "2026-11-23",
-    "decision": "rejected: commercial software repack"
   },
   "maelswarm/fizzler": {
     "date": "2026-11-19",
@@ -687,14 +447,6 @@
     "date": "2026-11-19",
     "decision": "added"
   },
-  "mike-kumar-lab1905z2/marvel-rivals-ue5-external-bounding-box-portable-x64": {
-    "date": "2026-11-22",
-    "decision": "rejected: tracker topic, not a music tracker"
-  },
-  "mikekimeng02e9/battlefield-6-external-2d-minimap-radar-portable-x64": {
-    "date": "2026-11-22",
-    "decision": "rejected: tracker topic, not a music tracker"
-  },
   "mitoisgrowing/rummage": {
     "date": "2026-11-19",
     "decision": "added"
@@ -705,10 +457,6 @@
   },
   "mtm1978v-debug/GranularSynth": {
     "date": "2026-11-19",
-    "decision": "added"
-  },
-  "muhaiminrejoneabir-ai/fl-studio-tadalen-beat-lab": {
-    "date": "2026-11-23",
     "decision": "added"
   },
   "muzafferkadir/find-my-xiaomi-band-9": {
@@ -731,17 +479,9 @@
     "date": "2026-11-19",
     "decision": "added"
   },
-  "nokogoat/ponzik": {
-    "date": "2026-11-23",
-    "decision": "added"
-  },
   "nvd7/crymora": {
     "date": "2026-11-19",
     "decision": "rejected: game companion tracker, not a music tracker"
-  },
-  "odoare/StairwellToHeaven": {
-    "date": "2026-11-24",
-    "decision": "added"
   },
   "orange303-afk/sonicator": {
     "date": "2026-11-19",
@@ -803,16 +543,8 @@
     "date": "2026-11-19",
     "decision": "rejected: commercial software repack (REAPER installer)"
   },
-  "silflemming5-jpg/fl-studio-tabarin-beat-lab": {
-    "date": "2026-11-21",
-    "decision": "added"
-  },
   "sjkim1127/Kymion": {
     "date": "2026-11-19",
-    "decision": "added"
-  },
-  "skipzx-lab/bandscribe": {
-    "date": "2026-11-20",
     "decision": "added"
   },
   "sloppyjoo/freeplay": {
@@ -833,10 +565,6 @@
   },
   "suitux/Backspn": {
     "date": "2026-11-19",
-    "decision": "added"
-  },
-  "sylviewood92/ableton-live-12-suite-r2r-unlocker": {
-    "date": "2026-11-23",
     "decision": "added"
   },
   "the-gene-white/toontrack-superior-drummer-desktop": {
@@ -863,44 +591,16 @@
     "date": "2026-11-19",
     "decision": "added"
   },
-  "tvdasala/electro-pro": {
-    "date": "2026-11-23",
-    "decision": "added"
-  },
   "uilianks/chirp": {
     "date": "2026-11-19",
     "decision": "added"
-  },
-  "wepingsoffical/ableton-live-belvora-music-studio": {
-    "date": "2026-11-20",
-    "decision": "added"
-  },
-  "wiktor-jozwiak/haze": {
-    "date": "2026-11-24",
-    "decision": "rejected: no audio keyword in name/description"
   },
   "willren5/FAD_Engine": {
     "date": "2026-11-19",
     "decision": "added"
   },
-  "xdma/third-planet": {
-    "date": "2026-11-23",
-    "decision": "added"
-  },
-  "xelloss120/VcabDenoise": {
-    "date": "2026-11-23",
-    "decision": "added"
-  },
   "yasuyuki-baba/synth1x": {
     "date": "2026-11-19",
-    "decision": "added"
-  },
-  "yoendy545/battlefield-6-external-2d-minimap-radar-jakamir": {
-    "date": "2026-11-23",
-    "decision": "rejected: tracker topic, not a music tracker"
-  },
-  "zmardanian/axell-76": {
-    "date": "2026-11-24",
     "decision": "added"
   }
 }
