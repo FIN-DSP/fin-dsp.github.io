@@ -1,5 +1,21 @@
 [
   {
+    "name": "baby-audio-parallel-aggressor",
+    "title": "baby-audio-parallel-aggressor",
+    "full_name": "arslanandrew/baby-audio-parallel-aggressor",
+    "description": "Baby Audio Parallel Aggressor for Windows 10/11. Mixes audio tracks with parallel compression and saturation, blending dry and processed signals to add punch and loudness to drums, vocals and full mixes.",
+    "excerpt": "Baby Audio Parallel Aggressor for Windows 10/11. Mixes audio tracks with parallel compression and saturation, blending dry and processed signals to add punch and loudness to drums, vocals and full mixes.",
+    "url": "https://github.com/arslanandrew/baby-audio-parallel-aggressor",
+    "repo": "arslanandrew/baby-audio-parallel-aggressor",
+    "source": "arslanandrew/baby-audio-parallel-aggressor",
+    "date": "2026-11-24",
+    "category": "Plugins",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "arslanandrew/baby-audio-parallel-aggressor"
+  },
+  {
     "name": "fl-studio-tadalen-beat-lab",
     "title": "fl-studio-tadalen-beat-lab",
     "full_name": "muhaiminrejoneabir-ai/fl-studio-tadalen-beat-lab",
@@ -1104,6 +1120,22 @@
     "feed": "Siryu6/openrig-fx"
   },
   {
+    "name": "axell-76",
+    "title": "axell-76",
+    "full_name": "zmardanian/axell-76",
+    "description": "Axell 76 - the FET limiting amplifier, modelled from the real thing: follows a genuine 1176LN as closely as Universal Audio's UADx 1176, with a fraction of its aliasing. Walnut, aluminium and an amber meter. Free VST3 for Windows & Linux (+ LV2 & standalone on Linux).",
+    "excerpt": "Axell 76 - the FET limiting amplifier, modelled from the real thing: follows a genuine 1176LN as closely as Universal Audio's UADx 1176, with a fraction of its aliasing. Walnut, aluminium and an amber meter. Free VST3 for Windows & Linux (+ LV2 & standalone on Linux).",
+    "url": "https://github.com/zmardanian/axell-76",
+    "repo": "zmardanian/axell-76",
+    "source": "zmardanian/axell-76",
+    "date": "2026-11-14",
+    "category": "Plugins",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "zmardanian/axell-76"
+  },
+  {
     "name": "flipparina",
     "title": "flipparina",
     "full_name": "elpendor/flipparina",
@@ -1582,6 +1614,22 @@
     "image": "https://raw.githubusercontent.com/ProjectFlowmar/project5pi-midi-for-claude/main/docs/studio.png",
     "image_credit": "ProjectFlowmar/project5pi-midi-for-claude \u00b7 own screenshot",
     "feed": "ProjectFlowmar/project5pi-midi-for-claude"
+  },
+  {
+    "name": "StairwellToHeaven",
+    "title": "StairwellToHeaven",
+    "full_name": "odoare/StairwellToHeaven",
+    "description": "Algorithmic stereo reverb with five floors (Room, Stairwell, Plate, Hall, Heaven shimmer). VST3, AU, CLAP and standalone for Linux, Windows and macOS. FxmeNet compatible.",
+    "excerpt": "Algorithmic stereo reverb with five floors (Room, Stairwell, Plate, Hall, Heaven shimmer). VST3, AU, CLAP and standalone for Linux, Windows and macOS. FxmeNet compatible.",
+    "url": "https://github.com/odoare/StairwellToHeaven",
+    "repo": "odoare/StairwellToHeaven",
+    "source": "odoare/StairwellToHeaven",
+    "date": "2026-11-06",
+    "category": "Plugins",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "odoare/StairwellToHeaven"
   },
   {
     "name": "xfi-dsp-linux",

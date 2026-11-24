@@ -239,6 +239,10 @@
     "date": "2026-11-19",
     "decision": "added"
   },
+  "Nayeonb017/birdeye-solana-whale-tracker-bot": {
+    "date": "2026-11-24",
+    "decision": "rejected: tracker topic, not a music tracker"
+  },
   "Panic-Signals/Deckard": {
     "date": "2026-11-19",
     "decision": "rejected: no audio keyword in name/description"
@@ -294,6 +298,10 @@
   "SpecialistCrush/epic-free-games-tracker": {
     "date": "2026-11-19",
     "decision": "rejected: game-deal tracker, not a music tracker"
+  },
+  "SysWidget/SysWidget": {
+    "date": "2026-11-24",
+    "decision": "rejected: tracker topic, not a music tracker"
   },
   "TENMALOG/procedural-machine-audio": {
     "date": "2026-11-19",
@@ -391,6 +399,10 @@
     "date": "2026-11-22",
     "decision": "rejected: tracker topic, not a music tracker"
   },
+  "arslanandrew/baby-audio-parallel-aggressor": {
+    "date": "2026-11-24",
+    "decision": "added"
+  },
   "audivane/dsp": {
     "date": "2026-11-22",
     "decision": "added"
@@ -410,6 +422,10 @@
   "blsphmicwillow/OpenBeats": {
     "date": "2026-11-19",
     "decision": "added"
+  },
+  "bonnet66/serum-2-xfer-vst3-preset-suite": {
+    "date": "2026-11-24",
+    "decision": "rejected: commercial software repack"
   },
   "booomxd/spectre": {
     "date": "2026-11-19",
@@ -490,6 +506,10 @@
   "dskmusic/genesix-by-dsk": {
     "date": "2026-11-20",
     "decision": "added"
+  },
+  "ea2eoe-cmd/OmniSDR": {
+    "date": "2026-11-24",
+    "decision": "rejected: no audio keyword in name/description"
   },
   "elpendor/flipparina": {
     "date": "2026-11-24",
@@ -719,6 +739,10 @@
     "date": "2026-11-19",
     "decision": "rejected: game companion tracker, not a music tracker"
   },
+  "odoare/StairwellToHeaven": {
+    "date": "2026-11-24",
+    "decision": "added"
+  },
   "orange303-afk/sonicator": {
     "date": "2026-11-19",
     "decision": "added"
@@ -874,5 +898,9 @@
   "yoendy545/battlefield-6-external-2d-minimap-radar-jakamir": {
     "date": "2026-11-23",
     "decision": "rejected: tracker topic, not a music tracker"
+  },
+  "zmardanian/axell-76": {
+    "date": "2026-11-24",
+    "decision": "added"
   }
 }

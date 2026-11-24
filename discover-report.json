@@ -7,72 +7,76 @@
       "topic": "vst",
       "status": 200,
       "count": 20,
-      "total": 52
+      "total": 53
     },
     {
       "topic": "audio-plugin",
       "status": 200,
       "count": 20,
-      "total": 285
+      "total": 288
     },
     {
       "topic": "synthesizer",
       "status": 200,
       "count": 20,
-      "total": 334
+      "total": 343
     },
     {
       "topic": "dsp",
       "status": 200,
       "count": 20,
-      "total": 504
+      "total": 512
     },
     {
       "topic": "daw",
       "status": 200,
       "count": 20,
-      "total": 248
+      "total": 253
     },
     {
       "topic": "audio-engine",
       "status": 200,
-      "count": 11,
-      "total": 11
+      "count": 12,
+      "total": 12
     },
     {
       "topic": "midi",
       "status": 200,
       "count": 20,
-      "total": 775
+      "total": 798
     },
     {
       "topic": "tracker",
       "status": 200,
       "count": 20,
-      "total": 147
+      "total": 150
     },
     {
       "topic": "lv2",
       "status": 200,
       "count": 20,
-      "total": 55
+      "total": 57
     },
     {
       "topic": "juce",
       "status": 200,
       "count": 20,
-      "total": 222
+      "total": 226
     }
   ],
-  "candidates": 191,
-  "added": 2,
+  "candidates": 192,
+  "added": 3,
   "added_names": [
-    "elpendor/flipparina",
-    "Xyronb1/xyron-voice-changer"
+    "arslanandrew/baby-audio-parallel-aggressor",
+    "zmardanian/axell-76",
+    "odoare/StairwellToHeaven"
   ],
   "skipped": {
-    "already known": 187,
-    "no audio keyword in name/description": 2
+    "already known": 184,
+    "commercial software repack": 1,
+    "seen before: rejected: commercial software repack": 1,
+    "no audio keyword in name/description": 1,
+    "tracker topic, not a music tracker": 2
   },
   "rate_limited": false,
   "rate_limit_note": ""
