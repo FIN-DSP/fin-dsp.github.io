@@ -1,89 +1,78 @@
 {
-  "generated_at": "2026-11-23",
+  "generated_at": "2026-11-24",
   "window_days": 30,
-  "since": "2026-10-24",
+  "since": "2026-10-25",
   "queries": [
     {
       "topic": "vst",
       "status": 200,
       "count": 20,
-      "total": 54
+      "total": 52
     },
     {
       "topic": "audio-plugin",
       "status": 200,
       "count": 20,
-      "total": 295
+      "total": 285
     },
     {
       "topic": "synthesizer",
       "status": 200,
       "count": 20,
-      "total": 346
+      "total": 334
     },
     {
       "topic": "dsp",
       "status": 200,
       "count": 20,
-      "total": 512
+      "total": 504
     },
     {
       "topic": "daw",
       "status": 200,
       "count": 20,
-      "total": 251
+      "total": 248
     },
     {
       "topic": "audio-engine",
       "status": 200,
-      "count": 12,
-      "total": 12
+      "count": 11,
+      "total": 11
     },
     {
       "topic": "midi",
       "status": 200,
       "count": 20,
-      "total": 786
+      "total": 775
     },
     {
       "topic": "tracker",
       "status": 200,
       "count": 20,
-      "total": 154
+      "total": 147
     },
     {
       "topic": "lv2",
       "status": 200,
       "count": 20,
-      "total": 57
+      "total": 55
     },
     {
       "topic": "juce",
       "status": 200,
       "count": 20,
-      "total": 234
+      "total": 222
     }
   ],
-  "candidates": 192,
-  "added": 10,
+  "candidates": 191,
+  "added": 2,
   "added_names": [
-    "muhaiminrejoneabir-ai/fl-studio-tadalen-beat-lab",
-    "akbrucke/Maple",
-    "ZerpaLuis/ableton-live-balemir-music-studio",
-    "sylviewood92/ableton-live-12-suite-r2r-unlocker",
-    "xdma/third-planet",
-    "tvdasala/electro-pro",
-    "cedrati/ableton-studio-mcp",
-    "nokogoat/ponzik",
-    "28spawn/Icarus",
-    "xelloss120/VcabDenoise"
+    "elpendor/flipparina",
+    "Xyronb1/xyron-voice-changer"
   ],
   "skipped": {
-    "already known": 173,
-    "commercial software repack": 2,
-    "seen before: rejected: commercial software repack": 2,
-    "no audio keyword in name/description": 1,
-    "tracker topic, not a music tracker": 4
+    "already known": 187,
+    "no audio keyword in name/description": 2
   },
   "rate_limited": false,
   "rate_limit_note": ""

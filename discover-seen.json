@@ -187,6 +187,10 @@
     "date": "2026-11-23",
     "decision": "rejected: tracker topic, not a music tracker"
   },
+  "Kyusakino/flpbuild": {
+    "date": "2026-11-24",
+    "decision": "rejected: no audio keyword in name/description"
+  },
   "LcNcMode/sysop-zero": {
     "date": "2026-11-21",
     "decision": "rejected: tracker topic, not a music tracker"
@@ -347,6 +351,10 @@
     "date": "2026-11-19",
     "decision": "rejected: disk-growth tracker, not a music tracker"
   },
+  "Xyronb1/xyron-voice-changer": {
+    "date": "2026-11-24",
+    "decision": "added"
+  },
   "ZerpaLuis/ableton-live-balemir-music-studio": {
     "date": "2026-11-23",
     "decision": "added"
@@ -481,6 +489,10 @@
   },
   "dskmusic/genesix-by-dsk": {
     "date": "2026-11-20",
+    "decision": "added"
+  },
+  "elpendor/flipparina": {
+    "date": "2026-11-24",
     "decision": "added"
   },
   "evadavevadave/davidian-bi-lumen": {
@@ -838,6 +850,10 @@
   "wepingsoffical/ableton-live-belvora-music-studio": {
     "date": "2026-11-20",
     "decision": "added"
+  },
+  "wiktor-jozwiak/haze": {
+    "date": "2026-11-24",
+    "decision": "rejected: no audio keyword in name/description"
   },
   "willren5/FAD_Engine": {
     "date": "2026-11-19",

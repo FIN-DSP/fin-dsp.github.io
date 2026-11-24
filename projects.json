@@ -1104,6 +1104,22 @@
     "feed": "Siryu6/openrig-fx"
   },
   {
+    "name": "flipparina",
+    "title": "flipparina",
+    "full_name": "elpendor/flipparina",
+    "description": "Flipper Zero app that plays Zelda ocarina songs and MIDI melodies on the Switch, as a USB pad or through the speaker",
+    "excerpt": "Flipper Zero app that plays Zelda ocarina songs and MIDI melodies on the Switch, as a USB pad or through the speaker",
+    "url": "https://github.com/elpendor/flipparina",
+    "repo": "elpendor/flipparina",
+    "source": "elpendor/flipparina",
+    "date": "2026-11-14",
+    "category": "Tools",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "elpendor/flipparina"
+  },
+  {
     "name": "iridescent-flower",
     "title": "iridescent-flower",
     "full_name": "iwillenterausername/iridescent-flower",
@@ -1166,6 +1182,22 @@
     "image": "https://raw.githubusercontent.com/femifleming/sleepcousonique/main/docs/array-demo.png",
     "image_credit": "femifleming/sleepcousonique \u00b7 own screenshot",
     "feed": "femifleming/sleepcousonique"
+  },
+  {
+    "name": "xyron-voice-changer",
+    "title": "xyron-voice-changer",
+    "full_name": "Xyronb1/xyron-voice-changer",
+    "description": "Free, open-source real-time voice changer for Windows: formant-aware pitch shifting, 37 voice presets, studio effects. Works with Discord, OBS and games.",
+    "excerpt": "Free, open-source real-time voice changer for Windows: formant-aware pitch shifting, 37 voice presets, studio effects. Works with Discord, OBS and games.",
+    "url": "https://github.com/Xyronb1/xyron-voice-changer",
+    "repo": "Xyronb1/xyron-voice-changer",
+    "source": "Xyronb1/xyron-voice-changer",
+    "date": "2026-11-12",
+    "category": "Effects",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "Xyronb1/xyron-voice-changer"
   },
   {
     "name": "WinLinx",
