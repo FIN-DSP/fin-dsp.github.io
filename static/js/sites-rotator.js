@@ -5,7 +5,8 @@
     { name: 'CTP-EOS', url: 'https://ctp-eos.github.io/', img: 'https://ctp-eos.github.io/assets/branding/ctp-eos-triangle-logo.jpg' },
     { name: 'CTP Magazine', url: 'https://ctp-magazine.github.io/', img: 'https://ctp-magazine.github.io/assets/branding/ctp-magazine-1254x1254.png' },
     { name: 'CTP Music', url: 'https://ctp-music.github.io/', img: 'https://ctp-music.github.io/assets/branding/ctp-music-org-avatar.jpg' },
-    { name: 'CTP Space Systems', url: 'https://ctp-space-systems.github.io/', img: 'https://ctp-space-systems.github.io/assets/branding/ctp-space-systems-org-avatar.jpg' }
+    { name: 'CTP Space Systems', url: 'https://ctp-space-systems.github.io/', img: 'https://ctp-space-systems.github.io/assets/branding/ctp-space-systems-org-avatar.jpg' },
+    { name: 'CTP-PSY', url: 'https://ctp-psy.github.io/', img: 'https://ctp-psy.github.io/assets/branding/ctp-psy-org-avatar.jpg' }
   ];
   var link = document.getElementById('ctpverse-sites-rotator-link');
   var img = document.getElementById('ctpverse-sites-rotator-img');
