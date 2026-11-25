@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="color-scheme" content="light dark" />
     <script>(function(){try{var q=null;try{q=new URLSearchParams(window.location.search).get('width');}catch(e){}if(q==='full'||q==='nuke'){document.documentElement.setAttribute('data-width',q);return;}var w=localStorage.getItem('ctp-width');if(w==='full'||w==='nuke'){document.documentElement.setAttribute('data-width',w);}}catch(e){}})();</script>
-    <script>(function(){try{var VALID=['eos','eos-light','eos-medium','eos-medium-dark','eos-dark','space-cadet-light','space-cadet-medium','space-cadet-medium-dark','space-cadet-dark','midnight-blue','midnight','tecknotronic-psy','tecknotronic-matrix','ctpix','cdomain-light','cdomain-medium','cdomain-medium-dark','cdomain-dark','frey-light','frey-medium','frey-medium-dark','frey-dark','light','medium','dark','nuke-dark','matrix','amber','catppuccin','cerulean','synthwave','dracula','nord','cyberpunk','tokyonight','solarized','void-signal','plasma-field','cathode-green','deep-current','corporate'];var t=localStorage.getItem('findsp-theme');if(t&&VALID.indexOf(t)>-1){document.documentElement.setAttribute('data-theme',t);}}catch(e){}})();</script>
+    <script>(function(){try{var VALID=['calamares','eos','eos-light','eos-medium','eos-medium-dark','eos-dark','space-cadet-light','space-cadet-medium','space-cadet-medium-dark','space-cadet-dark','founder','founder-light','founder-medium','founder-medium-dark','founder-dark','midnight-blue','midnight','tecknotronic-psy','tecknotronic-matrix','ctpix','cdomain-light','cdomain-medium','cdomain-medium-dark','cdomain-dark','frey-light','frey-medium','frey-medium-dark','frey-dark','light','medium','dark','nuke-dark','matrix','amber','catppuccin','cerulean','synthwave','dracula','nord','cyberpunk','tokyonight','solarized','void-signal','plasma-field','cathode-green','deep-current','convergence','convergence-light','convergence-medium','convergence-medium-dark','convergence-dark','corporate'];var t=localStorage.getItem('findsp-theme');if(t&&VALID.indexOf(t)>-1){document.documentElement.setAttribute('data-theme',t);}}catch(e){}})();</script>
     <title>FIN-DSP</title>
     <meta name="description" content="FIN-DSP — the project news portal for audio software developers. Open-source audio DSP, curated from GitHub, SourceForge, and the abandonware shelf. Commercial releases to come." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -349,6 +349,17 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
       @media (prefers-reduced-motion: reduce) {
         html { scroll-behavior: auto; }
       }
+[data-theme="calamares"]{
+    color-scheme:dark;
+    --navy:#2AA5C4; --navy-dark:#7ED4E8; --blue:#2AA5C4; --blue-mid:#4CB8D4;
+    --blue-pale:#12303F; --blue-wash:#1E5566; --blue-soft:#16424F;
+    --page:#0A0F14; --text:#E6EEF1; --text-2:#D7E3E8; --text-3:#C2D2D8; --muted:#8FA6AD; --line:#2AA5C4;
+    --outer:#05080A; --surface:#131C22; --heading:#7ED4E8; --link:#2AA5C4; --link-hover:#7ED4E8;
+    --border-soft:#2A3A42; --border-faint:#1A262C; --input-bg:#0F1A20; --input-focus:#12303F;
+    --btn-bg:#1A2E38; --btn-text:#E6EEF1; --header-grad:linear-gradient(to bottom,#4CB8D4 0%,#2AA5C4 45%,#0F2A36 100%);
+    --title-grad:linear-gradient(to bottom,#2AA5C4,#0A0F14); --nav-bg:#05080A; --strip-bg:#05080A;
+    --mark-bg:#0F1A20; --mark-text:#7ED4E8; --hover-border:#2AA5C4;
+  }
 [data-theme="light"]{
     color-scheme:light;
     --navy:#003366; --navy-dark:#001f3f; --blue:#006699; --blue-mid:#3399cc;
@@ -469,6 +480,71 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
     --btn-bg:#1F1F40; --btn-text:#FFFFFF; --header-grad:linear-gradient(to bottom,#8A8AC8 0%,#1F1F40 45%,#14142B 100%);
     --title-grad:linear-gradient(to bottom,#1F1F40,#14142B); --nav-bg:#000000; --strip-bg:#000000;
     --mark-bg:#14142B; --mark-text:#8A8AC8; --hover-border:#8A8AC8;
+  }
+  /* CTP FOUNDER — palette from the CTP-EOS desktop: deep navy #071c28 / #030f19, steel teal #184e67 / #16394b, accent cyan #4c9cbd, bright #8fd8ef */
+  /* CTP FOUNDER — bg #16394b, panels #184e67, primary #4c9cbd, text #ffffff */
+[data-theme="founder"]{
+    color-scheme:dark;
+    --navy:#4c9cbd; --navy-dark:#8fd8ef; --blue:#4c9cbd; --blue-mid:#6fc3dd;
+    --blue-pale:#1b4a63; --blue-wash:#0c2536; --blue-soft:#184e67;
+    --page:#16394b; --text:#ffffff; --text-2:#f3f4f6; --text-3:#e5e7eb; --muted:#a8c4d4; --line:#4c9cbd;
+    --outer:#071c28; --surface:#184e67; --heading:#8fd8ef; --link:#8fd8ef; --link-hover:#ffffff;
+    --border-soft:#2a5a7f; --border-faint:#16394b; --input-bg:#0c2536; --input-focus:#16394b;
+    --btn-bg:#184e67; --btn-text:#ffffff; --header-grad:linear-gradient(to bottom,#4c9cbd 0%,#184e67 45%,#0c2536 100%);
+    --title-grad:linear-gradient(to bottom,#184e67,#16394b); --nav-bg:#071c28; --strip-bg:#071c28;
+    --mark-bg:#0c2536; --mark-text:#8fd8ef; --hover-border:#8fd8ef;
+  }
+  /* CTP FOUNDER LIGHT — bg #e8f1f6, panels white, primary #16394b with #1b6d92 accents, text #071c28 */
+[data-theme="founder-light"]{
+    color-scheme:light;
+    --navy:#16394b; --navy-dark:#071c28; --blue:#1b6d92; --blue-mid:#4c9cbd;
+    --blue-pale:#c7dbe6; --blue-wash:#e8f1f6; --blue-soft:#a8c4d4;
+    --page:#e8f1f6; --text:#071c28; --text-2:#071c28; --text-3:#0c2536; --muted:#16394b; --line:#1b6d92;
+    --outer:#a8c4d4; --surface:#ffffff; --heading:#16394b; --link:#16394b; --link-hover:#071c28;
+    --border-soft:#7a9bb3; --border-faint:#c7dbe6; --input-bg:#ffffff; --input-focus:#e8f1f6;
+    --btn-bg:#c7dbe6; --btn-text:#071c28; --header-grad:linear-gradient(to bottom,#1b6d92 0%,#16394b 45%,#071c28 100%);
+    --title-grad:linear-gradient(to bottom,#1b6d92,#16394b); --nav-bg:#071c28; --strip-bg:#071c28;
+    --mark-bg:#ffffff; --mark-text:#16394b; --hover-border:#1b6d92;
+  }
+  /* CTP FOUNDER MEDIUM — bg #7a9db3, panels #c7dbe6, primary #16394b, text #071c28 */
+[data-theme="founder-medium"]{
+    color-scheme:light;
+    --navy:#16394b; --navy-dark:#071c28; --blue:#16394b; --blue-mid:#1b6d92;
+    --blue-pale:#9db8cc; --blue-wash:#a8c4d4; --blue-soft:#8fb0c4;
+    --page:#7a9db3; --text:#071c28; --text-2:#071c28; --text-3:#0c2536; --muted:#16394b; --line:#16394b;
+    --outer:#16394b; --surface:#c7dbe6; --heading:#0c2536; --link:#0c2536; --link-hover:#071c28;
+    --border-soft:#5a7f96; --border-faint:#7a9db3; --input-bg:#e8f1f6; --input-focus:#ffffff;
+    --btn-bg:#e8f1f6; --btn-text:#071c28; --header-grad:linear-gradient(to bottom,#2a7ba0 0%,#16394b 45%,#071c28 100%);
+    --title-grad:linear-gradient(to bottom,#16394b,#0c2536); --nav-bg:#071c28; --strip-bg:#071c28;
+    --mark-bg:#16394b; --mark-text:#e8f1f6; --hover-border:#1b6d92;
+  }
+  /* Founder Medium masthead: title + tagline match the pale CTP mark box.
+     --heading/--muted are dark navy and unreadable on the dark --outer masthead. */
+  [data-theme="founder-medium"] .masthead .wordmark .name{color:#e8f1f6}
+  [data-theme="founder-medium"] .masthead .wordmark .tag{color:#a8c4d4}
+  /* CTP FOUNDER MEDIUM DARK — bg #0c2536, panels #16394b, primary #4c9cbd, text #eaf2f8 */
+[data-theme="founder-medium-dark"]{
+    color-scheme:dark;
+    --navy:#4c9cbd; --navy-dark:#8fd8ef; --blue:#4c9cbd; --blue-mid:#6fc3dd;
+    --blue-pale:#184e67; --blue-wash:#071c28; --blue-soft:#1b4a63;
+    --page:#0c2536; --text:#eaf2f8; --text-2:#eaf2f8; --text-3:#d7e3ee; --muted:#a8c4d4; --line:#4c9cbd;
+    --outer:#071c28; --surface:#16394b; --heading:#8fd8ef; --link:#8fd8ef; --link-hover:#ffffff;
+    --border-soft:#2a5a7f; --border-faint:#0c2536; --input-bg:#071c28; --input-focus:#0c2536;
+    --btn-bg:#16394b; --btn-text:#eaf2f8; --header-grad:linear-gradient(to bottom,#4c9cbd 0%,#16394b 45%,#071c28 100%);
+    --title-grad:linear-gradient(to bottom,#16394b,#0c2536); --nav-bg:#071c28; --strip-bg:#071c28;
+    --mark-bg:#071c28; --mark-text:#8fd8ef; --hover-border:#4c9cbd;
+  }
+  /* CTP FOUNDER DARK — bg #030f19, panels #071c28, primary #4c9cbd, text #ffffff */
+[data-theme="founder-dark"]{
+    color-scheme:dark;
+    --navy:#4c9cbd; --navy-dark:#8fd8ef; --blue:#4c9cbd; --blue-mid:#6fc3dd;
+    --blue-pale:#16394b; --blue-wash:#071c28; --blue-soft:#184e67;
+    --page:#030f19; --text:#ffffff; --text-2:#ffffff; --text-3:#eaf2f8; --muted:#a8c4d4; --line:#4c9cbd;
+    --outer:#000000; --surface:#071c28; --heading:#8fd8ef; --link:#8fd8ef; --link-hover:#ffffff;
+    --border-soft:#184e67; --border-faint:#16394b; --input-bg:#030f19; --input-focus:#16394b;
+    --btn-bg:#16394b; --btn-text:#ffffff; --header-grad:linear-gradient(to bottom,#4c9cbd 0%,#16394b 45%,#030f19 100%);
+    --title-grad:linear-gradient(to bottom,#16394b,#071c28); --nav-bg:#000000; --strip-bg:#000000;
+    --mark-bg:#030f19; --mark-text:#8fd8ef; --hover-border:#4c9cbd;
   }
 [data-theme="midnight-blue"]{
     color-scheme:dark;
@@ -789,6 +865,65 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
     --title-grad:linear-gradient(to bottom,#31A6FF,#0C1D2B); --nav-bg:#000000; --strip-bg:#000000;
     --mark-bg:#05101A; --mark-text:#31A6FF; --hover-border:#31A6FF;
   }
+[data-theme="convergence"]{
+    color-scheme:dark;
+    --navy:#729BB3; --navy-dark:#BFDDE9; --blue:#729BB3; --blue-mid:#91B9CD;
+    --blue-pale:#294962; --blue-wash:#142639; --blue-soft:#243B51;
+    --page:#1A344B; --text:#EAF2F8; --text-2:#EAF2F8; --text-3:#D7E3EE; --muted:#91B9CD; --line:#729BB3;
+    --outer:#0E1B2B; --surface:#243B51; --heading:#BFDDE9; --link:#BFDDE9; --link-hover:#FFFFFF;
+    --border-soft:#3D617B; --border-faint:#1A344B; --input-bg:#142639; --input-focus:#1A344B;
+    --btn-bg:#243B51; --btn-text:#EAF2F8; --header-grad:linear-gradient(to bottom,#729BB3 0%,#243B51 45%,#142639 100%);
+    --title-grad:linear-gradient(to bottom,#243B51,#1A344B); --nav-bg:#0E1B2B; --strip-bg:#0E1B2B;
+    --mark-bg:#142639; --mark-text:#BFDDE9; --hover-border:#BFDDE9;
+  }
+[data-theme="convergence-light"]{
+    color-scheme:light;
+    --navy:#142639; --navy-dark:#0E1B2B; --blue:#294962; --blue-mid:#3D617B;
+    --blue-pale:#A9CEDE; --blue-wash:#BFDDE9; --blue-soft:#91B9CD;
+    --page:#BFDDE9; --text:#0E1B2B; --text-2:#0E1B2B; --text-3:#142639; --muted:#294962; --line:#294962;
+    --outer:#91B9CD; --surface:#ffffff; --heading:#142639; --link:#142639; --link-hover:#0E1B2B;
+    --border-soft:#729BB3; --border-faint:#A9CEDE; --input-bg:#ffffff; --input-focus:#BFDDE9;
+    --btn-bg:#A9CEDE; --btn-text:#0E1B2B; --header-grad:linear-gradient(to bottom,#3D617B 0%,#142639 45%,#0E1B2B 100%);
+    --title-grad:linear-gradient(to bottom,#3D617B,#142639); --nav-bg:#0E1B2B; --strip-bg:#0E1B2B;
+    --mark-bg:#ffffff; --mark-text:#142639; --hover-border:#294962;
+  }
+[data-theme="convergence-medium"]{
+    color-scheme:light;
+    --navy:#142639; --navy-dark:#0E1B2B; --blue:#142639; --blue-mid:#294962;
+    --blue-pale:#91B9CD; --blue-wash:#5B839B; --blue-soft:#5B839B;
+    --page:#729BB3; --text:#0E1B2B; --text-2:#0E1B2B; --text-3:#142639; --muted:#1A344B; --line:#142639;
+    --outer:#1A344B; --surface:#A9CEDE; --heading:#0E1B2B; --link:#0E1B2B; --link-hover:#020205;
+    --border-soft:#4B6F87; --border-faint:#729BB3; --input-bg:#BFDDE9; --input-focus:#ffffff;
+    --btn-bg:#BFDDE9; --btn-text:#0E1B2B; --header-grad:linear-gradient(to bottom,#3D617B 0%,#142639 45%,#0E1B2B 100%);
+    --title-grad:linear-gradient(to bottom,#142639,#0E1B2B); --nav-bg:#0E1B2B; --strip-bg:#0E1B2B;
+    --mark-bg:#1A344B; --mark-text:#BFDDE9; --hover-border:#294962;
+  }
+  /* Convergence Medium masthead: title + tagline match the pale CTP mark box.
+     --heading/--muted are dark navy and unreadable on the dark --outer masthead. */
+  [data-theme="convergence-medium"] .masthead .wordmark .name{color:#BFDDE9}
+  [data-theme="convergence-medium"] .masthead .wordmark .tag{color:#91B9CD}
+[data-theme="convergence-medium-dark"]{
+    color-scheme:dark;
+    --navy:#729BB3; --navy-dark:#BFDDE9; --blue:#729BB3; --blue-mid:#91B9CD;
+    --blue-pale:#243B51; --blue-wash:#09121F; --blue-soft:#243B51;
+    --page:#0E1B2B; --text:#EAF2F8; --text-2:#EAF2F8; --text-3:#D7E3EE; --muted:#91B9CD; --line:#729BB3;
+    --outer:#050A14; --surface:#1A344B; --heading:#BFDDE9; --link:#BFDDE9; --link-hover:#FFFFFF;
+    --border-soft:#3D617B; --border-faint:#0E1B2B; --input-bg:#09121F; --input-focus:#0E1B2B;
+    --btn-bg:#1A344B; --btn-text:#EAF2F8; --header-grad:linear-gradient(to bottom,#729BB3 0%,#1A344B 45%,#09121F 100%);
+    --title-grad:linear-gradient(to bottom,#1A344B,#0E1B2B); --nav-bg:#050A14; --strip-bg:#050A14;
+    --mark-bg:#09121F; --mark-text:#BFDDE9; --hover-border:#729BB3;
+  }
+[data-theme="convergence-dark"]{
+    color-scheme:dark;
+    --navy:#729BB3; --navy-dark:#BFDDE9; --blue:#729BB3; --blue-mid:#91B9CD;
+    --blue-pale:#1A344B; --blue-wash:#050A14; --blue-soft:#142639;
+    --page:#02050B; --text:#EAF2F8; --text-2:#EAF2F8; --text-3:#D7E3EE; --muted:#91B9CD; --line:#729BB3;
+    --outer:#020205; --surface:#0E1B2B; --heading:#BFDDE9; --link:#BFDDE9; --link-hover:#FFFFFF;
+    --border-soft:#243B51; --border-faint:#1A344B; --input-bg:#02050B; --input-focus:#0E1B2B;
+    --btn-bg:#1A344B; --btn-text:#EAF2F8; --header-grad:linear-gradient(to bottom,#729BB3 0%,#1A344B 45%,#02050B 100%);
+    --title-grad:linear-gradient(to bottom,#1A344B,#0E1B2B); --nav-bg:#020205; --strip-bg:#020205;
+    --mark-bg:#02050B; --mark-text:#BFDDE9; --hover-border:#729BB3;
+  }
 [data-theme="corporate"]{
     color-scheme:light;
     --navy:#1e3a8a; --navy-dark:#1e40af; --blue:#2563eb; --blue-mid:#0284c7;
@@ -993,7 +1128,8 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
         <div class="theme-picker">
           <label for="themeSelect">Theme</label>
           <select id="themeSelect" aria-label="Site theme">
-            <option value="eos" selected>CTP-EOS Cynamic</option>
+            <option value="calamares">CTP Calamares</option>
+<option value="eos" selected>CTP-EOS Cynamic</option>
             <option value="eos-light">CTP-EOS Light</option>
             <option value="eos-medium">CTP-EOS Medium</option>
             <option value="eos-medium-dark">CTP-EOS Medium Dark</option>
@@ -1002,6 +1138,11 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
             <option value="space-cadet-medium">CTP Space Cadet Medium</option>
             <option value="space-cadet-medium-dark">CTP Space Cadet Medium Dark</option>
             <option value="space-cadet-dark">CTP Space Cadet Dark</option>
+<option value="founder">CTP Founder</option>
+<option value="founder-light">CTP Founder Light</option>
+<option value="founder-medium">CTP Founder Medium</option>
+<option value="founder-medium-dark">CTP Founder Medium Dark</option>
+<option value="founder-dark">CTP Founder Dark</option>
             <option value="midnight-blue">CTP Midnight Blue</option>
             <option value="midnight">CTP Midnight</option>
             <option value="tecknotronic-psy">CTP Tecknotronic Psy</option>
@@ -1015,25 +1156,30 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
             <option value="frey-medium">Frey Medium</option>
             <option value="frey-medium-dark">Frey Medium Dark</option>
             <option value="frey-dark">Frey Dark</option>
-            <option value="light">Light</option>
-            <option value="medium">Medium</option>
-            <option value="dark">Dark</option>
-            <option value="nuke-dark">Nuke Dark</option>
-            <option value="matrix">Matrix</option>
-            <option value="amber">Amber</option>
-            <option value="catppuccin">Catppuccin</option>
-            <option value="cerulean">Cerulean</option>
-            <option value="synthwave">Synthwave</option>
-            <option value="dracula">Dracula</option>
-            <option value="nord">Nord</option>
-            <option value="cyberpunk">Cyberpunk</option>
-            <option value="tokyonight">Tokyo Night</option>
-            <option value="solarized">Solarized</option>
-            <option value="void-signal">Void Signal</option>
-            <option value="plasma-field">Plasma Field</option>
-            <option value="cathode-green">Cathode Green</option>
-            <option value="deep-current">Deep Current</option>
-            <option value="corporate">Corporate</option>
+            <option value="light">CTP Light</option>
+            <option value="medium">CTP Medium</option>
+            <option value="dark">CTP Dark</option>
+            <option value="nuke-dark">CTP Nuke Dark</option>
+            <option value="matrix">CTP Matrix</option>
+            <option value="amber">CTP Amber</option>
+            <option value="catppuccin">CTP Catppuccin</option>
+            <option value="cerulean">CTP Cerulean</option>
+            <option value="synthwave">CTP Synthwave</option>
+            <option value="dracula">CTP Dracula</option>
+            <option value="nord">CTP Nord</option>
+            <option value="cyberpunk">CTP Cyberpunk</option>
+            <option value="tokyonight">CTP Tokyo Night</option>
+            <option value="solarized">CTP Solarized</option>
+            <option value="void-signal">CTP Void Signal</option>
+            <option value="plasma-field">CTP Plasma Field</option>
+            <option value="cathode-green">CTP Cathode Green</option>
+            <option value="deep-current">CTP Deep Current</option>
+            <option value="convergence">CTP Convergence</option>
+<option value="convergence-light">CTP Convergence Light</option>
+<option value="convergence-medium">CTP Convergence Medium</option>
+<option value="convergence-medium-dark">CTP Convergence Medium Dark</option>
+<option value="convergence-dark">CTP Convergence Dark</option>
+<option value="corporate">CTP Corporate</option>
           
           </select>
         </div>
