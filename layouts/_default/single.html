@@ -1,0 +1,9 @@
+{{ define "main" }}
+<div class="layout">
+{{ partial "sidebar-left.html" . }}
+      <main class="col col-center">
+{{ .Content }}
+      </main>
+{{ partial "sidebar-right.html" . }}
+</div>
+{{ end }}

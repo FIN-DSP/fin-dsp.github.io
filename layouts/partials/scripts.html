@@ -1,0 +1,27 @@
+<script src="/js/main.js" defer></script>
+<script src="/js/hero.js" defer></script>
+<script src="/js/ctp-music.js" defer></script>
+<script src="/js/sites-rotator.js" defer></script>
+{{ if .IsHome }}
+<script src="/js/projects.js" defer></script>
+{{ end }}
+{{ if and (not .IsHome) (ne .RelPermalink "/legal.html") }}
+<script src="/js/findsp-radio.js" defer></script>
+{{ end }}
+{{ if eq .RelPermalink "/active-projects.html" }}
+<script src="/js/active-projects.js" defer></script>
+{{ end }}
+{{ if eq .RelPermalink "/freesound.html" }}
+<script src="/js/freesound.js" defer></script>
+{{ end }}
+{{ if eq .RelPermalink "/mod-player.html" }}
+<script src="/assets/js/modplayer/utils.js" defer></script>
+<script src="/assets/js/modplayer/pt.js" defer></script>
+<script src="/assets/js/modplayer/st3.js" defer></script>
+<script src="/assets/js/modplayer/ft2.js" defer></script>
+<script src="/assets/js/modplayer/player.js" defer></script>
+<script src="/js/mod-player.js" defer></script>
+{{ end }}
+{{ if eq .RelPermalink "/music-search.html" }}
+<script src="/js/music-search.js" defer></script>
+{{ end }}

@@ -1,0 +1,13 @@
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="color-scheme" content="light dark" />
+<script>(function(){try{var q=null;try{q=new URLSearchParams(window.location.search).get('width');}catch(e){}if(q==='full'||q==='nuke'){document.documentElement.setAttribute('data-width',q);return;}var w=localStorage.getItem('ctp-width');if(w==='full'||w==='nuke'){document.documentElement.setAttribute('data-width',w);}}catch(e){}})();</script>
+<script>(function(){try{var VALID=['calamares','eos','eos-light','eos-medium','eos-medium-dark','eos-dark','space-cadet-light','space-cadet-medium','space-cadet-medium-dark','space-cadet-dark','founder','founder-light','founder-medium','founder-medium-dark','founder-dark','midnight-blue','midnight','tecknotronic-psy','tecknotronic-matrix','ctpix','cdomain-light','cdomain-medium','cdomain-medium-dark','cdomain-dark','frey-light','frey-medium','frey-medium-dark','frey-dark','light','medium','dark','nuke-dark','matrix','amber','catppuccin','cerulean','synthwave','dracula','nord','cyberpunk','tokyonight','solarized','void-signal','plasma-field','cathode-green','deep-current','convergence','convergence-light','convergence-medium','convergence-medium-dark','convergence-dark','corporate'];var t=localStorage.getItem('findsp-theme');if(t&&VALID.indexOf(t)>-1){document.documentElement.setAttribute('data-theme',t);}}catch(e){}})();</script>
+<link rel="icon" href="{{ "assets/branding/findsp-logo-200x200.jpg" | relURL }}" />
+<title>{{ if .IsHome }}FIN-DSP{{ else }}{{ .Title }} — FIN-DSP{{ end }}</title>
+<meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}FIN-DSP — the project news portal for audio software developers. Open-source audio DSP, curated from GitHub, SourceForge, and the abandonware shelf. Commercial releases to come.{{ end }}" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+{{ $css := resources.Get "css/main.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" />

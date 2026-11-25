@@ -1,0 +1,202 @@
+<aside class="col col-right">
+                {{ if .IsHome }}
+<section class="module" id="ctp-music" aria-label="CTP Music">
+          <div class="module-title"><a href="https://ctp-music.github.io/" target="_blank" rel="noopener">CTP Music</a></div>
+          <div class="module-body">
+            <div class="mp-label">Now Playing</div>
+            <div class="mp-station-row">
+              <button type="button" class="mp-nav" id="mpPrev" aria-label="Previous station">&#8249;</button>
+              <div class="mp-channel-wrap">
+                <div class="mp-group" id="mpGroup">Chillout &amp; Lounge</div>
+                <div class="mp-channel" id="mpChannel">Abstrait</div>
+                <div class="mp-genre"><span id="mpGenreText">Chillout / Lounge</span> · <a id="mpGenreLink" href="https://laut.fm/abstrait" target="_blank" rel="noopener">laut.fm</a></div>
+              </div>
+              <button type="button" class="mp-nav" id="mpNext" aria-label="Next station">&#8250;</button>
+            </div>
+            <iframe id="mpWidget" class="mp-widget" title="CTP Music — laut.fm player" allow="autoplay"></iframe>
+            <div class="mp-status" id="mpStatus">Stream loaded — press play</div>
+            <div class="mp-source"><a id="mpSourceLink" href="https://laut.fm/abstrait" target="_blank" rel="noopener">stream.laut.fm/abstrait</a></div>
+            <p class="mp-note">Player is <a href="https://laut.fm/" target="_blank" rel="noopener">laut.fm</a>'s own — the stream plays inside their widget, not ours.</p>
+            <div class="cdom-head">C-DOMAIN FREQUENCIES</div>
+            <p class="cdom-body">Sounds of consciousness from around the internet. We&rsquo;re building our own streaming stations &mdash; artists are welcome to <a href="mailto:info@ctp-energy.com">get in touch</a> and submit their MP3s for the stream.</p>
+          </div>
+        </section>
+{{ end }}
+{{ if and (not .IsHome) (ne .RelPermalink "/legal.html") }}
+<section class="module" id="findsp-radio" aria-label="FIN-DSP Radio">
+          <div class="module-title">FIN-DSP Radio</div>
+          <div class="module-body">
+            <div class="mp-label">Now Playing</div>
+            <div class="mp-station-row">
+              <button type="button" class="mp-nav" id="mpPrev" aria-label="Previous station">&#8249;</button>
+              <div class="mp-channel-wrap">
+                <div class="mp-channel" id="mpChannel">Aphex Twin Radio</div>
+                <div class="mp-genre" id="mpGenre">IDM / Ambient Techno / Drill 'n' Bass · laut.fm</div>
+              </div>
+              <button type="button" class="mp-nav" id="mpNext" aria-label="Next station">&#8250;</button>
+            </div>
+            <div class="mp-eq" id="mpEq" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="mp-track" id="mpTrack"><span style="color:var(--muted);">Press play — live radio, no playlist, no skip.</span></div>
+            <div class="mp-controls">
+              <button type="button" class="mp-play" id="mpPlayBtn" aria-label="Play">
+                <svg viewBox="0 0 24 24" aria-hidden="true" id="mpPlayIcon"><path d="M7 4.5v15l13-7.5z"/></svg>
+              </button>
+              <button type="button" class="mp-stop" id="mpStopBtn" aria-label="Stop">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5h14v14H5z"/></svg>
+              </button>
+              <span class="mp-state" id="mpState">Ready</span>
+            </div>
+            <div class="mp-vol">
+              <label for="mpVol">Volume</label>
+              <input type="range" id="mpVol" min="0" max="100" value="80" />
+            </div>
+            <div class="mp-status" id="mpStatus">Stream loaded — press play</div>
+            <div class="mp-source" id="mpSource">stream.laut.fm/aphex-twin-radio</div>
+            <div class="mp-list" id="mpList" aria-label="All stations"></div>
+            <audio id="mpAudio" preload="none"></audio>
+          </div>
+        </section>
+{{ end }}
+        <section class="module" id="featured" aria-label="Featured project">
+          <div class="module-title">Featured Project</div>
+          <div class="module-body">
+            <div class="featured">
+              <div class="f-text">
+                <h3><a href="https://github.com/FIN-DSP/tutka" target="_blank" rel="noopener">Tutka</a></h3>
+                <p>Tutka is a free (as in freedom) tracker style MIDI sequencer for GNU/Linux and Mac OS X.</p>
+                <p class="spec"><b>Type:</b> Tracker-style MIDI sequencer<br /><b>Language:</b> C++<br /><b>Source:</b> FIN-DSP on GitHub</p>
+                <a class="btn" href="https://github.com/FIN-DSP/tutka" target="_blank" rel="noopener">View on GitHub</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="module" id="submit" aria-label="Submit a project">
+          <div class="module-title">Submit a Project</div>
+          <div class="module-body">
+            <p><b>Got an audio project? Get it listed.</b></p>
+            <p>FIN-DSP lists new audio software projects as they appear — plugins, DSP, synthesizers, effects, audio engines, DAWs, libraries, frameworks, and tools.</p>
+            <p>To get your project listed, open an issue on the FIN-DSP org on GitHub with your repository link. The automated discovery engine is in development and will find new audio projects on GitHub and list them here.</p>
+            <p>There is no submission form yet — contact runs through the org.</p>
+            <a class="btn" href="https://github.com/FIN-DSP" target="_blank" rel="noopener">FIN-DSP on GitHub</a>
+          </div>
+        </section>
+
+        {{ if .IsHome }}
+<section class="module status" id="portal-status" aria-label="Portal status">
+          <div class="module-title">Portal Status</div>
+          <div class="module-body">
+            <table>
+              <tr><td class="k">Projects</td><td class="v" id="statusProjectCount">Loading…</td></tr>
+              <tr><td class="k">Discovery</td><td class="v">Discovery engine built — first run added 121 projects; twice-daily schedule pending workflow upload</td></tr>
+              <tr><td class="k">Coverage</td><td class="v">Plugins · DSP · Synths · Effects · Engines · DAWs · Libraries · Frameworks · Tools</td></tr>
+              <tr><td class="k">Publisher</td><td class="v">FIN-DSP</td></tr>
+            </table>
+          </div>
+        </section>
+{{ else if eq .RelPermalink "/legal.html" }}
+<section class="module status" id="portal-status" aria-label="Portal status">
+          <div class="module-title">Portal Status</div>
+          <div class="module-body">
+            <table>
+              <tr><td class="k">Projects</td><td class="v">141 projects in the current edition</td></tr>
+              <tr><td class="k">Discovery</td><td class="v">Discovery engine built — first run added 121 projects; twice-daily schedule pending workflow upload</td></tr>
+              <tr><td class="k">Coverage</td><td class="v">Plugins · DSP · Synths · Effects · Engines · DAWs · Libraries · Frameworks · Tools</td></tr>
+              <tr><td class="k">Publisher</td><td class="v">FIN-DSP</td></tr>
+            </table>
+          </div>
+        </section>
+{{ end }}
+
+        <section class="module" id="tags" aria-label="Tags">
+          <div class="module-title">Tags</div>
+          <div class="module-body">
+            <div class="tag-cloud" id="tagCloud">
+              <a href="#latest" data-category="Plugins">Plugins</a>
+              <a href="#latest" data-category="DSP">DSP</a>
+              <a href="#latest" data-category="Synthesizers">Synthesizers</a>
+              <a href="#latest" data-category="Effects">Effects</a>
+              <a href="#latest" data-category="Audio Engines">Audio Engines</a>
+              <a href="#latest" data-category="DAWs">DAWs</a>
+              <a href="#latest" data-category="Libraries">Libraries</a>
+              <a href="#latest" data-category="Frameworks">Frameworks</a>
+              <a href="#latest" data-category="Tools">Tools</a>
+              <a href="#latest" data-search="FIN-DSP">FIN-DSP</a>
+              <a href="#latest" data-search="VST">VST</a>
+              <a href="#latest" data-search="MIDI">MIDI</a>
+              <a href="#latest" data-search="Open Source">Open Source</a>
+            </div>
+          </div>
+        </section>
+<section class="module" id="linkedin" aria-label="CTPVerse LinkedIn pages">
+          <div class="module-title">CTPVerse LinkedIn Pages</div>
+          <div class="module-body">
+            <p style="margin:0 0 10px; color:var(--muted); font-size:13px;">Every CTPVerse page on LinkedIn — company and showcase pages, grouped by division.</p>
+            <div class="li-group">
+              <h4>Core &amp; Energy</h4>
+              <a href="https://www.linkedin.com/company/ctp-energy/" target="_blank" rel="noopener">CTP Energy™</a>
+              <a href="https://www.linkedin.com/company/ctp-energy-drinks" target="_blank" rel="noopener">CTP Energy Drinks™ (CTPED)</a>
+              <a href="https://www.linkedin.com/showcase/ctp-energy-computers" target="_blank" rel="noopener">CTP Energy Computers™ (CTPEC)</a>
+            </div>
+            <div class="li-group">
+              <h4>Software &amp; Operating Systems</h4>
+              <a href="https://www.linkedin.com/showcase/ctp-eos/" target="_blank" rel="noopener">CTP-EOS™</a>
+              <a href="https://www.linkedin.com/showcase/ce-os/" target="_blank" rel="noopener">CE-OS™ (CEOS)</a>
+              <a href="https://linkedin.com/company/ctpeswg" target="_blank" rel="noopener">CTP Energy Software Group™</a>
+              <a href="https://linkedin.com/showcase/ctpeteams" target="_blank" rel="noopener">CTPETEAMS™</a>
+              <a href="http://linkedin.com/showcase/ctuxp" target="_blank" rel="noopener">CTuxP™</a>
+              <a href="https://www.linkedin.com/company/findsp" target="_blank" rel="noopener">FINDSP™</a>
+            </div>
+            <div class="li-group">
+              <h4>Education</h4>
+              <a href="https://www.linkedin.com/showcase/ctp-university/" target="_blank" rel="noopener">CTP University™ (CTPU)</a>
+              <a href="https://www.linkedin.com/company/ctpesot" target="_blank" rel="noopener">CTP Energy School of Thought™ (CTPESOT)</a>
+              <a href="https://www.linkedin.com/company/oort-order" target="_blank" rel="noopener">Ontological Order of the Resonant Triad™ (OORT)</a>
+            </div>
+            <div class="li-group">
+              <h4>Space, Research &amp; Projects</h4>
+              <a href="https://www.linkedin.com/showcase/ctp-space-systems" target="_blank" rel="noopener">CTP Space Systems™ (CTPSS)</a>
+              <a href="https://linkedin.com/showcase/ctp-seti" target="_blank" rel="noopener">CTP SETI™ (CTPSETI)</a>
+              <a href="https://www.linkedin.com/showcase/ctp-matsci" target="_blank" rel="noopener">CTP Materials Sciences™ (CTPMATSci)</a>
+              <a href="https://www.linkedin.com/showcase/ctp-the-great-pyramid-project-campus" target="_blank" rel="noopener">CTP: The Great Pyramid Project &amp; Campus™ (CTPTGPPC)</a>
+              <a href="https://www.linkedin.com/showcase/ctp-mesa/" target="_blank" rel="noopener">CTP Mesa™ (CTPEMESA)</a>
+            </div>
+            <div class="li-group">
+              <h4>Living, Health &amp; Community</h4>
+              <a href="https://www.linkedin.com/showcase/ctp-homes" target="_blank" rel="noopener">CTP Homes™ (CTPH)</a>
+              <a href="https://www.linkedin.com/showcase/ctp-holistic-centers/" target="_blank" rel="noopener">CTP Holistic Centers™ (CTPHC)</a>
+              <a href="https://www.linkedin.com/company/ctples" target="_blank" rel="noopener">CTP Longevity Exogenous Systems™ (CTPLES)</a>
+              <a href="https://www.linkedin.com/company/ctp-ess-ric" target="_blank" rel="noopener">CTP Energy Social Services &amp; Reintegration Centers™ (CTPSSRC)</a>
+              <a href="https://www.linkedin.com/company/ctp-eros" target="_blank" rel="noopener">CTP EROS™ (CTPEROS)</a>
+            </div>
+            <div class="li-group">
+              <h4>Media, Sport &amp; Order</h4>
+              <a href="https://linkedin.com/company/ctp-entertainment" target="_blank" rel="noopener">CTP Entertainment™ (CTPENT)</a>
+              <a href="https://www.linkedin.com/showcase/ctp-sports" target="_blank" rel="noopener">CTP Sports™ (CTPS)</a>
+            </div>
+          </div>
+        </section>
+<section class="module" id="club" aria-label="Club CTP">
+          <div class="module-title">Club CTP</div>
+          <div class="module-body">
+            <ul class="lineup" style="margin-top:0; border-top:none;">
+              <li><b>Explorer</b> <span class="role">— Free</span></li>
+              <li><b>Member · Bronze</b> <span class="role">— $5/mo</span></li>
+              <li><b>Premium · Silver</b> <span class="role">— $15/mo</span></li>
+              <li><b>Patron · Gold</b> <span class="role">— $50/mo</span></li>
+              <li><b>Founder's Circle · Platinum</b> <span class="role">— Custom</span></li>
+            </ul>
+            <p style="margin-top:10px;"><a href="https://ctp-music.github.io/#club" target="_blank" rel="noopener">See the tiers</a></p>
+          </div>
+        </section>
+
+<section class="module" id="support-ctp-paypal" aria-label="Support CTP via PayPal">
+          <div class="module-title">Support CTP — PayPal</div>
+          <a class="paypal-logo-link" href="https://www.paypal.com/donate?business=ctpenergy@gmail.com" target="_blank" rel="noopener" aria-label="Donate to CTP via PayPal"><span class="paypal-logo" aria-hidden="true"><span class="paypal-mark"><span class="pp pp-dark">P</span><span class="pp pp-light">P</span></span><span class="paypal-word"><span class="pay">Pay</span><span class="pal">Pal</span></span></span></a>
+          <p class="support-subtitle">A separate campaign — direct support via PayPal.</p>
+          <div class="module-body support-body">
+            <p>Support the work directly via PayPal.</p>
+            <p class="support-actions"><a class="btn btn-primary" href="https://www.paypal.com/donate?business=ctpenergy@gmail.com" target="_blank" rel="noopener">Support via PayPal</a></p>
+          </div>
+        </section>
+</aside>
