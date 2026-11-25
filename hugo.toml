@@ -1,0 +1,16 @@
+baseURL = "https://fin-dsp.github.io/"
+title = "FIN-DSP"
+languageCode = "en"
+enableRobotsTXT = true
+
+# No taxonomies are used on this site.
+disableKinds = ["taxonomy", "term", "RSS"]
+
+[markup]
+  [markup.goldmark]
+    # Raw HTML inside markdown (the sub-page centre sections) must pass
+    # through unchanged.
+    unsafe = true
+  [markup.goldmark.renderer]
+    # Keep heading IDs stable for anchor links.
+    unsafe = true

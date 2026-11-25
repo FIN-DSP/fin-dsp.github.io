@@ -1,0 +1,64 @@
+<aside class="col col-left">
+        <section class="module" aria-label="FIN-DSP Organization">
+          <div class="module-title">FIN-DSP Organization</div>
+          <div class="module-body" style="line-height:0;"><a href="https://github.com/FIN-DSP" target="_blank" rel="noopener" title="FIN-DSP on GitHub — visit the organization page"><img src="assets/branding/findsp-logo-200x200.jpg" alt="FIN-DSP" width="200" height="200" style="display:block; width:100%; height:auto;" /></a></div>
+        </section>
+        <section class="module" aria-label="Main menu">
+          <div class="module-title">Main Menu</div>
+          <ul class="menu">
+            <li><a href="#top">Home</a></li>
+            <li><a href="#latest">Latest Projects</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#about">About FIN-DSP</a></li>
+            <li><a href="#submit">Submit a Project</a></li>
+            <li><a href="#featured">Featured Project</a></li>
+            <li><a href="about.html">About FIN-DSP</a></li>
+            <li><a href="music-search.html">Music Search &amp; Preview</a></li>
+            <li><a href="freesound.html">Freesound Search &amp; Preview</a></li>
+            <li><a href="active-projects.html">Active Projects</a></li>
+            <li><a href="mod-player.html">Mod Player</a></li>
+            <li><a href="#tags">Tags</a></li>
+          </ul>
+        </section>
+
+        <section class="module" id="categories" aria-label="Categories">
+          <div class="module-title">Categories</div>
+          <ul class="menu" id="catMenu">
+            <li><a href="#latest" data-category="" class="is-active">All Categories</a></li>
+            <li><a href="#latest" data-category="Plugins">Plugins</a></li>
+            <li><a href="#latest" data-category="DSP">DSP</a></li>
+            <li><a href="#latest" data-category="Synthesizers">Synthesizers</a></li>
+            <li><a href="#latest" data-category="Effects">Effects</a></li>
+            <li><a href="#latest" data-category="Audio Engines">Audio Engines</a></li>
+            <li><a href="#latest" data-category="DAWs">DAWs</a></li>
+            <li><a href="#latest" data-category="Libraries">Libraries</a></li>
+            <li><a href="#latest" data-category="Frameworks">Frameworks</a></li>
+            <li><a href="#latest" data-category="Tools">Tools</a></li>
+          </ul>
+        </section>
+
+        {{ if eq .RelPermalink "/legal.html" }}
+<section class="module" id="about" aria-label="About FIN-DSP">
+          <div class="module-title">About FIN-DSP</div>
+          <div class="module-body">
+            <p>FIN-DSP is a live project news and discovery portal for the entire audio software development community.</p>
+            <p>Tens of thousands of audio developers publish projects on GitHub — finding them takes hours of digging. FIN-DSP discovers new audio software projects as they appear and publishes them here, with links back to the original developer and repository.</p>
+            <p>Open-source audio DSP, curated from GitHub, SourceForge, and the abandonware shelf. Commercial releases to come.</p>
+          </div>
+        </section>
+{{ else }}
+<section class="module" id="about" aria-label="About FIN-DSP">
+          <div class="module-title">About FIN-DSP</div>
+          <div class="module-body">
+            <p>FINDSP is the audio research and music-technology division of CTP-EOS Linux, operating within the broader CTP / CTP Energy ecosystem.</p>
+            <p>We design and develop advanced audio software technologies for modern production environments, supporting most major DAWs through VST2 / VST3 formats. Our work emphasizes vanguard, experimental, and forward-looking VST / VSTi concepts rather than conventional commodity plugins.</p>
+            <p><a href="about.html">Read the full About — project focus, hardware exploration, and the founder →</a></p>
+          </div>
+        </section>
+{{ end }}
+
+        <section class="module" aria-label="CTPVerse Sites">
+          <div class="module-title">CTPVerse Sites</div>
+          <div class="module-body" style="line-height:0;"><a id="ctpverse-sites-rotator-link" style="display:block; line-height:0;" href="https://ctpverse.github.io/" target="_blank" rel="noopener" title="CTPVerse" aria-label="CTPVerse"><img id="ctpverse-sites-rotator-img" src="https://ctpverse.github.io/images/branding/ctpverse-org-avatar.jpg" alt="CTPVerse" width="1024" height="1024" style="display:block; width:100%; height:auto;" /></a></div>
+        </section>
+      </aside>

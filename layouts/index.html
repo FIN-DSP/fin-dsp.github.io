@@ -1,0 +1,114 @@
+{{ define "main" }}
+<div class="layout">
+{{ partial "sidebar-left.html" . }}
+<main class="col col-center">
+        <figure class="hero" style="margin:0;">
+          <div class="hero-viewport">
+            <figure class="hero-slide is-active">
+              <a class="hero-link" href="https://ardour.org/" target="_blank" rel="noopener">
+                <img src="assets/hero/hero-01-ardour.jpg" alt="Ardour — the digital audio workstation" width="1920" height="1080" />
+                <span class="hero-credit"><b>Ardour</b> · the digital audio workstation · GPL</span>
+              </a>
+            </figure>
+            <figure class="hero-slide" aria-hidden="true">
+              <a class="hero-link" href="https://surge-synthesizer.github.io/" target="_blank" rel="noopener" tabindex="-1">
+                <img src="assets/hero/hero-02-surge-xt.jpg" alt="Surge XT — free and open source hybrid synthesizer" width="1920" height="1080" />
+                <span class="hero-credit"><b>Surge XT</b> · free and open source hybrid synthesizer · GPL-3.0</span>
+              </a>
+            </figure>
+            <figure class="hero-slide" aria-hidden="true">
+              <a class="hero-link" href="https://lmms.io/" target="_blank" rel="noopener" tabindex="-1">
+                <img src="assets/hero/hero-03-lmms.jpg" alt="LMMS — cross-platform music production software" width="1920" height="1080" />
+                <span class="hero-credit"><b>LMMS</b> · cross-platform music production software · GPL-2.0</span>
+              </a>
+            </figure>
+            <figure class="hero-slide" aria-hidden="true">
+              <a class="hero-link" href="https://vcvrack.com/" target="_blank" rel="noopener" tabindex="-1">
+                <img src="assets/hero/hero-04-vcv-rack.jpg" alt="VCV Rack — the virtual Eurorack studio" width="1920" height="1080" />
+                <span class="hero-credit"><b>VCV Rack</b> · the virtual Eurorack studio · GPL-3.0</span>
+              </a>
+            </figure>
+            <figure class="hero-slide" aria-hidden="true">
+              <a class="hero-link" href="https://www.audacityteam.org/" target="_blank" rel="noopener" tabindex="-1">
+                <img src="assets/hero/hero-05-audacity.jpg" alt="Audacity — audio editor" width="1920" height="1080" />
+                <span class="hero-credit"><b>Audacity</b> · audio editor · GPL-2.0</span>
+              </a>
+            </figure>
+            <figure class="hero-slide" aria-hidden="true">
+              <a class="hero-link" href="https://www.bespokesynth.com/" target="_blank" rel="noopener" tabindex="-1">
+                <img src="assets/hero/hero-06-bespoke-synth.jpg" alt="BespokeSynth — software modular synth" width="1920" height="1080" />
+                <span class="hero-credit"><b>BespokeSynth</b> · software modular synth · GPL-3.0</span>
+              </a>
+            </figure>
+          </div>
+        </figure>
+
+        <section class="module" id="ctp-eos" aria-label="CTP-EOS Linux">
+          <div class="module-title">CTP-EOS Linux</div>
+          <div class="module-body">
+            <p class="ctp-eos-line" style="margin: 0 0 8px;">CTP-EOS: the CTP Extraterrestrial Operating System</p>
+            <a href="https://ctp-eos.github.io/" target="_blank" rel="noopener"><img src="assets/ctp-eos/ctp-eos-horz-banner.jpg" alt="CTP-EOS Linux — the operating system behind FIN-DSP" style="width: 100%; height: auto; display: block;" /></a>
+            <p style="margin: 8px 0 0;">FIN-DSP runs on CTP-EOS Linux, the official Linux of FIN-DSP.</p>
+          </div>
+        </section>
+
+        <section class="module" id="featured" aria-label="Featured">
+          <div class="feat-viewport">
+            <div class="feat-track" id="featTrack">
+              <a class="feat-slide feat-dev" href="active-projects.html">
+                <span class="feat-title">Featured Developers</span>
+                <span class="feat-sub">The people building the tools.</span>
+              </a>
+              <a class="feat-slide feat-art" href="music-search.html">
+                <span class="feat-title">Featured Artists</span>
+                <span class="feat-sub">The music made with the tools.</span>
+              </a>
+              <a class="feat-slide feat-prod" href="#latest">
+                <span class="feat-title">Featured Product</span>
+                <span class="feat-sub">The tool everyone's talking about.</span>
+              </a>
+              <a class="feat-slide feat-rel" href="music-search.html">
+                <span class="feat-title">Featured Music Release</span>
+                <span class="feat-sub">Fresh out — hear it first.</span>
+              </a>
+              <a class="feat-slide feat-radio" href="#findsp-radio">
+                <span class="feat-title">Featured Radio Station</span>
+                <span class="feat-sub">Live from the airwaves.</span>
+              </a>
+              <a class="feat-slide feat-soft" href="active-projects.html">
+                <span class="feat-title">Featured Software</span>
+                <span class="feat-sub">The tools, front and center.</span>
+              </a>
+              <a class="feat-slide feat-edit" href="about.html">
+                <span class="feat-title">Featured Editorial</span>
+                <span class="feat-sub">The story behind the sound.</span>
+              </a>
+            </div>
+          </div>
+          <div class="feat-controls">
+            <button class="feat-arrow" id="featPrev" aria-label="Previous featured">&#8249;</button>
+            <span id="featDots"></span>
+            <button class="feat-arrow" id="featNext" aria-label="Next featured">&#8250;</button>
+          </div>
+        </section>
+
+        <section class="module" id="latest" aria-label="Latest projects">
+          <div class="module-title">Latest Projects</div>
+          <div class="module-body">
+            <div class="art-search">
+              <input type="search" id="projSearch" placeholder="Search project names…" aria-label="Search project names" />
+            </div>
+            <p class="art-note" id="projCatLine">Showing all categories</p>
+            <p class="art-note" id="projOriginLine">Show: <a href="#latest" data-origin="" class="is-active" id="originAll">All projects</a> · <a href="#latest" data-origin="FIN-DSP" id="originOwn">FIN-DSP</a> · <a href="#latest" data-origin="Community" id="originCommunity">Community</a></p>
+            <div id="projectList">
+              <p class="art-note">Loading the latest projects…</p>
+            </div>
+            <div class="art-actions">
+              <button type="button" class="btn" id="projMore" style="display:none;">Show more</button>
+            </div>
+          </div>
+        </section>
+      </main>
+{{ partial "sidebar-right.html" . }}
+</div>
+{{ end }}
