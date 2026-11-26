@@ -2,20 +2,11 @@
   "generated_at": "2026-11-26",
   "window_days": 30,
   "since": "2026-10-27",
-  "queries": [
-    {
-      "topic": "vst",
-      "status": 200,
-      "count": 20,
-      "total": 49
-    }
-  ],
-  "candidates": 19,
+  "queries": [],
+  "candidates": 0,
   "added": 0,
   "added_names": [],
-  "skipped": {
-    "already known": 18
-  },
+  "skipped": {},
   "rate_limited": true,
-  "rate_limit_note": "GitHub API rate limit spent (reset epoch 1795678985): {\"message\":\"API rate limit exceeded for 20.15.229.154. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)\",\"documentation_url\":\"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting\"}\n"
+  "rate_limit_note": "GitHub API rate limit spent (reset epoch 1795726841): {\"message\":\"API rate limit exceeded for 20.97.191.121. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)\",\"documentation_url\":\"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting\"}\n"
 }
