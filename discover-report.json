@@ -1,116 +1,21 @@
 {
-  "generated_at": "2026-11-25",
+  "generated_at": "2026-11-26",
   "window_days": 30,
-  "since": "2026-10-26",
+  "since": "2026-10-27",
   "queries": [
     {
       "topic": "vst",
       "status": 200,
       "count": 20,
-      "total": 51
-    },
-    {
-      "topic": "audio-plugin",
-      "status": 200,
-      "count": 20,
-      "total": 300
-    },
-    {
-      "topic": "synthesizer",
-      "status": 200,
-      "count": 20,
-      "total": 342
-    },
-    {
-      "topic": "dsp",
-      "status": 200,
-      "count": 20,
-      "total": 546
-    },
-    {
-      "topic": "daw",
-      "status": 200,
-      "count": 20,
-      "total": 257
-    },
-    {
-      "topic": "audio-engine",
-      "status": 200,
-      "count": 12,
-      "total": 12
-    },
-    {
-      "topic": "midi",
-      "status": 200,
-      "count": 20,
-      "total": 794
-    },
-    {
-      "topic": "tracker",
-      "status": 200,
-      "count": 20,
-      "total": 154
-    },
-    {
-      "topic": "lv2",
-      "status": 200,
-      "count": 20,
-      "total": 60
-    },
-    {
-      "topic": "juce",
-      "status": 200,
-      "count": 20,
-      "total": 228
+      "total": 49
     }
   ],
-  "candidates": 192,
-  "added": 34,
-  "added_names": [
-    "codewithahsann/daw-synth-fl-studio-2026-producer-noraron",
-    "kunitoki/retrace",
-    "arslanandrew/baby-audio-parallel-aggressor",
-    "muhaiminrejoneabir-ai/fl-studio-tadalen-beat-lab",
-    "akbrucke/Maple",
-    "ZerpaLuis/ableton-live-balemir-music-studio",
-    "tehguitarist/YREV57",
-    "iLiranS/Aurelia",
-    "xdma/third-planet",
-    "tvdasala/electro-pro",
-    "TrKeyboarder/tr-ai-daw",
-    "inplugapp/free-plugins",
-    "crobyskigh/izotope-ozone-11-mastering-suite",
-    "ColdSimens78/l2t-copilot",
-    "AnClark/ClassicReverb-RE01",
-    "abektes/a22",
-    "cedrati/ableton-studio-mcp",
-    "hexamorphical/hypercut",
-    "dskmusic/genesix-by-dsk",
-    "nokogoat/ponzik",
-    "audivane/dsp",
-    "elpendor/flipparina",
-    "BROKE-N-BORED/WinLinx",
-    "evadavevadave/davidian-treble-booster-30",
-    "rofaan/tyap-lyap-vst3-plugin-fl-studio",
-    "evadavevadave/davidian-duo-57",
-    "Mapelisin/Harmonia",
-    "odoare/StairwellToHeaven",
-    "lonesoulsurfer/kicad-front-panel-generator",
-    "InletGoldsmith/decent-sampler-instrument-library",
-    "Clash-Projects/acoustiq",
-    "AlltAWD/score-backing-track",
-    "xelloss120/VcabDenoise",
-    "FIN-DSP/.github"
-  ],
+  "candidates": 19,
+  "added": 0,
+  "added_names": [],
   "skipped": {
-    "already known": 140,
-    "commercial software repack": 1,
-    "seen before: rejected: commercial software repack": 1,
-    "no audio keyword in name/description": 8,
-    "seen before: rejected: no audio keyword in name/description": 1,
-    "tracker topic, not a music tracker": 7,
-    "not a software project (torrent)": 1
+    "already known": 18
   },
-  "rate_limited": false,
-  "rate_limit_note": ""
+  "rate_limited": true,
+  "rate_limit_note": "GitHub API rate limit spent (reset epoch 1795678985): {\"message\":\"API rate limit exceeded for 20.15.229.154. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)\",\"documentation_url\":\"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting\"}\n"
 }
