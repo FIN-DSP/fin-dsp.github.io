@@ -1,5 +1,21 @@
 [
   {
+    "name": "AIIO2-Audio-Stabilizer",
+    "title": "AIIO2-Audio-Stabilizer",
+    "full_name": "AIIO2/AIIO2-Audio-Stabilizer",
+    "description": "Professional pre-master audio processor featuring the proprietary Analog Reconstruction Engine (ARE)",
+    "excerpt": "Professional pre-master audio processor featuring the proprietary Analog Reconstruction Engine (ARE)",
+    "url": "https://github.com/AIIO2/AIIO2-Audio-Stabilizer",
+    "repo": "AIIO2/AIIO2-Audio-Stabilizer",
+    "source": "AIIO2/AIIO2-Audio-Stabilizer",
+    "date": "2026-11-26",
+    "category": "DSP",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "AIIO2/AIIO2-Audio-Stabilizer"
+  },
+  {
     "name": "daw-synth-fl-studio-2026-producer-noraron",
     "title": "daw-synth-fl-studio-2026-producer-noraron",
     "full_name": "codewithahsann/daw-synth-fl-studio-2026-producer-noraron",
@@ -32,6 +48,22 @@
     "feed": "kunitoki/retrace"
   },
   {
+    "name": "ClassicPhaser-RE01",
+    "title": "ClassicPhaser-RE01",
+    "full_name": "AnClark/ClassicPhaser-RE01",
+    "description": "A phaser for creative sound design. Reversed engineering of Kjaerhus Classic Phaser",
+    "excerpt": "A phaser for creative sound design. Reversed engineering of Kjaerhus Classic Phaser",
+    "url": "https://github.com/AnClark/ClassicPhaser-RE01",
+    "repo": "AnClark/ClassicPhaser-RE01",
+    "source": "AnClark/ClassicPhaser-RE01",
+    "date": "2026-11-24",
+    "category": "Plugins",
+    "origin": "Community",
+    "image": "https://raw.githubusercontent.com/AnClark/ClassicPhaser-RE01/develop/Screenshot.png",
+    "image_credit": "AnClark/ClassicPhaser-RE01 \u00b7 own screenshot",
+    "feed": "AnClark/ClassicPhaser-RE01"
+  },
+  {
     "name": "baby-audio-parallel-aggressor",
     "title": "baby-audio-parallel-aggressor",
     "full_name": "arslanandrew/baby-audio-parallel-aggressor",
@@ -46,6 +78,22 @@
     "image": "",
     "image_credit": "",
     "feed": "arslanandrew/baby-audio-parallel-aggressor"
+  },
+  {
+    "name": "Moonsong",
+    "title": "Moonsong",
+    "full_name": "akbrucke/Moonsong",
+    "description": "3D Vocal Delay & Reverb Console",
+    "excerpt": "3D Vocal Delay & Reverb Console",
+    "url": "https://github.com/akbrucke/Moonsong",
+    "repo": "akbrucke/Moonsong",
+    "source": "akbrucke/Moonsong",
+    "date": "2026-11-23",
+    "category": "Plugins",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "akbrucke/Moonsong"
   },
   {
     "name": "fl-studio-tadalen-beat-lab",
@@ -174,6 +222,22 @@
     "image": "",
     "image_credit": "",
     "feed": "TrKeyboarder/tr-ai-daw"
+  },
+  {
+    "name": "Heins-True-Diyae-Pro",
+    "title": "Heins-True-Diyae-Pro",
+    "full_name": "maisondiyae-sudo/Heins-True-Diyae-Pro",
+    "description": "Free, offline batch audio mastering & conversion desktop app (Windows/macOS) with Anti-Parasite filter, real-time A/B playback, and clean metadata-free exports. GPL-3.0.",
+    "excerpt": "Free, offline batch audio mastering & conversion desktop app (Windows/macOS) with Anti-Parasite filter, real-time A/B playback, and clean metadata-free exports. GPL-3.0.",
+    "url": "https://github.com/maisondiyae-sudo/Heins-True-Diyae-Pro",
+    "repo": "maisondiyae-sudo/Heins-True-Diyae-Pro",
+    "source": "maisondiyae-sudo/Heins-True-Diyae-Pro",
+    "date": "2026-11-21",
+    "category": "DSP",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "maisondiyae-sudo/Heins-True-Diyae-Pro"
   },
   {
     "name": "free-plugins",
@@ -752,6 +816,22 @@
     "feed": "rncbc/qjackctl"
   },
   {
+    "name": "uad-plugin-filter",
+    "title": "uad-plugin-filter",
+    "full_name": "EnterOutside/uad-plugin-filter",
+    "description": "Moves the UAD-2 plugins you're not authorized for out of your VST2/VST3/AAX folders, so your DAW lists only what you own. Free, Windows.",
+    "excerpt": "Moves the UAD-2 plugins you're not authorized for out of your VST2/VST3/AAX folders, so your DAW lists only what you own. Free, Windows.",
+    "url": "https://github.com/EnterOutside/uad-plugin-filter",
+    "repo": "EnterOutside/uad-plugin-filter",
+    "source": "EnterOutside/uad-plugin-filter",
+    "date": "2026-11-18",
+    "category": "DAWs",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "EnterOutside/uad-plugin-filter"
+  },
+  {
     "name": "hypercut",
     "title": "hypercut",
     "full_name": "hexamorphical/hypercut",
@@ -1310,6 +1390,22 @@
     "image": "https://raw.githubusercontent.com/evadavevadave/davidian-humble-overdraft/main/docs/gui.png",
     "image_credit": "evadavevadave/davidian-humble-overdraft \u00b7 own screenshot",
     "feed": "evadavevadave/davidian-humble-overdraft"
+  },
+  {
+    "name": "Icarus",
+    "title": "Icarus",
+    "full_name": "28spawn/Icarus",
+    "description": "An open-source modular firmware, DSP engine, and analog guitar synthesizer for the M-VAVE / Donner Pocket AMP.",
+    "excerpt": "An open-source modular firmware, DSP engine, and analog guitar synthesizer for the M-VAVE / Donner Pocket AMP.",
+    "url": "https://github.com/28spawn/Icarus",
+    "repo": "28spawn/Icarus",
+    "source": "28spawn/Icarus",
+    "date": "2026-11-08",
+    "category": "Synthesizers",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "28spawn/Icarus"
   },
   {
     "name": "davidian-duo-57",
@@ -1934,6 +2030,22 @@
     "image": "",
     "image_credit": "",
     "feed": "lgarraza/KeyStepProStudio"
+  },
+  {
+    "name": "syncrackd",
+    "title": "syncrackd",
+    "full_name": "Vuulgaris/syncrackd",
+    "description": "SynCrackd: a stereo sampler for the Elektron Syntakt, as a patch to the official OS 1.42. Unofficial.",
+    "excerpt": "SynCrackd: a stereo sampler for the Elektron Syntakt, as a patch to the official OS 1.42. Unofficial.",
+    "url": "https://github.com/Vuulgaris/syncrackd",
+    "repo": "Vuulgaris/syncrackd",
+    "source": "Vuulgaris/syncrackd",
+    "date": "2026-10-30",
+    "category": "Tools",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "Vuulgaris/syncrackd"
   },
   {
     "name": "decent-sampler-instrument-library",

@@ -1,4 +1,12 @@
 {
+  "28spawn/Icarus": {
+    "date": "2026-11-27",
+    "decision": "added"
+  },
+  "AIIO2/AIIO2-Audio-Stabilizer": {
+    "date": "2026-11-27",
+    "decision": "added"
+  },
   "AdityaDevLabs/fl-studio-license-generator": {
     "date": "2026-11-25",
     "decision": "rejected: no audio keyword in name/description"
@@ -13,6 +21,10 @@
   },
   "AlltAWD/score-backing-track": {
     "date": "2026-11-25",
+    "decision": "added"
+  },
+  "AnClark/ClassicPhaser-RE01": {
+    "date": "2026-11-27",
     "decision": "added"
   },
   "AnClark/ClassicReverb-RE01": {
@@ -85,6 +97,10 @@
   },
   "Dragjon/eigentone": {
     "date": "2026-11-19",
+    "decision": "added"
+  },
+  "EnterOutside/uad-plugin-filter": {
+    "date": "2026-11-27",
     "decision": "added"
   },
   "Erkko68/koto": {
@@ -287,6 +303,10 @@
     "date": "2026-11-19",
     "decision": "added"
   },
+  "Vuulgaris/syncrackd": {
+    "date": "2026-11-27",
+    "decision": "added"
+  },
   "WindServiceIdentify/ableton-production-bench": {
     "date": "2026-11-19",
     "decision": "rejected: no audio keyword in name/description"
@@ -313,6 +333,10 @@
   },
   "akbrucke/Maple": {
     "date": "2026-11-25",
+    "decision": "added"
+  },
+  "akbrucke/Moonsong": {
+    "date": "2026-11-27",
     "decision": "added"
   },
   "alibasimm1993/whalefeed": {
@@ -527,6 +551,10 @@
     "date": "2026-11-19",
     "decision": "added"
   },
+  "jamesishome/iceVM": {
+    "date": "2026-11-27",
+    "decision": "rejected: no audio keyword in name/description"
+  },
   "janne-s/Suu": {
     "date": "2026-11-19",
     "decision": "added"
@@ -597,6 +625,10 @@
   },
   "maelswarm/fizzler": {
     "date": "2026-11-19",
+    "decision": "added"
+  },
+  "maisondiyae-sudo/Heins-True-Diyae-Pro": {
+    "date": "2026-11-27",
     "decision": "added"
   },
   "marksweiss/tastywaves": {

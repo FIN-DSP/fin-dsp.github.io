@@ -1,12 +1,48 @@
 {
-  "generated_at": "2026-11-26",
+  "generated_at": "2026-11-27",
   "window_days": 30,
-  "since": "2026-10-27",
-  "queries": [],
-  "candidates": 0,
-  "added": 0,
-  "added_names": [],
-  "skipped": {},
+  "since": "2026-10-28",
+  "queries": [
+    {
+      "topic": "vst",
+      "status": 200,
+      "count": 20,
+      "total": 51
+    },
+    {
+      "topic": "audio-plugin",
+      "status": 200,
+      "count": 20,
+      "total": 304
+    },
+    {
+      "topic": "synthesizer",
+      "status": 200,
+      "count": 20,
+      "total": 347
+    },
+    {
+      "topic": "dsp",
+      "status": 200,
+      "count": 20,
+      "total": 558
+    }
+  ],
+  "candidates": 80,
+  "added": 7,
+  "added_names": [
+    "AIIO2/AIIO2-Audio-Stabilizer",
+    "AnClark/ClassicPhaser-RE01",
+    "akbrucke/Moonsong",
+    "maisondiyae-sudo/Heins-True-Diyae-Pro",
+    "EnterOutside/uad-plugin-filter",
+    "28spawn/Icarus",
+    "Vuulgaris/syncrackd"
+  ],
+  "skipped": {
+    "already known": 72,
+    "no audio keyword in name/description": 1
+  },
   "rate_limited": true,
-  "rate_limit_note": "GitHub API rate limit spent (reset epoch 1795726841): {\"message\":\"API rate limit exceeded for 20.97.191.121. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)\",\"documentation_url\":\"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting\"}\n"
+  "rate_limit_note": "GitHub API rate limit spent (reset epoch 1795763249): {\"message\":\"API rate limit exceeded for 74.249.62.121. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)\",\"documentation_url\":\"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting\"}\n"
 }
