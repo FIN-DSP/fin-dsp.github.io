@@ -70,7 +70,7 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
       .nav-links { display: flex; flex-wrap: nowrap; align-items: center; }
       .topnav a {
         font-family: "Rajdhani", sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 1.5px;
-        text-transform: uppercase; color: #f5f7fa; padding: 10px 8px; min-height: 40px;
+        text-transform: uppercase; color: #f5f7fa; padding: 10px 6px; min-height: 40px;
         display: inline-flex; align-items: center; border-right: 1px solid rgba(255,255,255,.16);
        white-space:nowrap;}
       .topnav a:hover { color: #ffffff; background: rgba(255,255,255,.14); text-decoration: none; }
