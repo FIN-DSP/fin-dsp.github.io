@@ -606,6 +606,8 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
     --title-grad:linear-gradient(to bottom,#3d698c,#1f425f); --nav-bg:#132c42; --strip-bg:#132c42;
     --mark-bg:#eef3f7; --mark-text:#1f425f; --hover-border:#0d1d2b;
   }
+  /* Masthead sync: title matches the CTP mark box (--mark-text). */
+  [data-theme="medium"] .masthead .wordmark .name{color:#1f425f}
 [data-theme="eos"]{
     color-scheme:dark;
     --navy:#00aeef; --navy-dark:#7ed6ff; --blue:#00aeef; --blue-mid:#29bdf0;
@@ -650,6 +652,8 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
     --title-grad:linear-gradient(to bottom,#0b395d,#062f4f); --nav-bg:#011631; --strip-bg:#011631;
     --mark-bg:#021d38; --mark-text:#00aeef; --hover-border:#00aeef;
   }
+  /* Masthead sync: title matches the CTP mark box (--mark-text). */
+  [data-theme="eos-medium-dark"] .masthead .wordmark .name{color:#00aeef}
 [data-theme="eos-dark"]{
     color-scheme:dark;
     --navy:#00aeef; --navy-dark:#7ed6ff; --blue:#00aeef; --blue-mid:#29bdf0;
@@ -661,6 +665,8 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
     --title-grad:linear-gradient(to bottom,#062f4f,#021d38); --nav-bg:#000000; --strip-bg:#000000;
     --mark-bg:#011631; --mark-text:#00aeef; --hover-border:#00aeef;
   }
+  /* Masthead sync: title matches the CTP mark box (--mark-text). */
+  [data-theme="eos-dark"] .masthead .wordmark .name{color:#00aeef}
 [data-theme="space-cadet-light"]{
     color-scheme:light;
     --navy:#333365; --navy-dark:#1A1A33; --blue:#333365; --blue-mid:#4A4A80;
@@ -683,6 +689,8 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
     --title-grad:linear-gradient(to bottom,#4A4A80,#333365); --nav-bg:#1A1A33; --strip-bg:#1A1A33;
     --mark-bg:#E8E8F2; --mark-text:#333365; --hover-border:#333365;
   }
+  /* Masthead sync: title matches the CTP mark box (--mark-text). */
+  [data-theme="space-cadet-medium"] .masthead .wordmark .name{color:#333365}
 [data-theme="space-cadet-medium-dark"]{
     color-scheme:dark;
     --navy:#9A9AD0; --navy-dark:#B8B8E8; --blue:#9A9AD0; --blue-mid:#A8A8DC;
@@ -694,6 +702,8 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
     --title-grad:linear-gradient(to bottom,#45457C,#333365); --nav-bg:#1A1A33; --strip-bg:#1A1A33;
     --mark-bg:#26264D; --mark-text:#9A9AD0; --hover-border:#9A9AD0;
   }
+  /* Masthead sync: title matches the CTP mark box (--mark-text). */
+  [data-theme="space-cadet-medium-dark"] .masthead .wordmark .name{color:#9A9AD0}
 [data-theme="space-cadet-dark"]{
     color-scheme:dark;
     --navy:#8A8AC8; --navy-dark:#A8A8E0; --blue:#8A8AC8; --blue-mid:#9A9AD8;
@@ -705,6 +715,8 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
     --title-grad:linear-gradient(to bottom,#1F1F40,#14142B); --nav-bg:#000000; --strip-bg:#000000;
     --mark-bg:#14142B; --mark-text:#8A8AC8; --hover-border:#8A8AC8;
   }
+  /* Masthead sync: title matches the CTP mark box (--mark-text). */
+  [data-theme="space-cadet-dark"] .masthead .wordmark .name{color:#8A8AC8}
   /* CTP FOUNDER — palette from the CTP-EOS desktop: deep navy #071c28 / #030f19, steel teal #184e67 / #16394b, accent cyan #4c9cbd, bright #8fd8ef */
   /* CTP FOUNDER — bg #16394b, panels #184e67, primary #4c9cbd, text #ffffff */
 [data-theme="founder"]{
@@ -781,6 +793,8 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
     --title-grad:linear-gradient(to bottom,#5B8DEF,#141D33); --nav-bg:#05081A; --strip-bg:#05081A;
     --mark-bg:#0A1128; --mark-text:#5B8DEF; --hover-border:#5B8DEF;
   }
+  /* Masthead sync: title matches the CTP mark box (--mark-text). */
+  [data-theme="midnight-blue"] .masthead .wordmark .name{color:#5B8DEF}
 [data-theme="midnight"]{
     color-scheme:dark;
     --navy:#B8B8B8; --navy-dark:#E0E0E0; --blue:#B8B8B8; --blue-mid:#C8C8C8;
@@ -792,6 +806,8 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
     --title-grad:linear-gradient(to bottom,#B8B8B8,#111111); --nav-bg:#000000; --strip-bg:#000000;
     --mark-bg:#000000; --mark-text:#B8B8B8; --hover-border:#B8B8B8;
   }
+  /* Masthead sync: title matches the CTP mark box (--mark-text). */
+  [data-theme="midnight"] .masthead .wordmark .name{color:#B8B8B8}
 [data-theme="tecknotronic-psy"]{
     color-scheme:dark;
     --navy:#00aeef; --navy-dark:#7ed6ff; --blue:#00aeef; --blue-mid:#29bdf0;
@@ -803,6 +819,8 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
     --title-grad:linear-gradient(to bottom,#00aeef,#1a1a1a); --nav-bg:#000000; --strip-bg:#000000;
     --mark-bg:#0a0a0a; --mark-text:#00aeef; --hover-border:#00aeef;
   }
+  /* Masthead sync: title matches the CTP mark box (--mark-text). */
+  [data-theme="tecknotronic-psy"] .masthead .wordmark .name{color:#00aeef}
 [data-theme="tecknotronic-matrix"]{
     color-scheme:dark;
     --navy:#00ff41; --navy-dark:#7dff9e; --blue:#00ff41; --blue-mid:#33ff66;
@@ -814,6 +832,8 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
     --title-grad:linear-gradient(to bottom,#00ff41,#1a1a1a); --nav-bg:#000000; --strip-bg:#000000;
     --mark-bg:#0a0a0a; --mark-text:#00ff41; --hover-border:#00ff41;
   }
+  /* Masthead sync: title matches the CTP mark box (--mark-text). */
+  [data-theme="tecknotronic-matrix"] .masthead .wordmark .name{color:#00ff41}
 [data-theme="ctpix"]{
     color-scheme:dark;
     --navy:#53bffc; --navy-dark:#8bf; --blue:#53bffc; --blue-mid:#4499ff;
@@ -825,6 +845,8 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
     --title-grad:linear-gradient(to bottom,#53bffc,#4499ff); --nav-bg:#000000; --strip-bg:#000000;
     --mark-bg:#0b0a0a; --mark-text:#53bffc; --hover-border:#53bffc;
   }
+  /* Masthead sync: title matches the CTP mark box (--mark-text). */
+  [data-theme="ctpix"] .masthead .wordmark .name{color:#53bffc}
 [data-theme="cdomain-light"]{
     color-scheme:light;
     --navy:#1c2447; --navy-dark:#10142e; --blue:#6a5ae0; --blue-mid:#2f6fd0;
@@ -836,6 +858,8 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
     --title-grad:linear-gradient(to bottom,#2f6fd0,#1b4fa8); --nav-bg:#10142e; --strip-bg:#10142e;
     --mark-bg:#ffffff; --mark-text:#2f6fd0; --hover-border:#6a5ae0;
   }
+  /* Masthead sync: title matches the CTP mark box (--mark-text). */
+  [data-theme="cdomain-light"] .masthead .wordmark .name{color:#2f6fd0}
 [data-theme="cdomain-medium"]{
     color-scheme:dark;
     --navy:#a89aff; --navy-dark:#c3d4ff; --blue:#8fd0ff; --blue-mid:#a89aff;
@@ -847,6 +871,8 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
     --title-grad:linear-gradient(to bottom,#333c6e,#2b3160); --nav-bg:#232a52; --strip-bg:#232a52;
     --mark-bg:#2b3160; --mark-text:#8fd0ff; --hover-border:#a89aff;
   }
+  /* Masthead sync: title matches the CTP mark box (--mark-text). */
+  [data-theme="cdomain-medium"] .masthead .wordmark .name{color:#8fd0ff}
 [data-theme="cdomain-medium-dark"]{
     color-scheme:dark;
     --navy:#9a8cff; --navy-dark:#a9c6ff; --blue:#7cc8ff; --blue-mid:#9a8cff;
@@ -858,6 +884,8 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
     --title-grad:linear-gradient(to bottom,#1c2247,#171b36); --nav-bg:#171b36; --strip-bg:#171b36;
     --mark-bg:#171b36; --mark-text:#7cc8ff; --hover-border:#9a8cff;
   }
+  /* Masthead sync: title matches the CTP mark box (--mark-text). */
+  [data-theme="cdomain-medium-dark"] .masthead .wordmark .name{color:#7cc8ff}
 [data-theme="cdomain-dark"]{
     color-scheme:dark;
     --navy:#8a7cff; --navy-dark:#8fb8ff; --blue:#6fc4ff; --blue-mid:#8a7cff;
@@ -869,6 +897,8 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
     --title-grad:linear-gradient(to bottom,#10142e,#0b0f26); --nav-bg:#0b0f26; --strip-bg:#0b0f26;
     --mark-bg:#0b0f26; --mark-text:#8fb8ff; --hover-border:#8a7cff;
   }
+  /* Masthead sync: title matches the CTP mark box (--mark-text). */
+  [data-theme="cdomain-dark"] .masthead .wordmark .name{color:#8fb8ff}
 [data-theme="frey-light"]{
     color-scheme:light;
     --navy:#294155; --navy-dark:#12283b; --blue:#294155; --blue-mid:#3a5364;
@@ -880,6 +910,8 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
     --title-grad:linear-gradient(to bottom,#294155,#243a4c); --nav-bg:#12283b; --strip-bg:#12283b;
     --mark-bg:#ffffff; --mark-text:#294155; --hover-border:#294155;
   }
+  /* Masthead sync: title matches the CTP mark box (--mark-text). */
+  [data-theme="frey-light"] .masthead .wordmark .name{color:#294155}
 [data-theme="frey-medium"]{
     color-scheme:light;
     --navy:#294155; --navy-dark:#12283b; --blue:#243a4c; --blue-mid:#3a5364;
@@ -891,6 +923,8 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
     --title-grad:linear-gradient(to bottom,#3a5364,#294155); --nav-bg:#12283b; --strip-bg:#12283b;
     --mark-bg:#aecbdc; --mark-text:#294155; --hover-border:#12283b;
   }
+  /* Masthead sync: title matches the CTP mark box (--mark-text). */
+  [data-theme="frey-medium"] .masthead .wordmark .name{color:#294155}
 [data-theme="frey-medium-dark"]{
     color-scheme:dark;
     --navy:#8fadc3; --navy-dark:#aecbdc; --blue:#9ab9cf; --blue-mid:#8fadc3;
@@ -902,6 +936,8 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
     --title-grad:linear-gradient(to bottom,#4e6875,#3a5364); --nav-bg:#243a4c; --strip-bg:#243a4c;
     --mark-bg:#243a4c; --mark-text:#9ab9cf; --hover-border:#9ab9cf;
   }
+  /* Masthead sync: title matches the CTP mark box (--mark-text). */
+  [data-theme="frey-medium-dark"] .masthead .wordmark .name{color:#9ab9cf}
 [data-theme="frey-dark"]{
     color-scheme:dark;
     --navy:#8fadc3; --navy-dark:#aecbdc; --blue:#6b879b; --blue-mid:#8fadc3;
@@ -913,6 +949,8 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
     --title-grad:linear-gradient(to bottom,#20374b,#12283b); --nav-bg:#12283b; --strip-bg:#12283b;
     --mark-bg:#12283b; --mark-text:#8fadc3; --hover-border:#8fadc3;
   }
+  /* Masthead sync: title matches the CTP mark box (--mark-text). */
+  [data-theme="frey-dark"] .masthead .wordmark .name{color:#8fadc3}
 [data-theme="dark"]{
     color-scheme:dark;
     --navy:#7fb8e6; --navy-dark:#99ccff; --blue:#4da3d8; --blue-mid:#3399cc;
@@ -1045,6 +1083,8 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
     --title-grad:linear-gradient(to bottom,#0f4f5c,#022b34); --nav-bg:#00141a; --strip-bg:#00141a;
     --mark-bg:#00141a; --mark-text:#2aa198; --hover-border:#2aa198;
   }
+  /* Masthead sync: title matches the CTP mark box (--mark-text). */
+  [data-theme="solarized"] .masthead .wordmark .name{color:#2aa198}
 [data-theme="void-signal"]{
     color-scheme:dark;
     --navy:#7C5CFF; --navy-dark:#B3A1FF; --blue:#7C5CFF; --blue-mid:#9378FF;
@@ -1056,6 +1096,8 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
     --title-grad:linear-gradient(to bottom,#7C5CFF,#11121A); --nav-bg:#000000; --strip-bg:#000000;
     --mark-bg:#07070C; --mark-text:#7C5CFF; --hover-border:#7C5CFF;
   }
+  /* Masthead sync: title matches the CTP mark box (--mark-text). */
+  [data-theme="void-signal"] .masthead .wordmark .name{color:#7C5CFF}
 [data-theme="plasma-field"]{
     color-scheme:dark;
     --navy:#FF3D6E; --navy-dark:#FF8FAB; --blue:#FF3D6E; --blue-mid:#FF5C85;
@@ -1067,6 +1109,8 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
     --title-grad:linear-gradient(to bottom,#FF3D6E,#170D12); --nav-bg:#000000; --strip-bg:#000000;
     --mark-bg:#0C0608; --mark-text:#FF3D6E; --hover-border:#FF3D6E;
   }
+  /* Masthead sync: title matches the CTP mark box (--mark-text). */
+  [data-theme="plasma-field"] .masthead .wordmark .name{color:#FF3D6E}
 [data-theme="cathode-green"]{
     color-scheme:dark;
     --navy:#29E08F; --navy-dark:#6FF2B0; --blue:#29E08F; --blue-mid:#4AE8A3;
@@ -1078,6 +1122,8 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
     --title-grad:linear-gradient(to bottom,#29E08F,#0C1712); --nav-bg:#000000; --strip-bg:#000000;
     --mark-bg:#040D0A; --mark-text:#29E08F; --hover-border:#29E08F;
   }
+  /* Masthead sync: title matches the CTP mark box (--mark-text). */
+  [data-theme="cathode-green"] .masthead .wordmark .name{color:#29E08F}
 [data-theme="deep-current"]{
     color-scheme:dark;
     --navy:#31A6FF; --navy-dark:#7CC6FF; --blue:#31A6FF; --blue-mid:#4DB2FF;
@@ -1089,6 +1135,8 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
     --title-grad:linear-gradient(to bottom,#31A6FF,#0C1D2B); --nav-bg:#000000; --strip-bg:#000000;
     --mark-bg:#05101A; --mark-text:#31A6FF; --hover-border:#31A6FF;
   }
+  /* Masthead sync: title matches the CTP mark box (--mark-text). */
+  [data-theme="deep-current"] .masthead .wordmark .name{color:#31A6FF}
 [data-theme="convergence"]{
     color-scheme:dark;
     --navy:#729BB3; --navy-dark:#BFDDE9; --blue:#729BB3; --blue-mid:#91B9CD;
