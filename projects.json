@@ -1,5 +1,37 @@
 [
   {
+    "name": "ableton-live-tanoron-music-studio",
+    "title": "ableton-live-tanoron-music-studio",
+    "full_name": "sAkirawTendo0/ableton-live-tanoron-music-studio",
+    "description": "Ableton Live Tanoron Music Studio: a focused workspace for music production.",
+    "excerpt": "Ableton Live Tanoron Music Studio: a focused workspace for music production.",
+    "url": "https://github.com/sAkirawTendo0/ableton-live-tanoron-music-studio",
+    "repo": "sAkirawTendo0/ableton-live-tanoron-music-studio",
+    "source": "sAkirawTendo0/ableton-live-tanoron-music-studio",
+    "date": "2026-11-27",
+    "category": "Plugins",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "sAkirawTendo0/ableton-live-tanoron-music-studio"
+  },
+  {
+    "name": "hypnomix-daw",
+    "title": "hypnomix-daw",
+    "full_name": "drtranceypants/hypnomix-daw",
+    "description": "The audio engine behind HypnoMix Studio: a fork of Ardour, a free open-source DAW (GNU GPL v2 or later).",
+    "excerpt": "The audio engine behind HypnoMix Studio: a fork of Ardour, a free open-source DAW (GNU GPL v2 or later).",
+    "url": "https://github.com/drtranceypants/hypnomix-daw",
+    "repo": "drtranceypants/hypnomix-daw",
+    "source": "drtranceypants/hypnomix-daw",
+    "date": "2026-11-27",
+    "category": "DAWs",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "drtranceypants/hypnomix-daw"
+  },
+  {
     "name": "AIIO2-Audio-Stabilizer",
     "title": "AIIO2-Audio-Stabilizer",
     "full_name": "AIIO2/AIIO2-Audio-Stabilizer",
@@ -78,6 +110,54 @@
     "image": "",
     "image_credit": "",
     "feed": "arslanandrew/baby-audio-parallel-aggressor"
+  },
+  {
+    "name": "MUVMNT-LFO",
+    "title": "MUVMNT-LFO",
+    "full_name": "baggofficial/MUVMNT-LFO",
+    "description": "Free LFO VST plugin (VST3) for sidechain-style volume shaping and pumping, with multiband mode. Windows and macOS.",
+    "excerpt": "Free LFO VST plugin (VST3) for sidechain-style volume shaping and pumping, with multiband mode. Windows and macOS.",
+    "url": "https://github.com/baggofficial/MUVMNT-LFO",
+    "repo": "baggofficial/MUVMNT-LFO",
+    "source": "baggofficial/MUVMNT-LFO",
+    "date": "2026-11-23",
+    "category": "Plugins",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "baggofficial/MUVMNT-LFO"
+  },
+  {
+    "name": "beethoven-craft",
+    "title": "beethoven-craft",
+    "full_name": "Ismael-kaiser/beethoven-craft",
+    "description": "Compositor de video y audio en espa\u00f1ol: editor de video (Beethoven Movie) y estudio de m\u00fasica (Beethoven DAW), en Rust",
+    "excerpt": "Compositor de video y audio en espa\u00f1ol: editor de video (Beethoven Movie) y estudio de m\u00fasica (Beethoven DAW), en Rust",
+    "url": "https://github.com/Ismael-kaiser/beethoven-craft",
+    "repo": "Ismael-kaiser/beethoven-craft",
+    "source": "Ismael-kaiser/beethoven-craft",
+    "date": "2026-11-23",
+    "category": "DAWs",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "Ismael-kaiser/beethoven-craft"
+  },
+  {
+    "name": "Strumline",
+    "title": "Strumline",
+    "full_name": "nicolasquijano/Strumline",
+    "description": "Free guitar-to-MIDI VST3 plug-in and standalone app: plays single notes and chords from an ordinary electric guitar as MIDI in real time. Windows, Linux, macOS.",
+    "excerpt": "Free guitar-to-MIDI VST3 plug-in and standalone app: plays single notes and chords from an ordinary electric guitar as MIDI in real time. Windows, Linux, macOS.",
+    "url": "https://github.com/nicolasquijano/Strumline",
+    "repo": "nicolasquijano/Strumline",
+    "source": "nicolasquijano/Strumline",
+    "date": "2026-11-23",
+    "category": "Plugins",
+    "origin": "Community",
+    "image": "https://raw.githubusercontent.com/nicolasquijano/Strumline/master/docs/interface.png",
+    "image_credit": "nicolasquijano/Strumline \u00b7 own screenshot",
+    "feed": "nicolasquijano/Strumline"
   },
   {
     "name": "Moonsong",
@@ -224,6 +304,22 @@
     "feed": "TrKeyboarder/tr-ai-daw"
   },
   {
+    "name": "Bitwig-Studio-Enterprise-Complete-Edition",
+    "title": "Bitwig-Studio-Enterprise-Complete-Edition",
+    "full_name": "Finandvanquish/Bitwig-Studio-Enterprise-Complete-Edition",
+    "description": "Bitwig Studio Enterprise Complete Edition for Windows desktop \u2014 daw, music-production, midi-sequencing.",
+    "excerpt": "Bitwig Studio Enterprise Complete Edition for Windows desktop \u2014 daw, music-production, midi-sequencing.",
+    "url": "https://github.com/Finandvanquish/Bitwig-Studio-Enterprise-Complete-Edition",
+    "repo": "Finandvanquish/Bitwig-Studio-Enterprise-Complete-Edition",
+    "source": "Finandvanquish/Bitwig-Studio-Enterprise-Complete-Edition",
+    "date": "2026-11-21",
+    "category": "DAWs",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "Finandvanquish/Bitwig-Studio-Enterprise-Complete-Edition"
+  },
+  {
     "name": "Heins-True-Diyae-Pro",
     "title": "Heins-True-Diyae-Pro",
     "full_name": "maisondiyae-sudo/Heins-True-Diyae-Pro",
@@ -288,6 +384,22 @@
     "feed": "ColdSimens78/l2t-copilot"
   },
   {
+    "name": "Kollapse",
+    "title": "Kollapse",
+    "full_name": "BaxterWolf/Kollapse",
+    "description": "A module player and tracker for the terminal. Plays MOD, XM, S3M, IT and 35 more formats with pixel graphics, live scopes and a full pattern editor. Search Modland's 176,000 modules from inside the app, or open a window version instead.",
+    "excerpt": "A module player and tracker for the terminal. Plays MOD, XM, S3M, IT and 35 more formats with pixel graphics, live scopes and a full pattern editor. Search Modland's 176,000 modules from inside the app, or open a window version instead.",
+    "url": "https://github.com/BaxterWolf/Kollapse",
+    "repo": "BaxterWolf/Kollapse",
+    "source": "BaxterWolf/Kollapse",
+    "date": "2026-11-20",
+    "category": "Tools",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "BaxterWolf/Kollapse"
+  },
+  {
     "name": "ClassicReverb-RE01",
     "title": "ClassicReverb-RE01",
     "full_name": "AnClark/ClassicReverb-RE01",
@@ -318,6 +430,22 @@
     "image": "",
     "image_credit": "",
     "feed": "abektes/a22"
+  },
+  {
+    "name": "douri",
+    "title": "douri",
+    "full_name": "triadwoozie/douri",
+    "description": "A digital audio workstation built on Rust, inspired by Logic Pro 13.",
+    "excerpt": "A digital audio workstation built on Rust, inspired by Logic Pro 13.",
+    "url": "https://github.com/triadwoozie/douri",
+    "repo": "triadwoozie/douri",
+    "source": "triadwoozie/douri",
+    "date": "2026-11-19",
+    "category": "DAWs",
+    "origin": "Community",
+    "image": "https://raw.githubusercontent.com/triadwoozie/douri/main/docs/logo.png",
+    "image_credit": "triadwoozie/douri \u00b7 own screenshot",
+    "feed": "triadwoozie/douri"
   },
   {
     "name": "ableton-studio-mcp",
@@ -816,6 +944,22 @@
     "feed": "rncbc/qjackctl"
   },
   {
+    "name": "torqwave",
+    "title": "torqwave",
+    "full_name": "BobClawblaw/torqwave",
+    "description": "Torqwave: a free, open-source audio editor and DAW in one for macOS, Windows and Linux, for sound design, music and working to picture. Spectral editing and repair, multitrack with crossfades, instruments, piano roll and automation, a Sequencer and Idea Board, video, a Sound Library, and a local AI assistant.",
+    "excerpt": "Torqwave: a free, open-source audio editor and DAW in one for macOS, Windows and Linux, for sound design, music and working to picture. Spectral editing and repair, multitrack with crossfades, instruments, piano roll and automation, a Sequencer and Idea Board, video, a Sound Library, and a local AI assistant.",
+    "url": "https://github.com/BobClawblaw/torqwave",
+    "repo": "BobClawblaw/torqwave",
+    "source": "BobClawblaw/torqwave",
+    "date": "2026-11-18",
+    "category": "DAWs",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "BobClawblaw/torqwave"
+  },
+  {
     "name": "uad-plugin-filter",
     "title": "uad-plugin-filter",
     "full_name": "EnterOutside/uad-plugin-filter",
@@ -912,6 +1056,22 @@
     "feed": "jakehandy/h1"
   },
   {
+    "name": "amp-suite",
+    "title": "amp-suite",
+    "full_name": "tylorismusic-commits/amp-suite",
+    "description": "Seven-model guitar amp suite for Linux \u2014 CLAP + LV2, 8 cabs, 808, delay, reverb, gate and NAM. 0.2.0 alpha.",
+    "excerpt": "Seven-model guitar amp suite for Linux \u2014 CLAP + LV2, 8 cabs, 808, delay, reverb, gate and NAM. 0.2.0 alpha.",
+    "url": "https://github.com/tylorismusic-commits/amp-suite",
+    "repo": "tylorismusic-commits/amp-suite",
+    "source": "tylorismusic-commits/amp-suite",
+    "date": "2026-11-17",
+    "category": "Plugins",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "tylorismusic-commits/amp-suite"
+  },
+  {
     "name": "orb-audio",
     "title": "orb-audio",
     "full_name": "stdevMac/orb-audio",
@@ -942,6 +1102,22 @@
     "image": "https://raw.githubusercontent.com/Ravomi/OpenDolby/main/docs/frequency-response.png",
     "image_credit": "Ravomi/OpenDolby \u00b7 own screenshot",
     "feed": "Ravomi/OpenDolby"
+  },
+  {
+    "name": "hnl-vsts",
+    "title": "hnl-vsts",
+    "full_name": "c-kick/hnl-vsts",
+    "description": "Free (VST3, CLAP & Audio Unit) audio plugins by hnldesign/c_kick",
+    "excerpt": "Free (VST3, CLAP & Audio Unit) audio plugins by hnldesign/c_kick",
+    "url": "https://github.com/c-kick/hnl-vsts",
+    "repo": "c-kick/hnl-vsts",
+    "source": "c-kick/hnl-vsts",
+    "date": "2026-11-16",
+    "category": "Plugins",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "c-kick/hnl-vsts"
   },
   {
     "name": "ponzik",
@@ -1088,6 +1264,22 @@
     "feed": "Siryu6/openrig-fx"
   },
   {
+    "name": "common-sense-eq",
+    "title": "common-sense-eq",
+    "full_name": "tylorismusic-commits/common-sense-eq",
+    "description": "8-band dynamic channel EQ for Linux \u2014 LV2 + CLAP with Ardour mixer-strip and REAPER TCP/MCP inline displays.",
+    "excerpt": "8-band dynamic channel EQ for Linux \u2014 LV2 + CLAP with Ardour mixer-strip and REAPER TCP/MCP inline displays.",
+    "url": "https://github.com/tylorismusic-commits/common-sense-eq",
+    "repo": "tylorismusic-commits/common-sense-eq",
+    "source": "tylorismusic-commits/common-sense-eq",
+    "date": "2026-11-14",
+    "category": "Plugins",
+    "origin": "Community",
+    "image": "https://raw.githubusercontent.com/tylorismusic-commits/common-sense-eq/master/docs/inline-large.png",
+    "image_credit": "tylorismusic-commits/common-sense-eq \u00b7 own screenshot",
+    "feed": "tylorismusic-commits/common-sense-eq"
+  },
+  {
     "name": "flipparina",
     "title": "flipparina",
     "full_name": "elpendor/flipparina",
@@ -1230,6 +1422,22 @@
     "image": "",
     "image_credit": "",
     "feed": "Ichi-Studio/Weftone"
+  },
+  {
+    "name": "riffhouse",
+    "title": "riffhouse",
+    "full_name": "NatikChhabra/riffhouse",
+    "description": "Free guitar amp and pedalboard for Windows. Plug in, play. Music should be free.",
+    "excerpt": "Free guitar amp and pedalboard for Windows. Plug in, play. Music should be free.",
+    "url": "https://github.com/NatikChhabra/riffhouse",
+    "repo": "NatikChhabra/riffhouse",
+    "source": "NatikChhabra/riffhouse",
+    "date": "2026-11-11",
+    "category": "Effects",
+    "origin": "Community",
+    "image": "https://raw.githubusercontent.com/NatikChhabra/riffhouse/main/docs/banner.png",
+    "image_credit": "NatikChhabra/riffhouse \u00b7 own screenshot",
+    "feed": "NatikChhabra/riffhouse"
   },
   {
     "name": "tyap-lyap-vst3-plugin-fl-studio",
@@ -1376,6 +1584,38 @@
     "feed": "Bongorian/yadokari"
   },
   {
+    "name": "jazzy",
+    "title": "jazzy",
+    "full_name": "jazzyrhythmer/jazzy",
+    "description": "Explore the unheard. Open-source FM-1 firmware with 31 synth, drum and Break engines, over 1,200 factory sounds, and one sound per track.",
+    "excerpt": "Explore the unheard. Open-source FM-1 firmware with 31 synth, drum and Break engines, over 1,200 factory sounds, and one sound per track.",
+    "url": "https://github.com/jazzyrhythmer/jazzy",
+    "repo": "jazzyrhythmer/jazzy",
+    "source": "jazzyrhythmer/jazzy",
+    "date": "2026-11-09",
+    "category": "Synthesizers",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "jazzyrhythmer/jazzy"
+  },
+  {
+    "name": "tempester",
+    "title": "tempester",
+    "full_name": "onedevinap/tempester",
+    "description": "Editor app, DAW plugin and patched-firmware recipes for the DSI Tempest drum machine. Independent project, not affiliated with DSI / Sequential.",
+    "excerpt": "Editor app, DAW plugin and patched-firmware recipes for the DSI Tempest drum machine. Independent project, not affiliated with DSI / Sequential.",
+    "url": "https://github.com/onedevinap/tempester",
+    "repo": "onedevinap/tempester",
+    "source": "onedevinap/tempester",
+    "date": "2026-11-09",
+    "category": "DAWs",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "onedevinap/tempester"
+  },
+  {
     "name": "davidian-humble-overdraft",
     "title": "davidian-humble-overdraft",
     "full_name": "evadavevadave/davidian-humble-overdraft",
@@ -1390,6 +1630,22 @@
     "image": "https://raw.githubusercontent.com/evadavevadave/davidian-humble-overdraft/main/docs/gui.png",
     "image_credit": "evadavevadave/davidian-humble-overdraft \u00b7 own screenshot",
     "feed": "evadavevadave/davidian-humble-overdraft"
+  },
+  {
+    "name": "fender-studio-pro-mcp",
+    "title": "fender-studio-pro-mcp",
+    "full_name": "dev-universe/fender-studio-pro-mcp",
+    "description": "Fender Studio Pro MCP server for AI-assisted track editing, mixer control, and VST3 automation on Apple Silicon.",
+    "excerpt": "Fender Studio Pro MCP server for AI-assisted track editing, mixer control, and VST3 automation on Apple Silicon.",
+    "url": "https://github.com/dev-universe/fender-studio-pro-mcp",
+    "repo": "dev-universe/fender-studio-pro-mcp",
+    "source": "dev-universe/fender-studio-pro-mcp",
+    "date": "2026-11-08",
+    "category": "Plugins",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "dev-universe/fender-studio-pro-mcp"
   },
   {
     "name": "Icarus",
@@ -2032,6 +2288,22 @@
     "feed": "lgarraza/KeyStepProStudio"
   },
   {
+    "name": "Lingfeng",
+    "title": "Lingfeng",
+    "full_name": "li-Ko-Ko/Lingfeng",
+    "description": "\u4f36\u98ce Lingfeng \u2014 Windows songwriting and jianpu editor with dual melodies, ABC and MusicXML exchange, and YuE2-ready ABC export.",
+    "excerpt": "\u4f36\u98ce Lingfeng \u2014 Windows songwriting and jianpu editor with dual melodies, ABC and MusicXML exchange, and YuE2-ready ABC export.",
+    "url": "https://github.com/li-Ko-Ko/Lingfeng",
+    "repo": "li-Ko-Ko/Lingfeng",
+    "source": "li-Ko-Ko/Lingfeng",
+    "date": "2026-10-30",
+    "category": "Tools",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "li-Ko-Ko/Lingfeng"
+  },
+  {
     "name": "syncrackd",
     "title": "syncrackd",
     "full_name": "Vuulgaris/syncrackd",
@@ -2046,6 +2318,38 @@
     "image": "",
     "image_credit": "",
     "feed": "Vuulgaris/syncrackd"
+  },
+  {
+    "name": "velo",
+    "title": "velo",
+    "full_name": "g1lg1l/velo",
+    "description": "Sound shapes light. Live visuals played by the music, for VJs, DJs and anyone with a projector.",
+    "excerpt": "Sound shapes light. Live visuals played by the music, for VJs, DJs and anyone with a projector.",
+    "url": "https://github.com/g1lg1l/velo",
+    "repo": "g1lg1l/velo",
+    "source": "g1lg1l/velo",
+    "date": "2026-10-29",
+    "category": "Tools",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "g1lg1l/velo"
+  },
+  {
+    "name": "bruiser",
+    "title": "bruiser",
+    "full_name": "robcawley/bruiser",
+    "description": "Rock drummer MIDI FX plug-in for Logic Pro: sections, fills, odd meters, 90 presets. By Rob Cawley.",
+    "excerpt": "Rock drummer MIDI FX plug-in for Logic Pro: sections, fills, odd meters, 90 presets. By Rob Cawley.",
+    "url": "https://github.com/robcawley/bruiser",
+    "repo": "robcawley/bruiser",
+    "source": "robcawley/bruiser",
+    "date": "2026-10-29",
+    "category": "Plugins",
+    "origin": "Community",
+    "image": "https://raw.githubusercontent.com/robcawley/bruiser/main/screenshot.png",
+    "image_credit": "robcawley/bruiser \u00b7 own screenshot",
+    "feed": "robcawley/bruiser"
   },
   {
     "name": "decent-sampler-instrument-library",

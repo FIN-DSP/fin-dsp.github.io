@@ -7,42 +7,90 @@
       "topic": "vst",
       "status": 200,
       "count": 20,
-      "total": 51
+      "total": 54
     },
     {
       "topic": "audio-plugin",
       "status": 200,
       "count": 20,
-      "total": 304
+      "total": 302
     },
     {
       "topic": "synthesizer",
       "status": 200,
       "count": 20,
-      "total": 347
+      "total": 354
     },
     {
       "topic": "dsp",
       "status": 200,
       "count": 20,
-      "total": 558
+      "total": 578
+    },
+    {
+      "topic": "daw",
+      "status": 200,
+      "count": 20,
+      "total": 277
+    },
+    {
+      "topic": "audio-engine",
+      "status": 200,
+      "count": 13,
+      "total": 13
+    },
+    {
+      "topic": "midi",
+      "status": 200,
+      "count": 20,
+      "total": 816
+    },
+    {
+      "topic": "tracker",
+      "status": 200,
+      "count": 20,
+      "total": 155
+    },
+    {
+      "topic": "lv2",
+      "status": 200,
+      "count": 20,
+      "total": 59
+    },
+    {
+      "topic": "juce",
+      "status": 200,
+      "count": 20,
+      "total": 226
     }
   ],
-  "candidates": 80,
-  "added": 7,
+  "candidates": 193,
+  "added": 19,
   "added_names": [
-    "AIIO2/AIIO2-Audio-Stabilizer",
-    "AnClark/ClassicPhaser-RE01",
-    "akbrucke/Moonsong",
-    "maisondiyae-sudo/Heins-True-Diyae-Pro",
-    "EnterOutside/uad-plugin-filter",
-    "28spawn/Icarus",
-    "Vuulgaris/syncrackd"
+    "sAkirawTendo0/ableton-live-tanoron-music-studio",
+    "drtranceypants/hypnomix-daw",
+    "baggofficial/MUVMNT-LFO",
+    "Ismael-kaiser/beethoven-craft",
+    "nicolasquijano/Strumline",
+    "Finandvanquish/Bitwig-Studio-Enterprise-Complete-Edition",
+    "BaxterWolf/Kollapse",
+    "triadwoozie/douri",
+    "BobClawblaw/torqwave",
+    "tylorismusic-commits/amp-suite",
+    "c-kick/hnl-vsts",
+    "tylorismusic-commits/common-sense-eq",
+    "NatikChhabra/riffhouse",
+    "jazzyrhythmer/jazzy",
+    "onedevinap/tempester",
+    "dev-universe/fender-studio-pro-mcp",
+    "li-Ko-Ko/Lingfeng",
+    "g1lg1l/velo",
+    "robcawley/bruiser"
   ],
   "skipped": {
-    "already known": 72,
-    "no audio keyword in name/description": 1
+    "already known": 170,
+    "tracker topic, not a music tracker": 4
   },
-  "rate_limited": true,
-  "rate_limit_note": "GitHub API rate limit spent (reset epoch 1795763249): {\"message\":\"API rate limit exceeded for 74.249.62.121. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)\",\"documentation_url\":\"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting\"}\n"
+  "rate_limited": false,
+  "rate_limit_note": ""
 }
