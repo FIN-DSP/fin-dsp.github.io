@@ -25,7 +25,7 @@ url: "/freesound.html"
         <section class="module" aria-label="Freesound API key setup">
           <div class="module-title">Setup — Freesound API Key</div>
           <div class="module-body">
-            <p>This page calls the Freesound API from your browser. It needs a Freesound API key, which the site owner registers free at <a href="https://freesound.org/apiv2/apply/" target="_blank" rel="noopener">freesound.org/apiv2/apply/ ↗</a>.</p>
+            <p>This page calls the Freesound API from your browser. It needs a Freesound API key, which the site owner registers free at <a href="https://freesound.org/apiv2/apply/" target="_blank" rel="noopener">freesound.org/apiv2/apply/</a>.</p>
             <p><label for="fsKey" style="font-weight:600;">Freesound API key:</label><br />
             <input type="text" id="fsKey" placeholder="YOUR-FREESOUND-API-KEY" style="width:100%; padding:8px 10px; font:inherit; font-size:14px; min-height:38px; background:var(--page); color:var(--text); border:1px solid var(--border-soft);" />
             <button type="button" class="btn" id="fsSaveKey">Save API key</button>

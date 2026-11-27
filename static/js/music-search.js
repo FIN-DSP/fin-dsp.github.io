@@ -64,7 +64,7 @@
         var more = document.createElement('a');
         more.className = 'a-more';
         more.href = t.shareurl; more.target = '_blank'; more.rel = 'noopener';
-        more.textContent = 'Open on Jamendo ↗';
+        more.textContent = 'Open on Jamendo';
         card.appendChild(more);
       }
       resEl.appendChild(card);

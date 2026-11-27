@@ -53,7 +53,7 @@
         var more = document.createElement('a');
         more.className = 'a-more';
         more.href = snd.url; more.target = '_blank'; more.rel = 'noopener';
-        more.textContent = 'Open on Freesound ↗';
+        more.textContent = 'Open on Freesound';
         card.appendChild(more);
       }
       resEl.appendChild(card);

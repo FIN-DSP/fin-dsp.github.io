@@ -25,6 +25,6 @@ url: "/mod-player.html"
               <button type="button" class="btn" id="modStop">Stop</button>
               <label style="margin-left:10px; font-size:14px;"><input type="checkbox" id="modRepeat" /> Repeat</label>
             </div>
-            <p class="art-note" style="margin-top:12px;">Player code: webaudio-mod-player by Noora Halme et al., MIT licence — <a href="https://github.com/electronoora/webaudio-mod-player" target="_blank" rel="noopener">electronoora/webaudio-mod-player ↗</a>. The player code is vendored here under assets/js/modplayer/; no module files are hosted.</p>
+            <p class="art-note" style="margin-top:12px;">Player code: webaudio-mod-player by Noora Halme et al., MIT licence — <a href="https://github.com/electronoora/webaudio-mod-player" target="_blank" rel="noopener">electronoora/webaudio-mod-player</a>. The player code is vendored here under assets/js/modplayer/; no module files are hosted.</p>
           </div>
         </section>

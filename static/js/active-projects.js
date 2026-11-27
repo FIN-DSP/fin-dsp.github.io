@@ -43,7 +43,7 @@
           var more = document.createElement('a');
           more.className = 'a-more';
           more.href = url; more.target = '_blank'; more.rel = 'noopener';
-          more.textContent = 'View on GitHub ↗';
+          more.textContent = 'View on GitHub';
           card.appendChild(more);
         }
         listEl.appendChild(card);
