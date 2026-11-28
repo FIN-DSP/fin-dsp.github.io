@@ -1,5 +1,21 @@
 [
   {
+    "name": "thebetterspot",
+    "title": "thebetterspot",
+    "full_name": "davidcristianpetrea/thebetterspot",
+    "description": "TheBetterSpot v2.0 \u2014 High-Fidelity Audio Streaming Engine, Exact-Order M3U Playlist Sync & Zero-False-Positive Greyed-Out Track Separation",
+    "excerpt": "TheBetterSpot v2.0 \u2014 High-Fidelity Audio Streaming Engine, Exact-Order M3U Playlist Sync & Zero-False-Positive Greyed-Out Track Separation",
+    "url": "https://github.com/davidcristianpetrea/thebetterspot",
+    "repo": "davidcristianpetrea/thebetterspot",
+    "source": "davidcristianpetrea/thebetterspot",
+    "date": "2026-11-27",
+    "category": "Audio Engines",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "davidcristianpetrea/thebetterspot"
+  },
+  {
     "name": "taktwerk-core",
     "title": "taktwerk-core",
     "full_name": "taktwerk-labs/taktwerk-core",
@@ -96,6 +112,22 @@
     "feed": "AIIO2/AIIO2-Audio-Stabilizer"
   },
   {
+    "name": "kilohearts-faturator",
+    "title": "kilohearts-faturator",
+    "full_name": "Proxywarm/kilohearts-faturator",
+    "description": "Kilohearts Faturator: saturation and distortion audio plugin for Windows 10/11, with drive and fatness controls, stereo width adjustment, mid-side processing and built-in bit crushing for electronic music production and sound design.",
+    "excerpt": "Kilohearts Faturator: saturation and distortion audio plugin for Windows 10/11, with drive and fatness controls, stereo width adjustment, mid-side processing and built-in bit crushing for electronic music production and sound design.",
+    "url": "https://github.com/Proxywarm/kilohearts-faturator",
+    "repo": "Proxywarm/kilohearts-faturator",
+    "source": "Proxywarm/kilohearts-faturator",
+    "date": "2026-11-25",
+    "category": "Plugins",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "Proxywarm/kilohearts-faturator"
+  },
+  {
     "name": "daw-synth-fl-studio-2026-producer-noraron",
     "title": "daw-synth-fl-studio-2026-producer-noraron",
     "full_name": "codewithahsann/daw-synth-fl-studio-2026-producer-noraron",
@@ -126,6 +158,22 @@
     "image": "",
     "image_credit": "",
     "feed": "kunitoki/retrace"
+  },
+  {
+    "name": "FabGL2",
+    "title": "FabGL2",
+    "full_name": "fdivitto/FabGL2",
+    "description": "Graphics, audio, input and terminal library for ESP32, as a native ESP-IDF component: VGA and PAL/NTSC composite output, PS/2 keyboard and mouse, sound engine and synthesizer, GUI, sprite/game engine, ANSI/VT terminal and CPU emulators (8080, Z80, 6502, 8086).",
+    "excerpt": "Graphics, audio, input and terminal library for ESP32, as a native ESP-IDF component: VGA and PAL/NTSC composite output, PS/2 keyboard and mouse, sound engine and synthesizer, GUI, sprite/game engine, ANSI/VT terminal and CPU emulators (8080, Z80, 6502, 8086).",
+    "url": "https://github.com/fdivitto/FabGL2",
+    "repo": "fdivitto/FabGL2",
+    "source": "fdivitto/FabGL2",
+    "date": "2026-11-24",
+    "category": "Synthesizers",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "fdivitto/FabGL2"
   },
   {
     "name": "ClassicPhaser-RE01",
@@ -1120,6 +1168,22 @@
     "feed": "jakehandy/h1"
   },
   {
+    "name": "chiptracker",
+    "title": "chiptracker",
+    "full_name": "TemmieDola/chiptracker",
+    "description": "Chiptune / tracker module player for the Anbernic RG Nano (FunKey-OS). Music: https://keygenmusic.tk/",
+    "excerpt": "Chiptune / tracker module player for the Anbernic RG Nano (FunKey-OS). Music: https://keygenmusic.tk/",
+    "url": "https://github.com/TemmieDola/chiptracker",
+    "repo": "TemmieDola/chiptracker",
+    "source": "TemmieDola/chiptracker",
+    "date": "2026-11-17",
+    "category": "Tools",
+    "origin": "Community",
+    "image": "https://raw.githubusercontent.com/TemmieDola/chiptracker/main/docs/screenshot-help.png",
+    "image_credit": "TemmieDola/chiptracker \u00b7 own screenshot",
+    "feed": "TemmieDola/chiptracker"
+  },
+  {
     "name": "amp-suite",
     "title": "amp-suite",
     "full_name": "tylorismusic-commits/amp-suite",
@@ -1248,6 +1312,22 @@
     "feed": "kobimusic/dettato"
   },
   {
+    "name": "PeepChain",
+    "title": "PeepChain",
+    "full_name": "PeepChain/PeepChain",
+    "description": "100% accurate VST clone of Lil Peep's vocal chain",
+    "excerpt": "100% accurate VST clone of Lil Peep's vocal chain",
+    "url": "https://github.com/PeepChain/PeepChain",
+    "repo": "PeepChain/PeepChain",
+    "source": "PeepChain/PeepChain",
+    "date": "2026-11-15",
+    "category": "Plugins",
+    "origin": "Community",
+    "image": "https://raw.githubusercontent.com/PeepChain/PeepChain/main/docs/peepchain-ui.png",
+    "image_credit": "PeepChain/PeepChain \u00b7 own screenshot",
+    "feed": "PeepChain/PeepChain"
+  },
+  {
     "name": "dsp",
     "title": "dsp",
     "full_name": "audivane/dsp",
@@ -1326,6 +1406,22 @@
     "image": "",
     "image_credit": "",
     "feed": "Siryu6/openrig-fx"
+  },
+  {
+    "name": "adhesive",
+    "title": "adhesive",
+    "full_name": "tylorismusic-commits/adhesive",
+    "description": "Adhesive \u2014 free, open-source SSL 4000G-inspired VCA glue and tape saturation LV2/CLAP plugin",
+    "excerpt": "Adhesive \u2014 free, open-source SSL 4000G-inspired VCA glue and tape saturation LV2/CLAP plugin",
+    "url": "https://github.com/tylorismusic-commits/adhesive",
+    "repo": "tylorismusic-commits/adhesive",
+    "source": "tylorismusic-commits/adhesive",
+    "date": "2026-11-14",
+    "category": "Plugins",
+    "origin": "Community",
+    "image": "https://raw.githubusercontent.com/tylorismusic-commits/adhesive/main/docs/adhesive-cassette.png",
+    "image_credit": "tylorismusic-commits/adhesive \u00b7 own screenshot",
+    "feed": "tylorismusic-commits/adhesive"
   },
   {
     "name": "common-sense-eq",
@@ -1696,6 +1792,22 @@
     "feed": "evadavevadave/davidian-humble-overdraft"
   },
   {
+    "name": "resona",
+    "title": "resona",
+    "full_name": "noble6/resona",
+    "description": "The sound enhancer Linux never had \u2014 Dolby/DTS-style spatial audio, HRTF, psychoacoustic bass, Intelligent EQ, AutoEq headphone correction, surround upmix & Hi-Res for PipeWire. Material 3 Expressive UI.",
+    "excerpt": "The sound enhancer Linux never had \u2014 Dolby/DTS-style spatial audio, HRTF, psychoacoustic bass, Intelligent EQ, AutoEq headphone correction, surround upmix & Hi-Res for PipeWire. Material 3 Expressive UI.",
+    "url": "https://github.com/noble6/resona",
+    "repo": "noble6/resona",
+    "source": "noble6/resona",
+    "date": "2026-11-08",
+    "category": "Effects",
+    "origin": "Community",
+    "image": "https://raw.githubusercontent.com/noble6/resona/main/docs/demo.gif",
+    "image_credit": "noble6/resona \u00b7 own screenshot",
+    "feed": "noble6/resona"
+  },
+  {
     "name": "fender-studio-pro-mcp",
     "title": "fender-studio-pro-mcp",
     "full_name": "dev-universe/fender-studio-pro-mcp",
@@ -1822,6 +1934,22 @@
     "image": "https://raw.githubusercontent.com/evadavevadave/davidian-bi-lumen/main/docs/gui.png",
     "image_credit": "evadavevadave/davidian-bi-lumen \u00b7 own screenshot",
     "feed": "evadavevadave/davidian-bi-lumen"
+  },
+  {
+    "name": "VJ-LINK",
+    "title": "VJ-LINK",
+    "full_name": "skyplayser/VJ-LINK",
+    "description": "Live visuals run by your lighting desk: 162 visuals, 50 effects, Art-Net, sACN, MIDI and OSC, projection mapping, tempo from LJ-Link. Open source (EPL-2.0), macOS and Windows.",
+    "excerpt": "Live visuals run by your lighting desk: 162 visuals, 50 effects, Art-Net, sACN, MIDI and OSC, projection mapping, tempo from LJ-Link. Open source (EPL-2.0), macOS and Windows.",
+    "url": "https://github.com/skyplayser/VJ-LINK",
+    "repo": "skyplayser/VJ-LINK",
+    "source": "skyplayser/VJ-LINK",
+    "date": "2026-11-07",
+    "category": "Effects",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "skyplayser/VJ-LINK"
   },
   {
     "name": "Maermel",

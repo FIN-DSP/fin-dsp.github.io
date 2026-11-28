@@ -7,49 +7,49 @@
       "topic": "vst",
       "status": 200,
       "count": 20,
-      "total": 52
+      "total": 53
     },
     {
       "topic": "audio-plugin",
       "status": 200,
       "count": 20,
-      "total": 299
+      "total": 305
     },
     {
       "topic": "synthesizer",
       "status": 200,
       "count": 20,
-      "total": 370
+      "total": 379
     },
     {
       "topic": "dsp",
       "status": 200,
       "count": 20,
-      "total": 578
+      "total": 594
     },
     {
       "topic": "daw",
       "status": 200,
       "count": 20,
-      "total": 269
+      "total": 277
     },
     {
       "topic": "audio-engine",
       "status": 200,
-      "count": 12,
-      "total": 12
+      "count": 13,
+      "total": 13
     },
     {
       "topic": "midi",
       "status": 200,
       "count": 20,
-      "total": 801
+      "total": 811
     },
     {
       "topic": "tracker",
       "status": 200,
       "count": 20,
-      "total": 152
+      "total": 154
     },
     {
       "topic": "lv2",
@@ -61,21 +61,24 @@
       "topic": "juce",
       "status": 200,
       "count": 20,
-      "total": 216
+      "total": 221
     }
   ],
-  "candidates": 192,
-  "added": 4,
+  "candidates": 193,
+  "added": 8,
   "added_names": [
-    "taktwerk-labs/taktwerk-core",
-    "fuad64246/reaper-daw",
-    "Alizalim/audio-stem-splitter",
-    "gasparoff/rays"
+    "davidcristianpetrea/thebetterspot",
+    "Proxywarm/kilohearts-faturator",
+    "fdivitto/FabGL2",
+    "TemmieDola/chiptracker",
+    "PeepChain/PeepChain",
+    "tylorismusic-commits/adhesive",
+    "noble6/resona",
+    "skyplayser/VJ-LINK"
   ],
   "skipped": {
-    "already known": 183,
-    "no audio keyword in name/description": 3,
-    "tracker topic, not a music tracker": 2
+    "already known": 184,
+    "no audio keyword in name/description": 1
   },
   "rate_limited": false,
   "rate_limit_note": ""
