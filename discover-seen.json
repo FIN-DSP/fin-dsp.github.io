@@ -19,6 +19,10 @@
     "date": "2026-11-19",
     "decision": "added"
   },
+  "Alizalim/audio-stem-splitter": {
+    "date": "2026-11-28",
+    "decision": "added"
+  },
   "AlltAWD/score-backing-track": {
     "date": "2026-11-25",
     "decision": "added"
@@ -175,6 +179,10 @@
     "date": "2026-11-19",
     "decision": "added"
   },
+  "IlCandeDEV/dyntick": {
+    "date": "2026-11-28",
+    "decision": "rejected: tracker topic, not a music tracker"
+  },
   "InletGoldsmith/decent-sampler-instrument-library": {
     "date": "2026-11-25",
     "decision": "added"
@@ -275,12 +283,20 @@
     "date": "2026-11-19",
     "decision": "added"
   },
+  "Renjunj168/fl-studio-2026": {
+    "date": "2026-11-28",
+    "decision": "rejected: no audio keyword in name/description"
+  },
   "RonovaMain/Aethel": {
     "date": "2026-11-27",
     "decision": "rejected: tracker topic, not a music tracker"
   },
   "Sadykhzadeh/goby": {
     "date": "2026-11-19",
+    "decision": "rejected: no audio keyword in name/description"
+  },
+  "Saya50775/ghostty-terminal-multiplexer": {
+    "date": "2026-11-28",
     "decision": "rejected: no audio keyword in name/description"
   },
   "Siryu6/openrig-fx": {
@@ -543,8 +559,16 @@
     "date": "2026-11-19",
     "decision": "added"
   },
+  "fuad64246/reaper-daw": {
+    "date": "2026-11-28",
+    "decision": "added"
+  },
   "g1lg1l/velo": {
     "date": "2026-11-27",
+    "decision": "added"
+  },
+  "gasparoff/rays": {
+    "date": "2026-11-28",
     "decision": "added"
   },
   "hexamorphical/hypercut": {
@@ -554,6 +578,10 @@
   "hudakrrr/Toneical": {
     "date": "2026-11-19",
     "decision": "added"
+  },
+  "i40396379-dotcom/whalefeed-utility": {
+    "date": "2026-11-28",
+    "decision": "rejected: tracker topic, not a music tracker"
   },
   "iLiranS/Aurelia": {
     "date": "2026-11-25",
@@ -694,6 +722,10 @@
   "maisondiyae-sudo/Heins-True-Diyae-Pro": {
     "date": "2026-11-27",
     "decision": "added"
+  },
+  "mark-renker/sbf325-emulation": {
+    "date": "2026-11-28",
+    "decision": "rejected: no audio keyword in name/description"
   },
   "marksweiss/tastywaves": {
     "date": "2026-11-19",
@@ -857,6 +889,10 @@
   },
   "suitux/Backspn": {
     "date": "2026-11-19",
+    "decision": "added"
+  },
+  "taktwerk-labs/taktwerk-core": {
+    "date": "2026-11-28",
     "decision": "added"
   },
   "tehguitarist/YREV57": {

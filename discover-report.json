@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-11-27",
+  "generated_at": "2026-11-28",
   "window_days": 30,
-  "since": "2026-10-28",
+  "since": "2026-10-29",
   "queries": [
     {
       "topic": "vst",
       "status": 200,
       "count": 20,
-      "total": 54
+      "total": 52
     },
     {
       "topic": "audio-plugin",
       "status": 200,
       "count": 20,
-      "total": 302
+      "total": 299
     },
     {
       "topic": "synthesizer",
       "status": 200,
       "count": 20,
-      "total": 354
+      "total": 370
     },
     {
       "topic": "dsp",
@@ -31,25 +31,25 @@
       "topic": "daw",
       "status": 200,
       "count": 20,
-      "total": 277
+      "total": 269
     },
     {
       "topic": "audio-engine",
       "status": 200,
-      "count": 13,
-      "total": 13
+      "count": 12,
+      "total": 12
     },
     {
       "topic": "midi",
       "status": 200,
       "count": 20,
-      "total": 816
+      "total": 801
     },
     {
       "topic": "tracker",
       "status": 200,
       "count": 20,
-      "total": 155
+      "total": 152
     },
     {
       "topic": "lv2",
@@ -61,35 +61,21 @@
       "topic": "juce",
       "status": 200,
       "count": 20,
-      "total": 226
+      "total": 216
     }
   ],
-  "candidates": 193,
-  "added": 19,
+  "candidates": 192,
+  "added": 4,
   "added_names": [
-    "sAkirawTendo0/ableton-live-tanoron-music-studio",
-    "drtranceypants/hypnomix-daw",
-    "baggofficial/MUVMNT-LFO",
-    "Ismael-kaiser/beethoven-craft",
-    "nicolasquijano/Strumline",
-    "Finandvanquish/Bitwig-Studio-Enterprise-Complete-Edition",
-    "BaxterWolf/Kollapse",
-    "triadwoozie/douri",
-    "BobClawblaw/torqwave",
-    "tylorismusic-commits/amp-suite",
-    "c-kick/hnl-vsts",
-    "tylorismusic-commits/common-sense-eq",
-    "NatikChhabra/riffhouse",
-    "jazzyrhythmer/jazzy",
-    "onedevinap/tempester",
-    "dev-universe/fender-studio-pro-mcp",
-    "li-Ko-Ko/Lingfeng",
-    "g1lg1l/velo",
-    "robcawley/bruiser"
+    "taktwerk-labs/taktwerk-core",
+    "fuad64246/reaper-daw",
+    "Alizalim/audio-stem-splitter",
+    "gasparoff/rays"
   ],
   "skipped": {
-    "already known": 170,
-    "tracker topic, not a music tracker": 4
+    "already known": 183,
+    "no audio keyword in name/description": 3,
+    "tracker topic, not a music tracker": 2
   },
   "rate_limited": false,
   "rate_limit_note": ""

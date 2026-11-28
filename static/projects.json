@@ -1,5 +1,21 @@
 [
   {
+    "name": "taktwerk-core",
+    "title": "taktwerk-core",
+    "full_name": "taktwerk-labs/taktwerk-core",
+    "description": "Shared timing, project model, real-time DSP, synths, routing graph, plugin host, and lock-free audio engine for TaktWerk written in pure Rust.",
+    "excerpt": "Shared timing, project model, real-time DSP, synths, routing graph, plugin host, and lock-free audio engine for TaktWerk written in pure Rust.",
+    "url": "https://github.com/taktwerk-labs/taktwerk-core",
+    "repo": "taktwerk-labs/taktwerk-core",
+    "source": "taktwerk-labs/taktwerk-core",
+    "date": "2026-11-27",
+    "category": "Synthesizers",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "taktwerk-labs/taktwerk-core"
+  },
+  {
     "name": "ableton-live-tanoron-music-studio",
     "title": "ableton-live-tanoron-music-studio",
     "full_name": "sAkirawTendo0/ableton-live-tanoron-music-studio",
@@ -30,6 +46,38 @@
     "image": "",
     "image_credit": "",
     "feed": "drtranceypants/hypnomix-daw"
+  },
+  {
+    "name": "reaper-daw",
+    "title": "reaper-daw",
+    "full_name": "fuad64246/reaper-daw",
+    "description": "REAPER DAW: Visual Media Workflow Studio for Windows 11 & 10",
+    "excerpt": "REAPER DAW: Visual Media Workflow Studio for Windows 11 & 10",
+    "url": "https://github.com/fuad64246/reaper-daw",
+    "repo": "fuad64246/reaper-daw",
+    "source": "fuad64246/reaper-daw",
+    "date": "2026-11-26",
+    "category": "DAWs",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "fuad64246/reaper-daw"
+  },
+  {
+    "name": "audio-stem-splitter",
+    "title": "audio-stem-splitter",
+    "full_name": "Alizalim/audio-stem-splitter",
+    "description": "Audio Stem Splitter: Separate, Mix, and Shape Your Sound Workflow",
+    "excerpt": "Audio Stem Splitter: Separate, Mix, and Shape Your Sound Workflow",
+    "url": "https://github.com/Alizalim/audio-stem-splitter",
+    "repo": "Alizalim/audio-stem-splitter",
+    "source": "Alizalim/audio-stem-splitter",
+    "date": "2026-11-26",
+    "category": "Plugins",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "Alizalim/audio-stem-splitter"
   },
   {
     "name": "AIIO2-Audio-Stabilizer",
@@ -254,6 +302,22 @@
     "image": "",
     "image_credit": "",
     "feed": "iLiranS/Aurelia"
+  },
+  {
+    "name": "rays",
+    "title": "rays",
+    "full_name": "gasparoff/rays",
+    "description": "Open-source, beat-synced DMX lighting for DJs. Native on macOS.",
+    "excerpt": "Open-source, beat-synced DMX lighting for DJs. Native on macOS.",
+    "url": "https://github.com/gasparoff/rays",
+    "repo": "gasparoff/rays",
+    "source": "gasparoff/rays",
+    "date": "2026-11-22",
+    "category": "Tools",
+    "origin": "Community",
+    "image": "",
+    "image_credit": "",
+    "feed": "gasparoff/rays"
   },
   {
     "name": "third-planet",
